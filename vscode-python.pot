@@ -1,0 +1,1289 @@
+
+msgid ""
+msgstr ""
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: PhraseApp (phraseapp.com)\n"
+
+#: python.command.python.sortImports.title
+msgctxt "python.command.python.sortImports.title"
+msgid "Sort Imports"
+msgstr ""
+
+#: python.command.python.startREPL.title
+msgctxt "python.command.python.startREPL.title"
+msgid "Start REPL"
+msgstr ""
+
+#: python.command.python.createTerminal.title
+msgctxt "python.command.python.createTerminal.title"
+msgid "Create Terminal"
+msgstr ""
+
+#: python.command.python.buildWorkspaceSymbols.title
+msgctxt "python.command.python.buildWorkspaceSymbols.title"
+msgid "Build Workspace Symbols"
+msgstr ""
+
+#: python.command.python.runtests.title
+msgctxt "python.command.python.runtests.title"
+msgid "Run All Tests"
+msgstr ""
+
+#: python.command.python.debugtests.title
+msgctxt "python.command.python.debugtests.title"
+msgid "Debug All Tests"
+msgstr ""
+
+#: python.command.python.execInTerminal.title
+msgctxt "python.command.python.execInTerminal.title"
+msgid "Run Python File in Terminal"
+msgstr ""
+
+#: python.command.python.setInterpreter.title
+msgctxt "python.command.python.setInterpreter.title"
+msgid "Select Interpreter"
+msgstr ""
+
+#: python.command.python.switchOffInsidersChannel.title
+msgctxt "python.command.python.switchOffInsidersChannel.title"
+msgid "Switch to Default Channel"
+msgstr ""
+
+#: python.command.python.switchToDailyChannel.title
+msgctxt "python.command.python.switchToDailyChannel.title"
+msgid "Switch to Insiders Daily Channel"
+msgstr ""
+
+#: python.command.python.switchToWeeklyChannel.title
+msgctxt "python.command.python.switchToWeeklyChannel.title"
+msgid "Switch to Insiders Weekly Channel"
+msgstr ""
+
+#: python.command.python.clearWorkspaceInterpreter.title
+msgctxt "python.command.python.clearWorkspaceInterpreter.title"
+msgid "Clear Workspace Interpreter Setting"
+msgstr ""
+
+#: python.command.python.refactorExtractVariable.title
+msgctxt "python.command.python.refactorExtractVariable.title"
+msgid "Extract Variable"
+msgstr ""
+
+#: python.command.python.refactorExtractMethod.title
+msgctxt "python.command.python.refactorExtractMethod.title"
+msgid "Extract Method"
+msgstr ""
+
+#: python.command.python.viewOutput.title
+msgctxt "python.command.python.viewOutput.title"
+msgid "Show Output"
+msgstr ""
+
+#: python.command.python.viewTestOutput.title
+msgctxt "python.command.python.viewTestOutput.title"
+msgid "Show Test Output"
+msgstr ""
+
+#: python.command.python.viewLanguageServerOutput.title
+msgctxt "python.command.python.viewLanguageServerOutput.title"
+msgid "Show Language Server Output"
+msgstr ""
+
+#: python.command.python.selectAndRunTestMethod.title
+msgctxt "python.command.python.selectAndRunTestMethod.title"
+msgid "Run Test Method ..."
+msgstr ""
+
+#: python.command.python.selectAndDebugTestMethod.title
+msgctxt "python.command.python.selectAndDebugTestMethod.title"
+msgid "Debug Test Method ..."
+msgstr ""
+
+#: python.command.python.selectAndRunTestFile.title
+msgctxt "python.command.python.selectAndRunTestFile.title"
+msgid "Run Test File ..."
+msgstr ""
+
+#: python.command.python.runCurrentTestFile.title
+msgctxt "python.command.python.runCurrentTestFile.title"
+msgid "Run Current Test File"
+msgstr ""
+
+#: python.command.python.runFailedTests.title
+msgctxt "python.command.python.runFailedTests.title"
+msgid "Run Failed Tests"
+msgstr ""
+
+#: python.command.python.discoverTests.title
+msgctxt "python.command.python.discoverTests.title"
+msgid "Discover Tests"
+msgstr ""
+
+#: python.command.python.discoveringTests.title
+msgctxt "python.command.python.discoveringTests.title"
+msgid "Discovering..."
+msgstr ""
+
+#: python.command.python.stopTests.title
+msgctxt "python.command.python.stopTests.title"
+msgid "Stop"
+msgstr ""
+
+#: python.command.python.configureTests.title
+msgctxt "python.command.python.configureTests.title"
+msgid "Configure Tests"
+msgstr ""
+
+#: python.command.python.execSelectionInTerminal.title
+msgctxt "python.command.python.execSelectionInTerminal.title"
+msgid "Run Selection/Line in Python Terminal"
+msgstr ""
+
+#: python.command.python.execSelectionInDjangoShell.title
+msgctxt "python.command.python.execSelectionInDjangoShell.title"
+msgid "Run Selection/Line in Django Shell"
+msgstr ""
+
+#: python.command.python.goToPythonObject.title
+msgctxt "python.command.python.goToPythonObject.title"
+msgid "Go to Python Object"
+msgstr ""
+
+#: python.command.python.reportIssue.title
+msgctxt "python.command.python.reportIssue.title"
+msgid "Report Issue"
+msgstr ""
+
+#: python.command.python.setLinter.title
+msgctxt "python.command.python.setLinter.title"
+msgid "Select Linter"
+msgstr ""
+
+#: python.command.python.enableLinting.title
+msgctxt "python.command.python.enableLinting.title"
+msgid "Enable/Disable Linting"
+msgstr ""
+
+#: python.command.python.runLinting.title
+msgctxt "python.command.python.runLinting.title"
+msgid "Run Linting"
+msgstr ""
+
+#: python.command.python.enableSourceMapSupport.title
+msgctxt "python.command.python.enableSourceMapSupport.title"
+msgid "Enable Source Map Support For Extension Debugging"
+msgstr ""
+
+#: python.command.python.clearPersistentStorage.title
+msgctxt "python.command.python.clearPersistentStorage.title"
+msgid "Clear Internal Extension Cache"
+msgstr ""
+
+#: python.command.python.startPage.open.title
+msgctxt "python.command.python.startPage.open.title"
+msgid "Open Start Page"
+msgstr ""
+
+#: python.command.python.analysis.clearCache.title
+msgctxt "python.command.python.analysis.clearCache.title"
+msgid "Clear Module Analysis Cache"
+msgstr ""
+
+#: python.command.python.analysis.restartLanguageServer.title
+msgctxt "python.command.python.analysis.restartLanguageServer.title"
+msgid "Restart Language Server"
+msgstr ""
+
+#: python.command.python.launchTensorBoard.title
+msgctxt "python.command.python.launchTensorBoard.title"
+msgid "Launch TensorBoard"
+msgstr ""
+
+#: python.command.python.refreshTensorBoard.title
+msgctxt "python.command.python.refreshTensorBoard.title"
+msgid "Refresh TensorBoard"
+msgstr ""
+
+#: python.snippet.launch.standard.label
+msgctxt "python.snippet.launch.standard.label"
+msgid "Python: Current File"
+msgstr ""
+
+#: python.snippet.launch.module.label
+msgctxt "python.snippet.launch.module.label"
+msgid "Python: Module"
+msgstr ""
+
+#: python.snippet.launch.module.default
+msgctxt "python.snippet.launch.module.default"
+msgid "enter-your-module-name"
+msgstr ""
+
+#: python.snippet.launch.attach.label
+msgctxt "python.snippet.launch.attach.label"
+msgid "Python: Remote Attach"
+msgstr ""
+
+#: python.snippet.launch.attachpid.label
+msgctxt "python.snippet.launch.attachpid.label"
+msgid "Python: Attach using Process Id"
+msgstr ""
+
+#: python.snippet.launch.django.label
+msgctxt "python.snippet.launch.django.label"
+msgid "Python: Django"
+msgstr ""
+
+#: python.snippet.launch.fastapi.label
+msgctxt "python.snippet.launch.fastapi.label"
+msgid "Python: FastAPI"
+msgstr ""
+
+#: python.snippet.launch.flask.label
+msgctxt "python.snippet.launch.flask.label"
+msgid "Python: Flask"
+msgstr ""
+
+#: python.snippet.launch.pyramid.label
+msgctxt "python.snippet.launch.pyramid.label"
+msgid "Python: Pyramid Application"
+msgstr ""
+
+#: Pylance.remindMeLater
+msgctxt "Pylance.remindMeLater"
+msgid "Remind me later"
+msgstr ""
+
+#: Pylance.pylanceNotInstalledMessage
+msgctxt "Pylance.pylanceNotInstalledMessage"
+msgid "Pylance extension is not installed."
+msgstr ""
+
+#: Pylance.pylanceInstalledReloadPromptMessage
+msgctxt "Pylance.pylanceInstalledReloadPromptMessage"
+msgid "Pylance extension is now installed. Reload window to activate?"
+msgstr ""
+
+#: Pylance.pylanceRevertToJediPrompt
+msgctxt "Pylance.pylanceRevertToJediPrompt"
+msgid "The Pylance extension is not installed but the python.languageServer value is set to "Pylance". Would you like to install the Pylance extension to use Pylance, or revert back to Jedi?"
+msgstr ""
+
+#: Pylance.pylanceInstallPylance
+msgctxt "Pylance.pylanceInstallPylance"
+msgid "Install Pylance"
+msgstr ""
+
+#: Pylance.pylanceRevertToJedi
+msgctxt "Pylance.pylanceRevertToJedi"
+msgid "Revert to Jedi"
+msgstr ""
+
+#: Experiments.inGroup
+msgctxt "Experiments.inGroup"
+msgid "User belongs to experiment group '{0}'"
+msgstr ""
+
+#: Experiments.optedOutOf
+msgctxt "Experiments.optedOutOf"
+msgid "User opted out of experiment group '{0}'"
+msgstr ""
+
+#: Interpreters.RefreshingInterpreters
+msgctxt "Interpreters.RefreshingInterpreters"
+msgid "Refreshing Python Interpreters"
+msgstr ""
+
+#: Interpreters.entireWorkspace
+msgctxt "Interpreters.entireWorkspace"
+msgid "Entire workspace"
+msgstr ""
+
+#: Interpreters.pythonInterpreterPath
+msgctxt "Interpreters.pythonInterpreterPath"
+msgid "Python interpreter path: {0}"
+msgstr ""
+
+#: Interpreters.LoadingInterpreters
+msgctxt "Interpreters.LoadingInterpreters"
+msgid "Loading Python Interpreters"
+msgstr ""
+
+#: Interpreters.condaInheritEnvMessage
+msgctxt "Interpreters.condaInheritEnvMessage"
+msgid "We noticed you're using a conda environment. If you are experiencing issues with this environment in the integrated terminal, we recommend that you let the Python extension change "terminal.integrated.inheritEnv" to false in your user settings."
+msgstr ""
+
+#: Logging.CurrentWorkingDirectory
+msgctxt "Logging.CurrentWorkingDirectory"
+msgid "cwd:"
+msgstr ""
+
+#: InterpreterQuickPickList.quickPickListPlaceholder
+msgctxt "InterpreterQuickPickList.quickPickListPlaceholder"
+msgid "Current: {0}"
+msgstr ""
+
+#: InterpreterQuickPickList.enterPath.detail
+msgctxt "InterpreterQuickPickList.enterPath.detail"
+msgid "Enter path or find an existing interpreter"
+msgstr ""
+
+#: InterpreterQuickPickList.enterPath.label
+msgctxt "InterpreterQuickPickList.enterPath.label"
+msgid "Enter interpreter path..."
+msgstr ""
+
+#: InterpreterQuickPickList.enterPath.placeholder
+msgctxt "InterpreterQuickPickList.enterPath.placeholder"
+msgid "Enter path to a Python interpreter."
+msgstr ""
+
+#: InterpreterQuickPickList.findPath.detail
+msgctxt "InterpreterQuickPickList.findPath.detail"
+msgid "Browse the file system to find a Python interpreter."
+msgstr ""
+
+#: InterpreterQuickPickList.findPath.label
+msgctxt "InterpreterQuickPickList.findPath.label"
+msgid "I can't find the interpreter I want to select..."
+msgstr ""
+
+#: InterpreterQuickPickList.refreshInterpreterList
+msgctxt "InterpreterQuickPickList.refreshInterpreterList"
+msgid "Refresh Interpreter list"
+msgstr ""
+
+#: InterpreterQuickPickList.browsePath.label
+msgctxt "InterpreterQuickPickList.browsePath.label"
+msgid "Find..."
+msgstr ""
+
+#: InterpreterQuickPickList.browsePath.detail
+msgctxt "InterpreterQuickPickList.browsePath.detail"
+msgid "Browse your file system to find a Python interpreter."
+msgstr ""
+
+#: InterpreterQuickPickList.browsePath.title
+msgctxt "InterpreterQuickPickList.browsePath.title"
+msgid "Select Python interpreter"
+msgstr ""
+
+#: InterpreterQuickPickList.defaultInterpreterPath.label
+msgctxt "InterpreterQuickPickList.defaultInterpreterPath.label"
+msgid "Use default Python interpreter path"
+msgstr ""
+
+#: diagnostics.upgradeCodeRunner
+msgctxt "diagnostics.upgradeCodeRunner"
+msgid "Please update the Code Runner extension for it to be compatible with the Python extension."
+msgstr ""
+
+#: Common.bannerLabelYes
+msgctxt "Common.bannerLabelYes"
+msgid "Yes"
+msgstr ""
+
+#: Common.bannerLabelNo
+msgctxt "Common.bannerLabelNo"
+msgid "No"
+msgstr ""
+
+#: Common.doNotShowAgain
+msgctxt "Common.doNotShowAgain"
+msgid "Do not show again"
+msgstr ""
+
+#: Common.reload
+msgctxt "Common.reload"
+msgid "Reload"
+msgstr ""
+
+#: Common.moreInfo
+msgctxt "Common.moreInfo"
+msgid "More Info"
+msgstr ""
+
+#: Common.and
+msgctxt "Common.and"
+msgid "and"
+msgstr ""
+
+#: Common.ok
+msgctxt "Common.ok"
+msgid "Ok"
+msgstr ""
+
+#: Common.install
+msgctxt "Common.install"
+msgid "Install"
+msgstr ""
+
+#: Common.learnMore
+msgctxt "Common.learnMore"
+msgid "Learn more"
+msgstr ""
+
+#: Common.reportThisIssue
+msgctxt "Common.reportThisIssue"
+msgid "Report this issue"
+msgstr ""
+
+#: CommonSurvey.remindMeLaterLabel
+msgctxt "CommonSurvey.remindMeLaterLabel"
+msgid "Remind me later"
+msgstr ""
+
+#: CommonSurvey.yesLabel
+msgctxt "CommonSurvey.yesLabel"
+msgid "Yes, take survey now"
+msgstr ""
+
+#: CommonSurvey.noLabel
+msgctxt "CommonSurvey.noLabel"
+msgid "No, thanks"
+msgstr ""
+
+#: OutputChannelNames.languageServer
+msgctxt "OutputChannelNames.languageServer"
+msgid "Python Language Server"
+msgstr ""
+
+#: OutputChannelNames.python
+msgctxt "OutputChannelNames.python"
+msgid "Python"
+msgstr ""
+
+#: OutputChannelNames.pythonTest
+msgctxt "OutputChannelNames.pythonTest"
+msgid "Python Test Log"
+msgstr ""
+
+#: ExtensionSurveyBanner.bannerMessage
+msgctxt "ExtensionSurveyBanner.bannerMessage"
+msgid "Can you please take 2 minutes to tell us how the Python extension is working for you?"
+msgstr ""
+
+#: ExtensionSurveyBanner.bannerLabelYes
+msgctxt "ExtensionSurveyBanner.bannerLabelYes"
+msgid "Yes, take survey now"
+msgstr ""
+
+#: ExtensionSurveyBanner.bannerLabelNo
+msgctxt "ExtensionSurveyBanner.bannerLabelNo"
+msgid "No, thanks"
+msgstr ""
+
+#: ExtensionSurveyBanner.maybeLater
+msgctxt "ExtensionSurveyBanner.maybeLater"
+msgid "Maybe later"
+msgstr ""
+
+#: ExtensionSurveyBanner.mplsMessage
+msgctxt "ExtensionSurveyBanner.mplsMessage"
+msgid "Can you please take 2 minutes to tell us about your experience using the Microsoft Python Language Server?"
+msgstr ""
+
+#: ExtensionChannels.installingInsidersMessage
+msgctxt "ExtensionChannels.installingInsidersMessage"
+msgid "Installing Insiders... "
+msgstr ""
+
+#: ExtensionChannels.installingStableMessage
+msgctxt "ExtensionChannels.installingStableMessage"
+msgid "Installing Stable... "
+msgstr ""
+
+#: ExtensionChannels.installationCompleteMessage
+msgctxt "ExtensionChannels.installationCompleteMessage"
+msgid "complete."
+msgstr ""
+
+#: ExtensionChannels.downloadingInsidersMessage
+msgctxt "ExtensionChannels.downloadingInsidersMessage"
+msgid "Downloading Insiders Extension... "
+msgstr ""
+
+#: ExtensionChannels.yesWeekly
+msgctxt "ExtensionChannels.yesWeekly"
+msgid "Yes, weekly"
+msgstr ""
+
+#: ExtensionChannels.yesDaily
+msgctxt "ExtensionChannels.yesDaily"
+msgid "Yes, daily"
+msgstr ""
+
+#: ExtensionChannels.promptMessage
+msgctxt "ExtensionChannels.promptMessage"
+msgid "We noticed you are using Visual Studio Code Insiders. Would you like to use the Insiders build of the Python extension?"
+msgstr ""
+
+#: ExtensionChannels.reloadToUseInsidersMessage
+msgctxt "ExtensionChannels.reloadToUseInsidersMessage"
+msgid "Please reload Visual Studio Code to use the insiders build of the Python extension."
+msgstr ""
+
+#: ExtensionChannels.downloadCompletedOutputMessage
+msgctxt "ExtensionChannels.downloadCompletedOutputMessage"
+msgid "Insiders build download complete."
+msgstr ""
+
+#: ExtensionChannels.startingDownloadOutputMessage
+msgctxt "ExtensionChannels.startingDownloadOutputMessage"
+msgid "Starting download for Insiders build."
+msgstr ""
+
+#: Interpreters.environmentPromptMessage
+msgctxt "Interpreters.environmentPromptMessage"
+msgid "We noticed a new virtual environment has been created. Do you want to select it for the workspace folder?"
+msgstr ""
+
+#: Linter.enableLinter
+msgctxt "Linter.enableLinter"
+msgid "Enable {0}"
+msgstr ""
+
+#: Linter.enablePylint
+msgctxt "Linter.enablePylint"
+msgid "You have a pylintrc file in your workspace. Do you want to enable pylint?"
+msgstr ""
+
+#: Linter.replaceWithSelectedLinter
+msgctxt "Linter.replaceWithSelectedLinter"
+msgid "Multiple linters are enabled in settings. Replace with '{0}'?"
+msgstr ""
+
+#: Linter.install
+msgctxt "Linter.install"
+msgid "Install a linter to get error reporting."
+msgstr ""
+
+#: Linter.installPylint
+msgctxt "Linter.installPylint"
+msgid "Install pylint"
+msgstr ""
+
+#: Linter.installFlake8
+msgctxt "Linter.installFlake8"
+msgid "Install flake8"
+msgstr ""
+
+#: Linter.selectLinter
+msgctxt "Linter.selectLinter"
+msgid "Select Linter"
+msgstr ""
+
+#: Installer.noCondaOrPipInstaller
+msgctxt "Installer.noCondaOrPipInstaller"
+msgid "There is no Conda or Pip installer available in the selected environment."
+msgstr ""
+
+#: Installer.noPipInstaller
+msgctxt "Installer.noPipInstaller"
+msgid "There is no Pip installer available in the selected environment."
+msgstr ""
+
+#: Installer.searchForHelp
+msgctxt "Installer.searchForHelp"
+msgid "Search for help"
+msgstr ""
+
+#: Installer.couldNotInstallLibrary
+msgctxt "Installer.couldNotInstallLibrary"
+msgid "Could not install {0}. If pip is not available, please use the package manager of your choice to manually install this library into your Python environment."
+msgstr ""
+
+#: Installer.dataScienceInstallPrompt
+msgctxt "Installer.dataScienceInstallPrompt"
+msgid "Data Science library {0} is not installed. Install?"
+msgstr ""
+
+#: diagnostics.removedPythonPathFromSettings
+msgctxt "diagnostics.removedPythonPathFromSettings"
+msgid "The "python.pythonPath" setting in your settings.json is no longer used by the Python extension. If you want, you can use a new setting called "python.defaultInterpreterPath" instead. Keep in mind that you need to change the value of this setting manually as the Python extension doesn’t modify it when you change interpreters. [Learn more](https://aka.ms/AA7jfor)."
+msgstr ""
+
+#: diagnostics.warnSourceMaps
+msgctxt "diagnostics.warnSourceMaps"
+msgid "Source map support is enabled in the Python Extension, this will adversely impact performance of the extension."
+msgstr ""
+
+#: diagnostics.disableSourceMaps
+msgctxt "diagnostics.disableSourceMaps"
+msgid "Disable Source Map Support"
+msgstr ""
+
+#: diagnostics.warnBeforeEnablingSourceMaps
+msgctxt "diagnostics.warnBeforeEnablingSourceMaps"
+msgid "Enabling source map support in the Python Extension will adversely impact performance of the extension."
+msgstr ""
+
+#: diagnostics.enableSourceMapsAndReloadVSC
+msgctxt "diagnostics.enableSourceMapsAndReloadVSC"
+msgid "Enable and reload Window"
+msgstr ""
+
+#: diagnostics.lsNotSupported
+msgctxt "diagnostics.lsNotSupported"
+msgid "Your operating system does not meet the minimum requirements of the Python Language Server. Reverting to the alternative autocompletion provider, Jedi."
+msgstr ""
+
+#: diagnostics.invalidPythonPathInDebuggerSettings
+msgctxt "diagnostics.invalidPythonPathInDebuggerSettings"
+msgid "You need to select a Python interpreter before you start debugging.
+
+Tip: click on "Select Python Interpreter" in the status bar."
+msgstr ""
+
+#: diagnostics.invalidPythonPathInDebuggerLaunch
+msgctxt "diagnostics.invalidPythonPathInDebuggerLaunch"
+msgid "The Python path in your debug configuration is invalid."
+msgstr ""
+
+#: diagnostics.invalidDebuggerTypeDiagnostic
+msgctxt "diagnostics.invalidDebuggerTypeDiagnostic"
+msgid "Your launch.json file needs to be updated to change the "pythonExperimental" debug configurations to use the "python" debugger type, otherwise Python debugging may not work. Would you like to automatically update your launch.json file now?"
+msgstr ""
+
+#: diagnostics.consoleTypeDiagnostic
+msgctxt "diagnostics.consoleTypeDiagnostic"
+msgid "Your launch.json file needs to be updated to change the console type string from "none" to "internalConsole", otherwise Python debugging may not work. Would you like to automatically update your launch.json file now?"
+msgstr ""
+
+#: diagnostics.justMyCodeDiagnostic
+msgctxt "diagnostics.justMyCodeDiagnostic"
+msgid "Configuration "debugStdLib" in launch.json is no longer supported. It's recommended to replace it with "justMyCode", which is the exact opposite of using "debugStdLib". Would you like to automatically update your launch.json file to do that?"
+msgstr ""
+
+#: diagnostics.checkIsort5UpgradeGuide
+msgctxt "diagnostics.checkIsort5UpgradeGuide"
+msgid "We found outdated configuration for sorting imports in this workspace. Check the [isort upgrade guide](https://aka.ms/AA9j5x4) to update your settings."
+msgstr ""
+
+#: diagnostics.yesUpdateLaunch
+msgctxt "diagnostics.yesUpdateLaunch"
+msgid "Yes, update launch.json"
+msgstr ""
+
+#: diagnostics.invalidTestSettings
+msgctxt "diagnostics.invalidTestSettings"
+msgid "Your settings needs to be updated to change the setting "python.unitTest." to "python.testing.", otherwise testing Python code using the extension may not work. Would you like to automatically update your settings now?"
+msgstr ""
+
+#: diagnostics.pylanceDefaultMessage
+msgctxt "diagnostics.pylanceDefaultMessage"
+msgid "The Python extension now includes Pylance to improve completions, code navigation, overall performance and much more! You can learn more about the update and learn how to change your language server [here](https://aka.ms/new-python-bundle).
+
+Read Pylance’s license [here](https://marketplace.visualstudio.com/items/ms-python.vscode-pylance/license)."
+msgstr ""
+
+#: Common.canceled
+msgctxt "Common.canceled"
+msgid "Canceled"
+msgstr ""
+
+#: Common.cancel
+msgctxt "Common.cancel"
+msgid "Cancel"
+msgstr ""
+
+#: Common.yesPlease
+msgctxt "Common.yesPlease"
+msgid "Yes, please"
+msgstr ""
+
+#: Common.loadingPythonExtension
+msgctxt "Common.loadingPythonExtension"
+msgid "Python extension loading..."
+msgstr ""
+
+#: debug.selectConfigurationTitle
+msgctxt "debug.selectConfigurationTitle"
+msgid "Select a debug configuration"
+msgstr ""
+
+#: debug.selectConfigurationPlaceholder
+msgctxt "debug.selectConfigurationPlaceholder"
+msgid "Debug Configuration"
+msgstr ""
+
+#: debug.launchJsonConfigurationsCompletionLabel
+msgctxt "debug.launchJsonConfigurationsCompletionLabel"
+msgid "Python"
+msgstr ""
+
+#: debug.launchJsonConfigurationsCompletionDescription
+msgctxt "debug.launchJsonConfigurationsCompletionDescription"
+msgid "Select a Python debug configuration"
+msgstr ""
+
+#: debug.debugFileConfigurationLabel
+msgctxt "debug.debugFileConfigurationLabel"
+msgid "Python File"
+msgstr ""
+
+#: debug.debugFileConfigurationDescription
+msgctxt "debug.debugFileConfigurationDescription"
+msgid "Debug the currently active Python file"
+msgstr ""
+
+#: debug.debugModuleConfigurationLabel
+msgctxt "debug.debugModuleConfigurationLabel"
+msgid "Module"
+msgstr ""
+
+#: debug.debugModuleConfigurationDescription
+msgctxt "debug.debugModuleConfigurationDescription"
+msgid "Debug a Python module by invoking it with '-m'"
+msgstr ""
+
+#: debug.moduleEnterModuleTitle
+msgctxt "debug.moduleEnterModuleTitle"
+msgid "Debug Module"
+msgstr ""
+
+#: debug.moduleEnterModulePrompt
+msgctxt "debug.moduleEnterModulePrompt"
+msgid "Enter a Python module/package name"
+msgstr ""
+
+#: debug.moduleEnterModuleDefault
+msgctxt "debug.moduleEnterModuleDefault"
+msgid "enter-your-module-name"
+msgstr ""
+
+#: debug.moduleEnterModuleInvalidNameError
+msgctxt "debug.moduleEnterModuleInvalidNameError"
+msgid "Enter a valid module name"
+msgstr ""
+
+#: debug.remoteAttachConfigurationLabel
+msgctxt "debug.remoteAttachConfigurationLabel"
+msgid "Remote Attach"
+msgstr ""
+
+#: debug.remoteAttachConfigurationDescription
+msgctxt "debug.remoteAttachConfigurationDescription"
+msgid "Attach to a remote debug server"
+msgstr ""
+
+#: debug.attachRemoteHostTitle
+msgctxt "debug.attachRemoteHostTitle"
+msgid "Remote Debugging"
+msgstr ""
+
+#: debug.attachRemoteHostPrompt
+msgctxt "debug.attachRemoteHostPrompt"
+msgid "Enter the host name"
+msgstr ""
+
+#: debug.attachRemoteHostValidationError
+msgctxt "debug.attachRemoteHostValidationError"
+msgid "Enter a valid host name or IP address"
+msgstr ""
+
+#: debug.attachRemotePortTitle
+msgctxt "debug.attachRemotePortTitle"
+msgid "Remote Debugging"
+msgstr ""
+
+#: debug.attachRemotePortPrompt
+msgctxt "debug.attachRemotePortPrompt"
+msgid "Enter the port number that the debug server is listening on"
+msgstr ""
+
+#: debug.attachRemotePortValidationError
+msgctxt "debug.attachRemotePortValidationError"
+msgid "Enter a valid port number"
+msgstr ""
+
+#: debug.attachPidConfigurationLabel
+msgctxt "debug.attachPidConfigurationLabel"
+msgid "Attach using Process ID"
+msgstr ""
+
+#: debug.attachPidConfigurationDescription
+msgctxt "debug.attachPidConfigurationDescription"
+msgid "Attach to a local process"
+msgstr ""
+
+#: debug.debugDjangoConfigurationLabel
+msgctxt "debug.debugDjangoConfigurationLabel"
+msgid "Django"
+msgstr ""
+
+#: debug.debugDjangoConfigurationDescription
+msgctxt "debug.debugDjangoConfigurationDescription"
+msgid "Launch and debug a Django web application"
+msgstr ""
+
+#: debug.djangoEnterManagePyPathTitle
+msgctxt "debug.djangoEnterManagePyPathTitle"
+msgid "Debug Django"
+msgstr ""
+
+#: debug.djangoEnterManagePyPathPrompt
+msgctxt "debug.djangoEnterManagePyPathPrompt"
+msgid "Enter the path to manage.py ('${workspaceFolderToken}' points to the root of the current workspace folder)"
+msgstr ""
+
+#: debug.djangoEnterManagePyPathInvalidFilePathError
+msgctxt "debug.djangoEnterManagePyPathInvalidFilePathError"
+msgid "Enter a valid Python file path"
+msgstr ""
+
+#: debug.debugFastAPIConfigurationLabel
+msgctxt "debug.debugFastAPIConfigurationLabel"
+msgid "FastAPI"
+msgstr ""
+
+#: debug.debugFastAPIConfigurationDescription
+msgctxt "debug.debugFastAPIConfigurationDescription"
+msgid "Launch and debug a FastAPI web application"
+msgstr ""
+
+#: debug.fastapiEnterAppPathOrNamePathTitle
+msgctxt "debug.fastapiEnterAppPathOrNamePathTitle"
+msgid "Debug FastAPI"
+msgstr ""
+
+#: debug.fastapiEnterAppPathOrNamePathPrompt
+msgctxt "debug.fastapiEnterAppPathOrNamePathPrompt"
+msgid "Enter the path to the application, e.g. 'main.py' or 'main'"
+msgstr ""
+
+#: debug.fastapiEnterAppPathOrNamePathInvalidNameError
+msgctxt "debug.fastapiEnterAppPathOrNamePathInvalidNameError"
+msgid "Enter a valid name"
+msgstr ""
+
+#: debug.debugFlaskConfigurationLabel
+msgctxt "debug.debugFlaskConfigurationLabel"
+msgid "Flask"
+msgstr ""
+
+#: debug.debugFlaskConfigurationDescription
+msgctxt "debug.debugFlaskConfigurationDescription"
+msgid "Launch and debug a Flask web application"
+msgstr ""
+
+#: debug.flaskEnterAppPathOrNamePathTitle
+msgctxt "debug.flaskEnterAppPathOrNamePathTitle"
+msgid "Debug Flask"
+msgstr ""
+
+#: debug.flaskEnterAppPathOrNamePathPrompt
+msgctxt "debug.flaskEnterAppPathOrNamePathPrompt"
+msgid "Enter the path to the application, e.g. 'app.py' or 'app'"
+msgstr ""
+
+#: debug.flaskEnterAppPathOrNamePathInvalidNameError
+msgctxt "debug.flaskEnterAppPathOrNamePathInvalidNameError"
+msgid "Enter a valid name"
+msgstr ""
+
+#: debug.debugPyramidConfigurationLabel
+msgctxt "debug.debugPyramidConfigurationLabel"
+msgid "Pyramid"
+msgstr ""
+
+#: debug.debugPyramidConfigurationDescription
+msgctxt "debug.debugPyramidConfigurationDescription"
+msgid "Launch and debug a Pyramid web application"
+msgstr ""
+
+#: debug.pyramidEnterDevelopmentIniPathTitle
+msgctxt "debug.pyramidEnterDevelopmentIniPathTitle"
+msgid "Debug Pyramid"
+msgstr ""
+
+#: debug.pyramidEnterDevelopmentIniPathPrompt
+msgctxt "debug.pyramidEnterDevelopmentIniPathPrompt"
+msgid "`Enter the path to development.ini ('${workspaceFolderToken}' points to the root of the current workspace folder)`"
+msgstr ""
+
+#: debug.pyramidEnterDevelopmentIniPathInvalidFilePathError
+msgctxt "debug.pyramidEnterDevelopmentIniPathInvalidFilePathError"
+msgid "Enter a valid file path"
+msgstr ""
+
+#: Testing.testErrorDiagnosticMessage
+msgctxt "Testing.testErrorDiagnosticMessage"
+msgid "Error"
+msgstr ""
+
+#: Testing.testFailDiagnosticMessage
+msgctxt "Testing.testFailDiagnosticMessage"
+msgid "Fail"
+msgstr ""
+
+#: Testing.testSkippedDiagnosticMessage
+msgctxt "Testing.testSkippedDiagnosticMessage"
+msgid "Skipped"
+msgstr ""
+
+#: Testing.configureTests
+msgctxt "Testing.configureTests"
+msgid "Configure Test Framework"
+msgstr ""
+
+#: Testing.disableTests
+msgctxt "Testing.disableTests"
+msgid "Disable Tests"
+msgstr ""
+
+#: Common.openOutputPanel
+msgctxt "Common.openOutputPanel"
+msgid "Show output"
+msgstr ""
+
+#: LanguageService.lsFailedToStart
+msgctxt "LanguageService.lsFailedToStart"
+msgid "We encountered an issue starting the language server. Reverting to Jedi language engine. Check the Python output panel for details."
+msgstr ""
+
+#: LanguageService.lsFailedToDownload
+msgctxt "LanguageService.lsFailedToDownload"
+msgid "We encountered an issue downloading the language server. Reverting to Jedi language engine. Check the Python output panel for details."
+msgstr ""
+
+#: LanguageService.lsFailedToExtract
+msgctxt "LanguageService.lsFailedToExtract"
+msgid "We encountered an issue extracting the language server. Reverting to Jedi language engine. Check the Python output panel for details."
+msgstr ""
+
+#: LanguageService.downloadFailedOutputMessage
+msgctxt "LanguageService.downloadFailedOutputMessage"
+msgid "Language server download failed"
+msgstr ""
+
+#: LanguageService.extractionFailedOutputMessage
+msgctxt "LanguageService.extractionFailedOutputMessage"
+msgid "Language server extraction failed"
+msgstr ""
+
+#: LanguageService.extractionCompletedOutputMessage
+msgctxt "LanguageService.extractionCompletedOutputMessage"
+msgid "Language server download complete"
+msgstr ""
+
+#: LanguageService.extractionDoneOutputMessage
+msgctxt "LanguageService.extractionDoneOutputMessage"
+msgid "done"
+msgstr ""
+
+#: LanguageService.reloadVSCodeIfSeachPathHasChanged
+msgctxt "LanguageService.reloadVSCodeIfSeachPathHasChanged"
+msgid "Search paths have changed for this Python interpreter. Please reload the extension to ensure that the IntelliSense works correctly"
+msgstr ""
+
+#: LanguageService.startingJedi
+msgctxt "LanguageService.startingJedi"
+msgid "Starting Jedi Python language engine."
+msgstr ""
+
+#: LanguageService.startingMicrosoft
+msgctxt "LanguageService.startingMicrosoft"
+msgid "Starting Microsoft Python language server."
+msgstr ""
+
+#: LanguageService.startingPylance
+msgctxt "LanguageService.startingPylance"
+msgid "Starting Pylance language server."
+msgstr ""
+
+#: LanguageService.startingJediLSP
+msgctxt "LanguageService.startingJediLSP"
+msgid "Starting Jedi language server."
+msgstr ""
+
+#: LanguageService.startingNone
+msgctxt "LanguageService.startingNone"
+msgid "Editor support is inactive since language server is set to None."
+msgstr ""
+
+#: LanguageService.reloadAfterLanguageServerChange
+msgctxt "LanguageService.reloadAfterLanguageServerChange"
+msgid "Please reload the window switching between language servers."
+msgstr ""
+
+#: AttachProcess.unsupportedOS
+msgctxt "AttachProcess.unsupportedOS"
+msgid "Operating system '{0}' not supported."
+msgstr ""
+
+#: AttachProcess.attachTitle
+msgctxt "AttachProcess.attachTitle"
+msgid "Attach to process"
+msgstr ""
+
+#: AttachProcess.selectProcessPlaceholder
+msgctxt "AttachProcess.selectProcessPlaceholder"
+msgid "Select the process to attach to"
+msgstr ""
+
+#: AttachProcess.noProcessSelected
+msgctxt "AttachProcess.noProcessSelected"
+msgid "No process selected"
+msgstr ""
+
+#: AttachProcess.refreshList
+msgctxt "AttachProcess.refreshList"
+msgid "Refresh process list"
+msgstr ""
+
+#: diagnostics.updateSettings
+msgctxt "diagnostics.updateSettings"
+msgid "Yes, update settings"
+msgstr ""
+
+#: Common.noIWillDoItLater
+msgctxt "Common.noIWillDoItLater"
+msgid "No, I will do it later"
+msgstr ""
+
+#: Common.notNow
+msgctxt "Common.notNow"
+msgid "Not now"
+msgstr ""
+
+#: Common.gotIt
+msgctxt "Common.gotIt"
+msgid "Got it!"
+msgstr ""
+
+#: Interpreters.selectInterpreterTip
+msgctxt "Interpreters.selectInterpreterTip"
+msgid "Tip: you can change the Python interpreter used by the Python extension by clicking on the Python version in the status bar"
+msgstr ""
+
+#: downloading.file
+msgctxt "downloading.file"
+msgid "Downloading {0}..."
+msgstr ""
+
+#: downloading.file.progress
+msgctxt "downloading.file.progress"
+msgid "{0}{1} of {2} KB ({3}%)"
+msgstr ""
+
+#: products.installingModule
+msgctxt "products.installingModule"
+msgid "Installing {0}"
+msgstr ""
+
+#: OutdatedDebugger.updateDebuggerMessage
+msgctxt "OutdatedDebugger.updateDebuggerMessage"
+msgid "We noticed you are attaching to ptvsd (Python debugger), which was deprecated on May 1st, 2020. Please switch to [debugpy](https://aka.ms/migrateToDebugpy)."
+msgstr ""
+
+#: StartPage.getStarted
+msgctxt "StartPage.getStarted"
+msgid "Python - Get Started"
+msgstr ""
+
+#: StartPage.pythonExtensionTitle
+msgctxt "StartPage.pythonExtensionTitle"
+msgid "Python Extension"
+msgstr ""
+
+#: StartPage.createJupyterNotebook
+msgctxt "StartPage.createJupyterNotebook"
+msgid "Create a Jupyter Notebook"
+msgstr ""
+
+#: StartPage.notebookDescription
+msgctxt "StartPage.notebookDescription"
+msgid "- Run "<div class="link italics" role="button" onclick={0}>Create New Blank Notebook</div>" in the Command Palette (<div class="italics">Shift + Command + P</div>)<br />- Explore our <div class="link" role="button" onclick={1}>sample notebook</div> to learn about notebook features"
+msgstr ""
+
+#: StartPage.createAPythonFile
+msgctxt "StartPage.createAPythonFile"
+msgid "Create a Python File"
+msgstr ""
+
+#: StartPage.pythonFileDescription
+msgctxt "StartPage.pythonFileDescription"
+msgid "- Create a <div class="link" role="button" onclick={0}>new file</div> with a .py extension"
+msgstr ""
+
+#: StartPage.openInteractiveWindow
+msgctxt "StartPage.openInteractiveWindow"
+msgid "Use the Interactive Window to develop Python Scripts"
+msgstr ""
+
+#: StartPage.interactiveWindowDesc
+msgctxt "StartPage.interactiveWindowDesc"
+msgid "- You can create cells on a Python file by typing "#%%". Make sure you have the Jupyter extension installed. <br /> - Use "<div class="italics">Shift + Enter</div> " to run a cell, the output will be shown in the interactive window"
+msgstr ""
+
+#: StartPage.releaseNotes
+msgctxt "StartPage.releaseNotes"
+msgid "Take a look at our <a class="link" href={0}>Release Notes</a> to learn more about the latest features."
+msgstr ""
+
+#: StartPage.mailingList
+msgctxt "StartPage.mailingList"
+msgid "<a class="link" href={0}>Sign up</a> for tips and tutorials through our mailing list."
+msgstr ""
+
+#: StartPage.tutorialAndDoc
+msgctxt "StartPage.tutorialAndDoc"
+msgid "Explore more features in our <a class="link" href={0}>Tutorials</a> or check <a class="link" href={1}>Documentation</a> for tips and troubleshooting."
+msgstr ""
+
+#: StartPage.dontShowAgain
+msgctxt "StartPage.dontShowAgain"
+msgid "Don't show this page again"
+msgstr ""
+
+#: StartPage.helloWorld
+msgctxt "StartPage.helloWorld"
+msgid "Hello world"
+msgstr ""
+
+#: StartPage.sampleNotebook
+msgctxt "StartPage.sampleNotebook"
+msgid "Notebooks intro"
+msgstr ""
+
+#: StartPage.openFolder
+msgctxt "StartPage.openFolder"
+msgid "Open a Folder or Workspace"
+msgstr ""
+
+#: StartPage.folderDesc
+msgctxt "StartPage.folderDesc"
+msgid "- Open a <div class="link" role="button" onclick={0}>Folder</div><br /> - Open a <div class="link" role="button" onclick={1}>Workspace</div>"
+msgstr ""
+
+#: StartPage.badWebPanelFormatString
+msgctxt "StartPage.badWebPanelFormatString"
+msgid "<html><body><h1>{0} is not a valid file name</h1></body></html>"
+msgstr ""
+
+#: Jupyter.extensionRequired
+msgctxt "Jupyter.extensionRequired"
+msgid "The Jupyter extension is required to perform that task. Click Yes to open the Jupyter extension installation page."
+msgstr ""
+
+#: Jupyter.extensionNotInstalled
+msgctxt "Jupyter.extensionNotInstalled"
+msgid "This feature is available in the Jupyter extension, which isn't currently installed."
+msgstr ""
+
+#: TensorBoard.missingSourceFile
+msgctxt "TensorBoard.missingSourceFile"
+msgid "We could not locate the requested source file on disk. Please manually specify the file."
+msgstr ""
+
+#: TensorBoard.selectMissingSourceFile
+msgctxt "TensorBoard.selectMissingSourceFile"
+msgid "Choose File"
+msgstr ""
+
+#: TensorBoard.selectMissingSourceFileDescription
+msgctxt "TensorBoard.selectMissingSourceFileDescription"
+msgid "The source file's contents may not match the original contents in the trace."
+msgstr ""
+
+#: TensorBoard.useCurrentWorkingDirectory
+msgctxt "TensorBoard.useCurrentWorkingDirectory"
+msgid "Use current working directory"
+msgstr ""
+
+#: TensorBoard.currentDirectory
+msgctxt "TensorBoard.currentDirectory"
+msgid "Current: {0}"
+msgstr ""
+
+#: TensorBoard.logDirectoryPrompt
+msgctxt "TensorBoard.logDirectoryPrompt"
+msgid "Select a log directory to start TensorBoard with"
+msgstr ""
+
+#: TensorBoard.progressMessage
+msgctxt "TensorBoard.progressMessage"
+msgid "Starting TensorBoard session..."
+msgstr ""
+
+#: TensorBoard.failedToStartSessionError
+msgctxt "TensorBoard.failedToStartSessionError"
+msgid "We failed to start a TensorBoard session due to the following error: {0}"
+msgstr ""
+
+#: TensorBoard.nativeTensorBoardPrompt
+msgctxt "TensorBoard.nativeTensorBoardPrompt"
+msgid "VS Code now has integrated TensorBoard support. Would you like to launch TensorBoard? (Tip: Launch TensorBoard anytime by opening the command palette and searching for "Launch TensorBoard".)"
+msgstr ""
+
+#: TensorBoard.selectAFolder
+msgctxt "TensorBoard.selectAFolder"
+msgid "Select a folder"
+msgstr ""
+
+#: TensorBoard.selectAnotherFolder
+msgctxt "TensorBoard.selectAnotherFolder"
+msgid "Select another folder"
+msgstr ""
+
+#: TensorBoard.selectAFolderDetail
+msgctxt "TensorBoard.selectAFolderDetail"
+msgid "Select a log directory containing tfevent files"
+msgstr ""
+
+#: TensorBoard.selectAnotherFolderDetail
+msgctxt "TensorBoard.selectAnotherFolderDetail"
+msgid "Use the file explorer to select another folder"
+msgstr ""
+
+#: TensorBoard.useCurrentWorkingDirectoryDetail
+msgctxt "TensorBoard.useCurrentWorkingDirectoryDetail"
+msgid "TensorBoard will search for tfevent files in all subdirectories of the current working directory"
+msgstr ""
+
+#: TensorBoard.installPrompt
+msgctxt "TensorBoard.installPrompt"
+msgid "The package TensorBoard is required to launch a TensorBoard session. Would you like to install it?"
+msgstr ""
+
+#: TensorBoard.installTensorBoardAndProfilerPluginPrompt
+msgctxt "TensorBoard.installTensorBoardAndProfilerPluginPrompt"
+msgid "TensorBoard >= 2.4.1 and the PyTorch Profiler TensorBoard Plugin are required. Would you like to install these packages?"
+msgstr ""
+
+#: TensorBoard.installProfilerPluginPrompt
+msgctxt "TensorBoard.installProfilerPluginPrompt"
+msgid "We recommend installing the PyTorch Profiler TensorBoard plugin. Would you like to install the package?"
+msgstr ""
+
+#: TensorBoard.upgradePrompt
+msgctxt "TensorBoard.upgradePrompt"
+msgid "Integrated TensorBoard support is only available for TensorBoard >= 2.4.1. Would you like to upgrade your copy of TensorBoard?"
+msgstr ""
+
+#: TensorBoard.launchNativeTensorBoardSessionCodeAction
+msgctxt "TensorBoard.launchNativeTensorBoardSessionCodeAction"
+msgid "Launch TensorBoard session"
+msgstr ""
+
+#: TensorBoard.launchNativeTensorBoardSessionCodeLens
+msgctxt "TensorBoard.launchNativeTensorBoardSessionCodeLens"
+msgid "▶ Launch TensorBoard Session"
+msgstr ""
+
+#: TensorBoard.enterRemoteUrl
+msgctxt "TensorBoard.enterRemoteUrl"
+msgid "Enter remote URL"
+msgstr ""
+
+#: TensorBoard.enterRemoteUrlDetail
+msgctxt "TensorBoard.enterRemoteUrlDetail"
+msgid "Enter a URL pointing to a remote directory containing your TensorBoard log files"
+msgstr ""
+
