@@ -839,26 +839,26 @@
     </trans-unit>
     <trans-unit id="mBringToFront">
       <source xml:lang="en">Bring All to Front</source>
-      <target state="needs-l10n">Viską išryškinti</target>
+      <target state="needs-l10n">Perkelti viską į priekį</target>
     </trans-unit>
     <trans-unit id="mEdit">
       <source xml:lang="en">&amp;&amp;Edit</source>
-      <target state="needs-l10n">&amp;&amp;Edit</target>
+      <target state="needs-l10n">&amp;&amp;Taisa</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mFile">
       <source xml:lang="en">&amp;&amp;File</source>
-      <target state="needs-l10n">Paleisti Python failą terminale</target>
+      <target state="needs-l10n">Failas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mGoto">
       <source xml:lang="en">&amp;&amp;Go</source>
-      <target state="needs-l10n">&amp;&amp;Go</target>
+      <target state="needs-l10n">&amp;&amp;Eiti</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mHelp">
       <source xml:lang="en">&amp;&amp;Help</source>
-      <target state="needs-l10n">&amp;&amp;Pagalba</target>
+      <target state="needs-l10n">&amp;&amp;Žinynas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mHide">
@@ -879,20 +879,20 @@
     </trans-unit>
     <trans-unit id="mMoveTabToNewWindow">
       <source xml:lang="en">Move Tab to New Window</source>
-      <target state="needs-l10n">Skirtuko perkėlimas į naują langą</target>
+      <target state="needs-l10n">Kortelės perkėlimas į naują langą</target>
     </trans-unit>
     <trans-unit id="mNewTab">
       <source xml:lang="en">New Tab</source>
-      <target state="needs-l10n">Naujas skirtukas</target>
+      <target state="needs-l10n">Nauja kortelė</target>
     </trans-unit>
     <trans-unit id="mRun">
       <source xml:lang="en">&amp;&amp;Run</source>
-      <target state="needs-l10n">Vykdyti visus testus</target>
+      <target state="needs-l10n">Vykdyti</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mSelection">
       <source xml:lang="en">&amp;&amp;Selection</source>
-      <target state="needs-l10n">&amp;&amp;Selection</target>
+      <target state="needs-l10n">&amp;&amp;Žymėjimas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mServices">
@@ -905,20 +905,20 @@
     </trans-unit>
     <trans-unit id="mShowNextTab">
       <source xml:lang="en">Show Next Tab</source>
-      <target state="needs-l10n">Rodyti kitą skirtuką</target>
+      <target state="needs-l10n">Rodyti kitą kortelę</target>
     </trans-unit>
     <trans-unit id="mShowPreviousTab">
       <source xml:lang="en">Show Previous Tab</source>
-      <target state="needs-l10n">Rodyti ankstesnį skirtuką</target>
+      <target state="needs-l10n">Rodyti ankstesnę kortelę</target>
     </trans-unit>
     <trans-unit id="mTerminal">
       <source xml:lang="en">&amp;&amp;Terminal</source>
-      <target state="needs-l10n">Paleisti terminalą</target>
+      <target state="needs-l10n">Terminalas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mView">
       <source xml:lang="en">&amp;&amp;View</source>
-      <target state="needs-l10n">&amp;&amp;Peržiūrėti</target>
+      <target state="needs-l10n">&amp;&amp;Rodymas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mWindow">
@@ -927,11 +927,11 @@
     </trans-unit>
     <trans-unit id="mZoom">
       <source xml:lang="en">Zoom</source>
-      <target state="needs-l10n">Padidinti</target>
+      <target state="needs-l10n">Mastelis</target>
     </trans-unit>
     <trans-unit id="miCheckForUpdates">
       <source xml:lang="en">Check for &amp;&amp;Updates...</source>
-      <target state="needs-l10n">Patikrinkite, ar yra &amp;&amp;Atnaujinimai...</target>
+      <target state="needs-l10n">Patikrinti, ar yra &amp;&amp;atnaujinimų...</target>
     </trans-unit>
     <trans-unit id="miCheckingForUpdates">
       <source xml:lang="en">Checking for Updates...</source>
@@ -939,41 +939,41 @@
     </trans-unit>
     <trans-unit id="miDownloadUpdate">
       <source xml:lang="en">D&amp;&amp;ownload Available Update</source>
-      <target state="needs-l10n">D&amp;&amp; atsisiuntimas Galimas atnaujinimas</target>
+      <target state="needs-l10n">A&amp;&amp;tsisiųsti prieinamą atnaujinimą</target>
     </trans-unit>
     <trans-unit id="miDownloadingUpdate">
       <source xml:lang="en">Downloading Update...</source>
-      <target state="needs-l10n">Atsisiuntimas Atnaujinimas...</target>
+      <target state="needs-l10n">Atsiunčiamas atnaujinimas...</target>
     </trans-unit>
     <trans-unit id="miInstallUpdate">
       <source xml:lang="en">Install &amp;&amp;Update...</source>
-      <target state="needs-l10n">Įdiegti ir atnaujinti...</target>
+      <target state="needs-l10n">Įdiegti atnaujinimą...</target>
     </trans-unit>
     <trans-unit id="miInstallingUpdate">
       <source xml:lang="en">Installing Update...</source>
-      <target state="needs-l10n">Atnaujinimo diegimas...</target>
+      <target state="needs-l10n">Diegiamas atnaujinimas...</target>
     </trans-unit>
     <trans-unit id="miNewWindow">
       <source xml:lang="en">New &amp;&amp;Window</source>
-      <target state="needs-l10n">Naujas &amp;&amp;Window</target>
+      <target state="needs-l10n">Naujas &amp;&amp;langas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="miPreferences">
       <source xml:lang="en">&amp;&amp;Preferences</source>
-      <target state="needs-l10n">&amp;&amp;Preferencijos</target>
+      <target state="needs-l10n">&amp;&amp;Nuostatos</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="miQuit">
       <source xml:lang="en">Quit {0}</source>
-      <target state="needs-l10n">Atsisakyti {0}</target>
+      <target state="needs-l10n">Išeiti {0}</target>
     </trans-unit>
     <trans-unit id="miRestartToUpdate">
       <source xml:lang="en">Restart to &amp;&amp;Update</source>
-      <target state="needs-l10n">Paleisti iš naujo į &amp;&amp;Atnaujinti</target>
+      <target state="needs-l10n">Paleisti iš naujo &amp;&amp;atnaujinimui užbaigti</target>
     </trans-unit>
     <trans-unit id="miSwitchWindow">
       <source xml:lang="en">Switch &amp;&amp;Window...</source>
-      <target state="needs-l10n">Perjungti &amp;&amp;Window...</target>
+      <target state="needs-l10n">Perjungti &amp;&amp;langą...</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
