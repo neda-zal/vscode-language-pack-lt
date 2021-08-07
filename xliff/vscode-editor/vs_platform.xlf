@@ -3,1916 +3,2505 @@
   <file original="src/vs/platform/actions/browser/menuEntryActionViewItem" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="titleAndKb">
       <source xml:lang="en">{0} ({1})</source>
+      <target state="translated">{0} ({1})</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/configuration/common/configurationRegistry" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="config.property.duplicate">
       <source xml:lang="en">Cannot register '{0}'. This property is already registered.</source>
+      <target state="needs-l10n">Negalima užregistruoti '{0}'. Ši savybė jau užregistruota.</target>
     </trans-unit>
     <trans-unit id="config.property.empty">
       <source xml:lang="en">Cannot register an empty property</source>
+      <target state="needs-l10n">Negalima užregistruoti tuščios nuosavybės</target>
     </trans-unit>
     <trans-unit id="config.property.languageDefault">
       <source xml:lang="en">Cannot register '{0}'. This matches property pattern '\\[.*\\]$' for describing language specific editor settings. Use 'configurationDefaults' contribution.</source>
+      <target state="needs-l10n">Negalima užregistruoti '{0}'. Tai atitinka ypatybės šabloną '\\[.*\\]$', skirtą kalbai būdingiems redaktoriaus nustatymams aprašyti. Naudokite 'configurationDefaults' indėlį.</target>
     </trans-unit>
     <trans-unit id="defaultLanguageConfiguration.description">
       <source xml:lang="en">Configure settings to be overridden for {0} language.</source>
+      <target state="needs-l10n">Sukonfigūruokite nustatymus, kurie bus pakeisti {0} kalba.</target>
     </trans-unit>
     <trans-unit id="defaultLanguageConfigurationOverrides.title">
       <source xml:lang="en">Default Language Configuration Overrides</source>
+      <target state="needs-l10n">Numatytoji kalbos konfigūracija pakeičia</target>
     </trans-unit>
     <trans-unit id="overrideSettings.defaultDescription">
       <source xml:lang="en">Configure editor settings to be overridden for a language.</source>
+      <target state="needs-l10n">Sukonfigūruokite redaktoriaus nustatymus, kurie turi būti pakeisti kalbos atžvilgiu.</target>
     </trans-unit>
     <trans-unit id="overrideSettings.errorMessage">
       <source xml:lang="en">This setting does not support per-language configuration.</source>
+      <target state="needs-l10n">Šis nustatymas nepalaiko kiekvienos kalbos konfigūracijos.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/contextkey/browser/contextKeyService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="getContextKeyInfo">
       <source xml:lang="en">A command that returns information about context keys</source>
+      <target state="needs-l10n">Komanda, grąžinanti informaciją apie konteksto raktus</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/contextkey/common/contextkeys" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="inputFocus">
       <source xml:lang="en">Whether keyboard focus is inside an input box</source>
+      <target state="needs-l10n">Ar klaviatūros fokusas yra įvesties lange</target>
     </trans-unit>
     <trans-unit id="isIOS">
       <source xml:lang="en">Whether the operating system is IOS</source>
+      <target state="translated">Ar operacinė sistema yra IOS</target>
     </trans-unit>
     <trans-unit id="isLinux">
       <source xml:lang="en">Whether the operating system is Linux</source>
+      <target state="translated">Ar operacinė sistema yra Linux</target>
     </trans-unit>
     <trans-unit id="isMac">
       <source xml:lang="en">Whether the operating system is macOS</source>
+      <target state="translated">Ar operacinė sistema yra macOS</target>
     </trans-unit>
     <trans-unit id="isMacNative">
       <source xml:lang="en">Whether the operating system is macOS on a non-browser platform</source>
+      <target state="translated">Ar operacinė sistema yra macOS ne naršyklės platformoje</target>
     </trans-unit>
     <trans-unit id="isWeb">
       <source xml:lang="en">Whether the platform is a web browser</source>
+      <target state="translated">Ar platforma yra žiniatinklio naršyklė</target>
     </trans-unit>
     <trans-unit id="isWindows">
       <source xml:lang="en">Whether the operating system is Windows</source>
+      <target state="translated">Ar operacinė sistema yra Windows</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/dialogs/common/dialogs" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="moreFile">
       <source xml:lang="en">...1 additional file not shown</source>
+      <target state="translated">...1 failas nerodomas</target>
     </trans-unit>
     <trans-unit id="moreFiles">
       <source xml:lang="en">...{0} additional files not shown</source>
+      <target state="translated">...{0} failai nerodomi</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/dialogs/electron-main/dialogMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="open">
       <source xml:lang="en">Open</source>
+      <target state="translated">Atverti</target>
     </trans-unit>
     <trans-unit id="openFile">
       <source xml:lang="en">Open File</source>
+      <target state="translated">Atverti failą</target>
     </trans-unit>
     <trans-unit id="openFolder">
       <source xml:lang="en">Open Folder</source>
+      <target state="translated">Atverti aplanką</target>
     </trans-unit>
     <trans-unit id="openWorkspace">
       <source xml:lang="en">&amp;&amp;Open</source>
+      <target state="translated">&amp;&amp;Atverti</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="openWorkspaceTitle">
       <source xml:lang="en">Open Workspace</source>
+      <target state="translated">Atverti darbo erdvę</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/environment/node/argv" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="add">
       <source xml:lang="en">Add folder(s) to the last active window.</source>
+      <target state="needs-l10n">Į paskutinį aktyvų langą pridėkite aplanką (-us).</target>
     </trans-unit>
     <trans-unit id="category">
       <source xml:lang="en">Filters installed extensions by provided category, when using --list-extensions.</source>
+      <target state="needs-l10n">Filtruoja įdiegtus plėtinius pagal nurodytą kategoriją, kai naudojama parinktis --list-extensions.</target>
     </trans-unit>
     <trans-unit id="diff">
       <source xml:lang="en">Compare two files with each other.</source>
+      <target state="needs-l10n">Palyginkite du failus tarpusavyje.</target>
     </trans-unit>
     <trans-unit id="disableExtension">
       <source xml:lang="en">Disable an extension.</source>
+      <target state="needs-l10n">Išjungti plėtinį.</target>
     </trans-unit>
     <trans-unit id="disableExtensions">
       <source xml:lang="en">Disable all installed extensions.</source>
+      <target state="needs-l10n">Išjunkite visus įdiegtus plėtinius.</target>
     </trans-unit>
     <trans-unit id="disableGPU">
       <source xml:lang="en">Disable GPU hardware acceleration.</source>
+      <target state="needs-l10n">Išjunkite GPU aparatinį spartinimą.</target>
     </trans-unit>
     <trans-unit id="experimentalApis">
       <source xml:lang="en">Enables proposed API features for extensions. Can receive one or more extension IDs to enable individually.</source>
+      <target state="needs-l10n">Įjungiamos siūlomos API funkcijos plėtiniams. Gali gauti vieną ar daugiau plėtinių ID, kuriuos galima įjungti atskirai.</target>
     </trans-unit>
     <trans-unit id="extensionHomePath">
       <source xml:lang="en">Set the root path for extensions.</source>
+      <target state="needs-l10n">Nustatykite plėtinių šakninį kelią.</target>
     </trans-unit>
     <trans-unit id="extensionsManagement">
       <source xml:lang="en">Extensions Management</source>
+      <target state="needs-l10n">Plėtinių valdymas</target>
     </trans-unit>
     <trans-unit id="goto">
       <source xml:lang="en">Open a file at the path on the specified line and character position.</source>
+      <target state="needs-l10n">Atidaryti failą nurodytoje eilutėje ir simbolių padėtyje nurodytu keliu.</target>
     </trans-unit>
     <trans-unit id="help">
       <source xml:lang="en">Print usage.</source>
+      <target state="needs-l10n">Spausdinimo naudojimas.</target>
     </trans-unit>
     <trans-unit id="inspect-brk-extensions">
       <source xml:lang="en">Allow debugging and profiling of extensions with the extension host being paused after start. Check the developer tools for the connection URI.</source>
+      <target state="needs-l10n">Leidžiama derinti ir profiliuoti plėtinius, kai paleidus plėtinio prieglobstį jis sustabdomas. Patikrinkite kūrėjo įrankius dėl ryšio URI.</target>
     </trans-unit>
     <trans-unit id="inspect-extensions">
       <source xml:lang="en">Allow debugging and profiling of extensions. Check the developer tools for the connection URI.</source>
+      <target state="needs-l10n">Leidžia derinti ir profiliuoti plėtinius. Patikrinkite kūrėjų įrankius dėl ryšio URI.</target>
     </trans-unit>
     <trans-unit id="installExtension">
       <source xml:lang="en">Installs or updates the extension. The identifier of an extension is always `${publisher}.${name}`. Use `--force` argument to update to latest version. To install a specific version provide `@${version}`. For example: 'vscode.csharp@1.2.3'.</source>
+      <target state="needs-l10n">Įdiegia arba atnaujina plėtinį. Plėtinio identifikatorius visada yra `${publisher}.${name}`. Naudokite argumentą `--force`, jei norite atnaujinti iki naujausios versijos. Norėdami įdiegti konkrečią versiją, nurodykite `@${version}`. Pavyzdžiui: 'vscode.csharp@1.2.3'.</target>
     </trans-unit>
     <trans-unit id="listExtensions">
       <source xml:lang="en">List the installed extensions.</source>
+      <target state="needs-l10n">Išvardykite įdiegtus plėtinius.</target>
     </trans-unit>
     <trans-unit id="locale">
       <source xml:lang="en">The locale to use (e.g. en-US or zh-TW).</source>
+      <target state="needs-l10n">Naudotina vietinė kalba (pvz., en-US arba zh-TW).</target>
     </trans-unit>
     <trans-unit id="log">
       <source xml:lang="en">Log level to use. Default is 'info'. Allowed values are 'critical', 'error', 'warn', 'info', 'debug', 'trace', 'off'.</source>
+      <target state="needs-l10n">Naudotinas žurnalo lygis. Numatytoji reikšmė yra "info". Leidžiamos reikšmės yra "critical", "error", "warn", "info", "debug", "trace", "off".</target>
     </trans-unit>
     <trans-unit id="maxMemory">
       <source xml:lang="en">Max memory size for a window (in Mbytes).</source>
+      <target state="needs-l10n">Didžiausias lango atminties dydis (Mbytes).</target>
     </trans-unit>
     <trans-unit id="newWindow">
       <source xml:lang="en">Force to open a new window.</source>
+      <target state="needs-l10n">Priversti atidaryti naują langą.</target>
     </trans-unit>
     <trans-unit id="options">
       <source xml:lang="en">options</source>
+      <target state="needs-l10n">parinktys</target>
     </trans-unit>
     <trans-unit id="optionsUpperCase">
       <source xml:lang="en">Options</source>
+      <target state="needs-l10n">Nustatymai</target>
     </trans-unit>
     <trans-unit id="paths">
       <source xml:lang="en">paths</source>
+      <target state="needs-l10n">keliai</target>
     </trans-unit>
     <trans-unit id="prof-startup">
       <source xml:lang="en">Run CPU profiler during startup.</source>
+      <target state="needs-l10n">Paleidimo metu paleiskite procesoriaus profilerį.</target>
     </trans-unit>
     <trans-unit id="reuseWindow">
       <source xml:lang="en">Force to open a file or folder in an already opened window.</source>
+      <target state="needs-l10n">Priversti atidaryti failą arba aplanką jau atidarytame lange.</target>
     </trans-unit>
     <trans-unit id="showVersions">
       <source xml:lang="en">Show versions of installed extensions, when using --list-extensions.</source>
+      <target state="needs-l10n">Rodomos įdiegtų plėtinių versijos, kai naudojama parinktis --list-extensions.</target>
     </trans-unit>
     <trans-unit id="status">
       <source xml:lang="en">Print process usage and diagnostics information.</source>
+      <target state="needs-l10n">Spausdinti proceso naudojimo ir diagnostikos informaciją.</target>
     </trans-unit>
     <trans-unit id="stdinUnix">
       <source xml:lang="en">To read from stdin, append '-' (e.g. 'ps aux | grep code | {0} -')</source>
+      <target state="needs-l10n">Jei norite skaityti iš stdin, pridėkite '-' (pvz., 'ps aux | grep code | {0} -')</target>
     </trans-unit>
     <trans-unit id="stdinWindows">
       <source xml:lang="en">To read output from another program, append '-' (e.g. 'echo Hello World | {0} -')</source>
+      <target state="needs-l10n">Norėdami perskaityti išvestį iš kitos programos, pridėkite '-' (pvz., 'echo Hello World | {0} -')</target>
     </trans-unit>
     <trans-unit id="telemetry">
       <source xml:lang="en">Shows all telemetry events which VS code collects.</source>
+      <target state="needs-l10n">Rodomi visi telemetrijos įvykiai, kuriuos renka VS kodas.</target>
     </trans-unit>
     <trans-unit id="troubleshooting">
       <source xml:lang="en">Troubleshooting</source>
+      <target state="needs-l10n">Problemų sprendimas</target>
     </trans-unit>
     <trans-unit id="turn sync">
       <source xml:lang="en">Turn sync on or off.</source>
+      <target state="needs-l10n">Įjunkite arba išjunkite sinchronizavimą.</target>
     </trans-unit>
     <trans-unit id="uninstallExtension">
       <source xml:lang="en">Uninstalls an extension.</source>
+      <target state="needs-l10n">Išinstaliuoja plėtinį.</target>
     </trans-unit>
     <trans-unit id="unknownCommit">
       <source xml:lang="en">Unknown commit</source>
+      <target state="needs-l10n">Nežinomas įsipareigojimas</target>
     </trans-unit>
     <trans-unit id="unknownVersion">
       <source xml:lang="en">Unknown version</source>
+      <target state="needs-l10n">Nežinoma versija</target>
     </trans-unit>
     <trans-unit id="usage">
       <source xml:lang="en">Usage</source>
+      <target state="needs-l10n">Panaudojimas</target>
     </trans-unit>
     <trans-unit id="userDataDir">
       <source xml:lang="en">Specifies the directory that user data is kept in. Can be used to open multiple distinct instances of Code.</source>
+      <target state="needs-l10n">Nurodomas katalogas, kuriame saugomi naudotojo duomenys. Gali būti naudojamas keliems skirtingiems Code egzemplioriams atidaryti.</target>
     </trans-unit>
     <trans-unit id="verbose">
       <source xml:lang="en">Print verbose output (implies --wait).</source>
+      <target state="needs-l10n">Spausdinti verbalinę išvestį (reiškia --wait).</target>
     </trans-unit>
     <trans-unit id="version">
       <source xml:lang="en">Print version.</source>
+      <target state="needs-l10n">Spausdinta versija.</target>
     </trans-unit>
     <trans-unit id="wait">
       <source xml:lang="en">Wait for the files to be closed before returning.</source>
+      <target state="needs-l10n">Prieš grįždami palaukite, kol failai bus uždaryti.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/environment/node/argvHelper" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="gotoValidation">
       <source xml:lang="en">Arguments in `--goto` mode should be in the format of `FILE(:LINE(:CHARACTER))`.</source>
+      <target state="needs-l10n">Argumentai `--goto` režimu turi būti `FILE(:LINE(:CHARACTER))` formato.</target>
     </trans-unit>
     <trans-unit id="multipleValues">
       <source xml:lang="en">Option '{0}' is defined more than once. Using value '{1}.'</source>
+      <target state="needs-l10n">Parinktis "{0}" apibrėžta daugiau nei vieną kartą. Naudojant reikšmę "{1}</target>
     </trans-unit>
     <trans-unit id="unknownOption">
       <source xml:lang="en">Warning: '{0}' is not in the list of known options, but still passed to Electron/Chromium.</source>
+      <target state="needs-l10n">Įspėjimas: '{0}' nėra žinomų parinkčių sąraše, bet vis tiek perduodama Electron/Chromium.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/extensionManagement/common/extensionManagement" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extensions">
       <source xml:lang="en">Extensions</source>
+      <target state="needs-l10n">Plėtiniai</target>
     </trans-unit>
     <trans-unit id="preferences">
       <source xml:lang="en">Preferences</source>
+      <target state="needs-l10n">Nustatymai</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/extensionManagement/common/extensionManagementCLIService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="alreadyInstalled">
       <source xml:lang="en">Extension '{0}' is already installed.</source>
+      <target state="needs-l10n">Plėtinis '{0}' jau įdiegtas.</target>
     </trans-unit>
     <trans-unit id="alreadyInstalled-checkAndUpdate">
       <source xml:lang="en">Extension '{0}' v{1} is already installed. Use '--force' option to update to latest version or provide '@&lt;version&gt;' to install a specific version, for example: '{2}@1.2.3'.</source>
+      <target state="needs-l10n">Plėtinis '{0}' v{1} jau įdiegtas. Naudokite parinktį '--force', kad atnaujintumėte iki naujausios versijos, arba nurodykite '@&lt;version&gt;', kad įdiegtumėte konkrečią versiją, pavyzdžiui: '{2}@1.2.3'&lt;/version&gt;.</target>
     </trans-unit>
     <trans-unit id="builtin">
       <source xml:lang="en">Extension '{0}' is a Built-in extension and cannot be uninstalled</source>
+      <target state="needs-l10n">Plėtinis "{0}" yra integruotasis plėtinys ir jo negalima pašalinti</target>
     </trans-unit>
     <trans-unit id="cancelInstall">
       <source xml:lang="en">Cancelled installing extension '{0}'.</source>
+      <target state="needs-l10n">Atšauktas plėtinio '{0}' diegimas.</target>
     </trans-unit>
     <trans-unit id="cancelVsixInstall">
       <source xml:lang="en">Cancelled installing extension '{0}'.</source>
+      <target state="needs-l10n">Atšauktas plėtinio '{0}' diegimas.</target>
     </trans-unit>
     <trans-unit id="forceDowngrade">
       <source xml:lang="en">A newer version of extension '{0}' v{1} is already installed. Use '--force' option to downgrade to older version.</source>
+      <target state="needs-l10n">Jau įdiegta naujesnė plėtinio '{0}' versija v{1}. Naudokite '--force' parinktį, kad pereitumėte prie senesnės versijos.</target>
     </trans-unit>
     <trans-unit id="forceUninstall">
       <source xml:lang="en">Extension '{0}' is marked as a Built-in extension by user. Please use '--force' option to uninstall it.</source>
+      <target state="needs-l10n">Naudotojas pažymėjo plėtinį '{0}' kaip integruotąjį plėtinį. Norėdami jį pašalinti, naudokite parinktį '--force'.</target>
     </trans-unit>
     <trans-unit id="installation failed">
       <source xml:lang="en">Failed Installing Extensions: {0}</source>
+      <target state="needs-l10n">Nepavyko įdiegti plėtinių: {0}</target>
     </trans-unit>
     <trans-unit id="installing">
       <source xml:lang="en">Installing extension '{0}'...</source>
+      <target state="needs-l10n">Įdiegti plėtinį '{0}'...</target>
     </trans-unit>
     <trans-unit id="installing builtin ">
       <source xml:lang="en">Installing builtin extension '{0}'...</source>
+      <target state="needs-l10n">Įdiegiamas integruotas plėtinys '{0}'...</target>
     </trans-unit>
     <trans-unit id="installing builtin with version">
       <source xml:lang="en">Installing builtin extension '{0}' v{1}...</source>
+      <target state="needs-l10n">Įdiegiamas integruotas plėtinys '{0}' v{1}...</target>
     </trans-unit>
     <trans-unit id="installing with version">
       <source xml:lang="en">Installing extension '{0}' v{1}...</source>
+      <target state="needs-l10n">Įdiegti plėtinį '{0}' v{1}...</target>
     </trans-unit>
     <trans-unit id="installingExtensions">
       <source xml:lang="en">Installing extensions...</source>
+      <target state="needs-l10n">Priedų diegimas...</target>
     </trans-unit>
     <trans-unit id="installingExtensionsOnLocation">
       <source xml:lang="en">Installing extensions on {0}...</source>
+      <target state="needs-l10n">Įdiegti plėtinius į {0}...</target>
     </trans-unit>
     <trans-unit id="listFromLocation">
       <source xml:lang="en">Extensions installed on {0}:</source>
+      <target state="needs-l10n">Įdiegti plėtiniai {0}:</target>
     </trans-unit>
     <trans-unit id="notFound">
       <source xml:lang="en">Extension '{0}' not found.</source>
+      <target state="needs-l10n">Nerastas plėtinys '{0}'.</target>
     </trans-unit>
     <trans-unit id="notInstalled">
       <source xml:lang="en">Extension '{0}' is not installed.</source>
+      <target state="needs-l10n">Plėtinis '{0}' neįdiegtas.</target>
     </trans-unit>
     <trans-unit id="notInstalleddOnLocation">
       <source xml:lang="en">Extension '{0}' is not installed on {1}.</source>
+      <target state="needs-l10n">Plėtinis '{0}' nėra įdiegtas {1}.</target>
     </trans-unit>
     <trans-unit id="successInstall">
       <source xml:lang="en">Extension '{0}' v{1} was successfully installed.</source>
+      <target state="needs-l10n">Sėkmingai įdiegtas plėtinys '{0}' v{1}.</target>
     </trans-unit>
     <trans-unit id="successUninstall">
       <source xml:lang="en">Extension '{0}' was successfully uninstalled!</source>
+      <target state="needs-l10n">Plėtinis '{0}' sėkmingai pašalintas!</target>
     </trans-unit>
     <trans-unit id="successUninstallFromLocation">
       <source xml:lang="en">Extension '{0}' was successfully uninstalled from {1}!</source>
+      <target state="needs-l10n">Plėtinis '{0}' sėkmingai pašalintas iš {1}!</target>
     </trans-unit>
     <trans-unit id="successVsixInstall">
       <source xml:lang="en">Extension '{0}' was successfully installed.</source>
+      <target state="needs-l10n">Plėtinis '{0}' sėkmingai įdiegtas.</target>
     </trans-unit>
     <trans-unit id="uninstalling">
       <source xml:lang="en">Uninstalling {0}...</source>
+      <target state="needs-l10n">Pašalinti {0}...</target>
     </trans-unit>
     <trans-unit id="updateMessage">
       <source xml:lang="en">Updating the extension '{0}' to the version {1}</source>
+      <target state="needs-l10n">Pratęsimo '{0}' atnaujinimas į versiją {1}</target>
     </trans-unit>
     <trans-unit id="useId">
       <source xml:lang="en">Make sure you use the full extension ID, including the publisher, e.g.: {0}</source>
+      <target state="needs-l10n">Įsitikinkite, kad naudojate visą plėtinio ID, įskaitant leidėją, pvz: {0}</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/extensionManagement/electron-sandbox/extensionTipsService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="exeRecommended">
       <source xml:lang="en">You have {0} installed on your system. Do you want to install the recommended extensions for it?</source>
+      <target state="needs-l10n">Jūsų sistemoje įdiegta {0}. Ar norite įdiegti jai rekomenduojamus plėtinius?</target>
       <note>Placeholder string is the name of the software that is installed.</note>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/extensionManagement/node/extensionManagementService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="MarketPlaceDisabled">
       <source xml:lang="en">Marketplace is not enabled</source>
+      <target state="needs-l10n">"Marketplace" nėra įjungta</target>
     </trans-unit>
     <trans-unit id="Not a Marketplace extension">
       <source xml:lang="en">Only Marketplace Extensions can be reinstalled</source>
+      <target state="needs-l10n">Galima iš naujo įdiegti tik "Marketplace" plėtinius</target>
     </trans-unit>
     <trans-unit id="exitCode">
       <source xml:lang="en">Unable to install the extension. Please Exit and Start VS Code before reinstalling.</source>
+      <target state="needs-l10n">Nepavyksta įdiegti plėtinio. Prieš diegdami iš naujo, išeikite ir paleiskite "VS Code".</target>
     </trans-unit>
     <trans-unit id="incompatible">
       <source xml:lang="en">Unable to install extension '{0}' as it is not compatible with VS Code '{1}'.</source>
+      <target state="needs-l10n">Nepavyksta įdiegti plėtinio "{0}", nes jis nesuderinamas su VS kodu "{1}".</target>
     </trans-unit>
     <trans-unit id="malicious extension">
       <source xml:lang="en">Can't install extension since it was reported to be problematic.</source>
+      <target state="needs-l10n">Negalima įdiegti plėtinio, nes buvo pranešta, kad jis kelia problemų.</target>
     </trans-unit>
     <trans-unit id="multipleDependentsError">
       <source xml:lang="en">Cannot uninstall '{0}' extension. '{1}', '{2}' and other extension depend on this.</source>
+      <target state="needs-l10n">Negalima pašalinti plėtinio "{0}". '{1}', '{2}' ir kiti plėtiniai priklauso nuo šio plėtinio.</target>
     </trans-unit>
     <trans-unit id="multipleIndirectDependentsError">
       <source xml:lang="en">Cannot uninstall '{0}' extension. It includes uninstalling '{1}' extension and '{2}', '{3}' and other extensions depend on this.</source>
+      <target state="needs-l10n">Negalima pašalinti plėtinio "{0}". Tai apima ir '{1}' plėtinio ir nuo jo priklausančių '{2}', '{3}' bei kitų plėtinių pašalinimą.</target>
     </trans-unit>
     <trans-unit id="notExists">
       <source xml:lang="en">Could not find extension</source>
+      <target state="needs-l10n">Nepavyko rasti plėtinio</target>
     </trans-unit>
     <trans-unit id="notFoundCompatibleDependency">
       <source xml:lang="en">Unable to install '{0}' extension because it is not compatible with the current version of VS Code (version {1}).</source>
+      <target state="needs-l10n">Nepavyksta įdiegti plėtinio "{0}", nes jis nesuderinamas su dabartine "VS Code" versija (versija {1}).</target>
     </trans-unit>
     <trans-unit id="notInstalled">
       <source xml:lang="en">Extension '{0}' is not installed.</source>
+      <target state="needs-l10n">Plėtinis '{0}' neįdiegtas.</target>
     </trans-unit>
     <trans-unit id="quitCode">
       <source xml:lang="en">Unable to install the extension. Please Quit and Start VS Code before reinstalling.</source>
+      <target state="needs-l10n">Nepavyksta įdiegti plėtinio. Prieš diegdami iš naujo, užbaigite ir paleiskite VS Code.</target>
     </trans-unit>
     <trans-unit id="removeError">
       <source xml:lang="en">Error while removing the extension: {0}. Please Quit and Start VS Code before trying again.</source>
+      <target state="needs-l10n">Klaida šalinant plėtinį: {0}. Prieš bandydami dar kartą, nutraukite ir paleiskite VS Code.</target>
     </trans-unit>
     <trans-unit id="restartCode">
       <source xml:lang="en">Please restart VS Code before reinstalling {0}.</source>
+      <target state="needs-l10n">Prieš iš naujo įdiegdami {0}, iš naujo paleiskite VS kodą.</target>
     </trans-unit>
     <trans-unit id="singleDependentError">
       <source xml:lang="en">Cannot uninstall '{0}' extension. '{1}' extension depends on this.</source>
+      <target state="needs-l10n">Negalima pašalinti plėtinio "{0}". '{1}' plėtinys priklauso nuo šio plėtinio.</target>
     </trans-unit>
     <trans-unit id="singleIndirectDependentError">
       <source xml:lang="en">Cannot uninstall '{0}' extension . It includes uninstalling '{1}' extension and '{2}' extension depends on this.</source>
+      <target state="needs-l10n">Negalima pašalinti plėtinio '{0}'. Tai apima ir "{1}" plėtinio ir "{2}" plėtinio pašalinimą, kuris nuo to priklauso.</target>
     </trans-unit>
     <trans-unit id="twoDependentsError">
       <source xml:lang="en">Cannot uninstall '{0}' extension. '{1}' and '{2}' extensions depend on this.</source>
+      <target state="needs-l10n">Negalima pašalinti plėtinio "{0}". '{1}' ir '{2}' plėtiniai nuo to priklauso.</target>
     </trans-unit>
     <trans-unit id="twoIndirectDependentsError">
       <source xml:lang="en">Cannot uninstall '{0}' extension. It includes uninstalling '{1}' extension and '{2}' and '{3}' extensions depend on this.</source>
+      <target state="needs-l10n">Negalima pašalinti plėtinio "{0}". Jis apima ir plėtinio '{1}' pašalinimą, o plėtiniai '{2}' ir '{3}' nuo jo priklauso.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/extensionManagement/node/extensionManagementUtil" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="invalidManifest">
       <source xml:lang="en">VSIX invalid: package.json is not a JSON file.</source>
+      <target state="needs-l10n">VSIX negalioja: package.json nėra JSON failas.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/extensionManagement/node/extensionsScanner" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cannot read">
       <source xml:lang="en">Cannot read the extension from {0}</source>
+      <target state="needs-l10n">Negalima nuskaityti plėtinio iš {0}</target>
     </trans-unit>
     <trans-unit id="errorDeleting">
       <source xml:lang="en">Unable to delete the existing folder '{0}' while installing the extension '{1}'. Please delete the folder manually and try again</source>
+      <target state="needs-l10n">Nepavyksta ištrinti esamo aplanko "{0}" diegiant plėtinį "{1}". Ištrinkite aplanką rankiniu būdu ir bandykite dar kartą</target>
     </trans-unit>
     <trans-unit id="invalidManifest">
       <source xml:lang="en">Extension invalid: package.json is not a JSON file.</source>
+      <target state="needs-l10n">Plėtinis negalioja: package.json nėra JSON failas.</target>
     </trans-unit>
     <trans-unit id="renameError">
       <source xml:lang="en">Unknown error while renaming {0} to {1}</source>
+      <target state="needs-l10n">Nežinoma klaida pervadinant {0} į {1}</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/extensions/common/extensionValidator" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="versionMismatch">
       <source xml:lang="en">Extension is not compatible with Code {0}. Extension requires: {1}.</source>
+      <target state="needs-l10n">Pratęsimas nesuderinamas su kodu {0}. Išplėtimui reikia: {1}.</target>
     </trans-unit>
     <trans-unit id="versionSpecificity1">
       <source xml:lang="en">Version specified in `engines.vscode` ({0}) is not specific enough. For vscode versions before 1.0.0, please define at a minimum the major and minor desired version. E.g. ^0.10.0, 0.10.x, 0.11.0, etc.</source>
+      <target state="needs-l10n">Įraše `engines.vscode` ({0}) nurodyta versija yra nepakankamai konkreti. Jei vscode versijos yra ankstesnės nei 1.0.0, nurodykite bent jau norimą pagrindinę ir šalutinę versiją. Pvz., ^0.10.0, 0.10.x, 0.11.0 ir t. t.</target>
     </trans-unit>
     <trans-unit id="versionSpecificity2">
       <source xml:lang="en">Version specified in `engines.vscode` ({0}) is not specific enough. For vscode versions after 1.0.0, please define at a minimum the major desired version. E.g. ^1.10.0, 1.10.x, 1.x.x, 2.x.x, etc.</source>
+      <target state="needs-l10n">Įraše `engines.vscode` ({0}) nurodyta versija yra nepakankamai konkreti. Jei vscode versijos yra vėlesnės nei 1.0.0, nurodykite bent jau pagrindinę pageidaujamą versiją. Pvz., ^1.10.0, 1.10.x, 1.x.x, 2.x.x ir t. t.</target>
     </trans-unit>
     <trans-unit id="versionSyntax">
       <source xml:lang="en">Could not parse `engines.vscode` value {0}. Please use, for example: ^1.22.0, ^1.22.x, etc.</source>
+      <target state="needs-l10n">Nepavyko išnarplioti `engines.vscode` vertės {0}. Prašome naudoti, pvz: ^1.22.0, ^1.22.x ir t. t.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/externalTerminal/node/externalTerminalService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="console.title">
       <source xml:lang="en">VS Code Console</source>
+      <target state="needs-l10n">VS kodo konsolė</target>
     </trans-unit>
     <trans-unit id="ext.term.app.not.found">
       <source xml:lang="en">can't find terminal application '{0}'</source>
+      <target state="needs-l10n">neranda terminalo programos '{0}'</target>
     </trans-unit>
     <trans-unit id="linux.term.failed">
       <source xml:lang="en">'{0}' failed with exit code {1}</source>
+      <target state="needs-l10n">'{0}' nepavyko, išėjimo kodas {1}</target>
     </trans-unit>
     <trans-unit id="mac.terminal.script.failed">
       <source xml:lang="en">Script '{0}' failed with exit code {1}</source>
+      <target state="needs-l10n">Skriptas '{0}' nepavyko, išėjimo kodas {1}</target>
     </trans-unit>
     <trans-unit id="mac.terminal.type.not.supported">
       <source xml:lang="en">'{0}' not supported</source>
+      <target state="needs-l10n">'{0}' nepalaikomas</target>
     </trans-unit>
     <trans-unit id="press.any.key">
       <source xml:lang="en">Press any key to continue...</source>
+      <target state="needs-l10n">Norėdami tęsti, paspauskite bet kurį klavišą...</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/files/common/fileService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="deleteFailedNonEmptyFolder">
       <source xml:lang="en">Unable to delete non-empty folder '{0}'.</source>
+      <target state="needs-l10n">Nepavyksta ištrinti ne tuščio aplanko '{0}'.</target>
     </trans-unit>
     <trans-unit id="deleteFailedNotFound">
       <source xml:lang="en">Unable to delete non-existing file '{0}'</source>
+      <target state="needs-l10n">Nepavyksta ištrinti neegzistuojančio failo '{0}'</target>
     </trans-unit>
     <trans-unit id="deleteFailedTrashUnsupported">
       <source xml:lang="en">Unable to delete file '{0}' via trash because provider does not support it.</source>
+      <target state="needs-l10n">Nepavyksta ištrinti failo '{0}' per šiukšliadėžę, nes paslaugų teikėjas to nepalaiko.</target>
     </trans-unit>
     <trans-unit id="err.read">
       <source xml:lang="en">Unable to read file '{0}' ({1})</source>
+      <target state="needs-l10n">Nepavyksta perskaityti failo '{0}' ({1})</target>
     </trans-unit>
     <trans-unit id="err.readonly">
       <source xml:lang="en">Unable to modify readonly file '{0}'</source>
+      <target state="needs-l10n">Nepavyksta pakeisti tik skaitymui skirto failo '{0}'</target>
     </trans-unit>
     <trans-unit id="err.write">
       <source xml:lang="en">Unable to write file '{0}' ({1})</source>
+      <target state="needs-l10n">Nepavyksta įrašyti failo '{0}' ({1})</target>
     </trans-unit>
     <trans-unit id="fileExists">
       <source xml:lang="en">Unable to create file '{0}' that already exists when overwrite flag is not set</source>
+      <target state="needs-l10n">Nepavyksta sukurti failo '{0}', kuris jau egzistuoja, kai nenustatyta perrašymo vėliava</target>
     </trans-unit>
     <trans-unit id="fileIsDirectoryReadError">
       <source xml:lang="en">Unable to read file '{0}' that is actually a directory</source>
+      <target state="needs-l10n">Nepavyksta perskaityti failo '{0}', kuris iš tikrųjų yra katalogas</target>
     </trans-unit>
     <trans-unit id="fileIsDirectoryWriteError">
       <source xml:lang="en">Unable to write file '{0}' that is actually a directory</source>
+      <target state="needs-l10n">Nepavyksta įrašyti failo '{0}', kuris iš tikrųjų yra katalogas</target>
     </trans-unit>
     <trans-unit id="fileModifiedError">
       <source xml:lang="en">File Modified Since</source>
+      <target state="needs-l10n">Failas modifikuotas nuo</target>
     </trans-unit>
     <trans-unit id="fileNotFoundError">
       <source xml:lang="en">Unable to resolve non-existing file '{0}'</source>
+      <target state="needs-l10n">Nepavyksta išspręsti neegzistuojančio failo '{0}'</target>
     </trans-unit>
     <trans-unit id="fileNotModifiedError">
       <source xml:lang="en">File not modified since</source>
+      <target state="needs-l10n">Failas nemodifikuotas nuo</target>
     </trans-unit>
     <trans-unit id="fileTooLargeError">
       <source xml:lang="en">Unable to read file '{0}' that is too large to open</source>
+      <target state="needs-l10n">Nepavyksta perskaityti failo '{0}', kuris yra per didelis, kad jį būtų galima atidaryti</target>
     </trans-unit>
     <trans-unit id="invalidPath">
       <source xml:lang="en">Unable to resolve filesystem provider with relative file path '{0}'</source>
+      <target state="needs-l10n">Nepavyksta nustatyti failų sistemos teikėjo su santykiniu failo keliu '{0}'</target>
     </trans-unit>
     <trans-unit id="mkdirExistsError">
       <source xml:lang="en">Unable to create folder '{0}' that already exists but is not a directory</source>
+      <target state="needs-l10n">Nepavyksta sukurti aplanko '{0}', kuris jau egzistuoja, bet nėra katalogas</target>
     </trans-unit>
     <trans-unit id="noProviderFound">
       <source xml:lang="en">No file system provider found for resource '{0}'</source>
+      <target state="needs-l10n">Ištekliui '{0}' nerastas failų sistemos teikėjas</target>
     </trans-unit>
     <trans-unit id="unableToMoveCopyError1">
       <source xml:lang="en">Unable to copy when source '{0}' is same as target '{1}' with different path case on a case insensitive file system</source>
+      <target state="needs-l10n">Nepavyksta kopijuoti, kai šaltinis '{0}' yra tas pats kaip ir tikslinis '{1}' su skirtingais kelio atvejais failų sistemoje, kurioje didžiosios ir mažosios raidės neskaičiuojamos</target>
     </trans-unit>
     <trans-unit id="unableToMoveCopyError2">
       <source xml:lang="en">Unable to move/copy when source '{0}' is parent of target '{1}'.</source>
+      <target state="needs-l10n">Nepavyksta perkelti/kopijuoti, kai šaltinis "{0}" yra tikslinės "{1}" tėvinė dalis.</target>
     </trans-unit>
     <trans-unit id="unableToMoveCopyError3">
       <source xml:lang="en">Unable to move/copy '{0}' because target '{1}' already exists at destination.</source>
+      <target state="needs-l10n">Nepavyksta perkelti/kopijuoti '{0}', nes tikslas '{1}' jau egzistuoja paskirties vietoje.</target>
     </trans-unit>
     <trans-unit id="unableToMoveCopyError4">
       <source xml:lang="en">Unable to move/copy '{0}' into '{1}' since a file would replace the folder it is contained in.</source>
+      <target state="needs-l10n">Nepavyko perkelti / nukopijuoti '{0}' į '{1}', nes failas pakeistų aplanką, kuriame jis yra.</target>
     </trans-unit>
     <trans-unit id="writeFailedUnlockUnsupported">
       <source xml:lang="en">Unable to unlock file '{0}' because provider does not support it.</source>
+      <target state="needs-l10n">Nepavyksta atrakinti failo '{0}', nes teikėjas jo nepalaiko.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/files/common/files" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="sizeB">
       <source xml:lang="en">{0}B</source>
+      <target state="needs-l10n">{0}B</target>
     </trans-unit>
     <trans-unit id="sizeGB">
       <source xml:lang="en">{0}GB</source>
+      <target state="needs-l10n">{0}GB</target>
     </trans-unit>
     <trans-unit id="sizeKB">
       <source xml:lang="en">{0}KB</source>
+      <target state="needs-l10n">{0}KB</target>
     </trans-unit>
     <trans-unit id="sizeMB">
       <source xml:lang="en">{0}MB</source>
+      <target state="needs-l10n">{0}MB</target>
     </trans-unit>
     <trans-unit id="sizeTB">
       <source xml:lang="en">{0}TB</source>
+      <target state="needs-l10n">{0}TB</target>
     </trans-unit>
     <trans-unit id="unknownError">
       <source xml:lang="en">Unknown Error</source>
+      <target state="needs-l10n">Nežinoma klaida</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/files/common/io" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="fileTooLargeError">
       <source xml:lang="en">File is too large to open</source>
+      <target state="needs-l10n">Failas yra per didelis, kad jį būtų galima atidaryti</target>
     </trans-unit>
     <trans-unit id="fileTooLargeForHeapError">
       <source xml:lang="en">To open a file of this size, you need to restart and allow {0} to use more memory</source>
+      <target state="needs-l10n">Norėdami atidaryti tokio dydžio failą, turite iš naujo paleisti ir leisti {0} naudoti daugiau atminties</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/files/electron-browser/diskFileSystemProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="binFailed">
       <source xml:lang="en">Failed to move '{0}' to the recycle bin</source>
+      <target state="needs-l10n">Nepavyko perkelti '{0}' į šiukšliadėžę</target>
     </trans-unit>
     <trans-unit id="trashFailed">
       <source xml:lang="en">Failed to move '{0}' to the trash</source>
+      <target state="needs-l10n">Nepavyko perkelti '{0}' į šiukšliadėžę</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/files/node/diskFileSystemProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="copyError">
       <source xml:lang="en">Unable to copy '{0}' into '{1}' ({2}).</source>
+      <target state="needs-l10n">Nepavyksta nukopijuoti '{0}' į '{1}' ({2}).</target>
     </trans-unit>
     <trans-unit id="fileCopyErrorExists">
       <source xml:lang="en">File at target already exists</source>
+      <target state="needs-l10n">Tikslinis failas jau egzistuoja</target>
     </trans-unit>
     <trans-unit id="fileCopyErrorPathCase">
       <source xml:lang="en">'File cannot be copied to same path with different path case</source>
+      <target state="needs-l10n">"Failo negalima kopijuoti į tą patį kelią su skirtingu kelio atveju</target>
     </trans-unit>
     <trans-unit id="fileExists">
       <source xml:lang="en">File already exists</source>
+      <target state="needs-l10n">Failas jau egzistuoja</target>
     </trans-unit>
     <trans-unit id="fileNotExists">
       <source xml:lang="en">File does not exist</source>
+      <target state="needs-l10n">Failas neegzistuoja</target>
     </trans-unit>
     <trans-unit id="moveError">
       <source xml:lang="en">Unable to move '{0}' into '{1}' ({2}).</source>
+      <target state="needs-l10n">Nepavyksta perkelti '{0}' į '{1}' ({2}).</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/issue/electron-main/issueMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">&amp;&amp;Cancel</source>
+      <target state="needs-l10n">Atšaukti</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="confirmCloseIssueReporter">
       <source xml:lang="en">Your input will not be saved. Are you sure you want to close this window?</source>
+      <target state="needs-l10n">Jūsų įvesta informacija nebus išsaugota. Ar tikrai norite uždaryti šį langą?</target>
     </trans-unit>
     <trans-unit id="issueReporter">
       <source xml:lang="en">Issue Reporter</source>
+      <target state="needs-l10n">Klausimo pranešėjas</target>
     </trans-unit>
     <trans-unit id="issueReporterWriteToClipboard">
       <source xml:lang="en">There is too much data to send to GitHub directly. The data will be copied to the clipboard, please paste it into the GitHub issue page that is opened.</source>
+      <target state="needs-l10n">Yra per daug duomenų, kad juos būtų galima tiesiogiai siųsti į "GitHub". Duomenys bus nukopijuoti į iškarpinę, įklijuokite juos į atidarytą "GitHub" problemos puslapį.</target>
     </trans-unit>
     <trans-unit id="local">
       <source xml:lang="en">Local</source>
+      <target state="needs-l10n">Vietinis</target>
     </trans-unit>
     <trans-unit id="ok">
       <source xml:lang="en">&amp;&amp;OK</source>
+      <target state="needs-l10n">&amp;&amp;OK</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="processExplorer">
       <source xml:lang="en">Process Explorer</source>
+      <target state="needs-l10n">Procesų tyrėjas</target>
     </trans-unit>
     <trans-unit id="yes">
       <source xml:lang="en">&amp;&amp;Yes</source>
+      <target state="needs-l10n">&amp;&amp;Yes</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/keybinding/common/abstractKeybindingService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="first.chord">
       <source xml:lang="en">({0}) was pressed. Waiting for second key of chord...</source>
+      <target state="needs-l10n">({0}). Laukiama antrojo akordo klavišo...</target>
     </trans-unit>
     <trans-unit id="missing.chord">
       <source xml:lang="en">The key combination ({0}, {1}) is not a command.</source>
+      <target state="needs-l10n">Klavišų kombinacija ({0}, {1}) nėra komanda.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/list/browser/listService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="automatic keyboard navigation setting">
       <source xml:lang="en">Controls whether keyboard navigation in lists and trees is automatically triggered simply by typing. If set to `false`, keyboard navigation is only triggered when executing the `list.toggleKeyboardNavigation` command, for which you can assign a keyboard shortcut.</source>
+      <target state="needs-l10n">Nustato, ar navigacija klaviatūra sąrašuose ir medžiuose automatiškai įjungiama tiesiog rašant. Jei nustatyta reikšmė `false`, navigacija klaviatūra įjungiama tik tada, kai vykdoma komanda `list.toggleKeyboardNavigation`, kuriai galima priskirti klaviatūros spartųjį klavišą.</target>
     </trans-unit>
     <trans-unit id="expand mode">
       <source xml:lang="en">Controls how tree folders are expanded when clicking the folder names. Note that some trees and lists might choose to ignore this setting if it is not applicable.</source>
+      <target state="needs-l10n">Valdo, kaip medžio aplankai išplečiami spustelėjus aplankų pavadinimus. Atkreipkite dėmesį, kad kai kuriuose medžiuose ir sąrašuose šis nustatymas gali būti ignoruojamas, jei jis netaikomas.</target>
     </trans-unit>
     <trans-unit id="horizontalScrolling setting">
       <source xml:lang="en">Controls whether lists and trees support horizontal scrolling in the workbench. Warning: turning on this setting has a performance implication.</source>
+      <target state="needs-l10n">Nustato, ar darbalaukyje sąrašuose ir medžiuose palaikomas horizontalus slinkimas. Įspėjimas: šio nustatymo įjungimas turi įtakos našumui.</target>
     </trans-unit>
     <trans-unit id="keyboardNavigationSettingKey">
       <source xml:lang="en">Controls the keyboard navigation style for lists and trees in the workbench. Can be simple, highlight and filter.</source>
+      <target state="needs-l10n">Valdo klaviatūros naršymo stilių, taikomą darbalaukyje esantiems sąrašams ir medžiams. Gali būti paprastas, išryškinti ir filtruoti.</target>
     </trans-unit>
     <trans-unit id="keyboardNavigationSettingKey.filter">
       <source xml:lang="en">Filter keyboard navigation will filter out and hide all the elements which do not match the keyboard input.</source>
+      <target state="needs-l10n">Filtruoti navigaciją klaviatūra bus išfiltruoti ir paslėpti visi elementai, kurie neatitinka klaviatūros įvesties.</target>
     </trans-unit>
     <trans-unit id="keyboardNavigationSettingKey.highlight">
       <source xml:lang="en">Highlight keyboard navigation highlights elements which match the keyboard input. Further up and down navigation will traverse only the highlighted elements.</source>
+      <target state="needs-l10n">Išryškinti navigaciją klaviatūra išryškina elementus, kurie atitinka klaviatūros įvestį. Tolesnė navigacija aukštyn ir žemyn apims tik paryškintus elementus.</target>
     </trans-unit>
     <trans-unit id="keyboardNavigationSettingKey.simple">
       <source xml:lang="en">Simple keyboard navigation focuses elements which match the keyboard input. Matching is done only on prefixes.</source>
+      <target state="needs-l10n">Paprasta navigacija klaviatūra sutelkia dėmesį į elementus, atitinkančius klaviatūros įvestį. Atitikimas atliekamas tik su priešdėliais.</target>
     </trans-unit>
     <trans-unit id="list smoothScrolling setting">
       <source xml:lang="en">Controls whether lists and trees have smooth scrolling.</source>
+      <target state="needs-l10n">Nustato, ar sąrašai ir medžiai turi būti sklandžiai slenkami.</target>
     </trans-unit>
     <trans-unit id="multiSelectModifier">
       <source xml:lang="en">The modifier to be used to add an item in trees and lists to a multi-selection with the mouse (for example in the explorer, open editors and scm view). The 'Open to Side' mouse gestures - if supported - will adapt such that they do not conflict with the multiselect modifier.</source>
+      <target state="needs-l10n">Modifikatorius, naudojamas norint įtraukti medžių ir sąrašų elementą į daugkartinį pasirinkimą pele (pvz., tyrėjo, atvirų redaktorių ir scm rodinyje). Pelės gestai "Atverti į šoną", jei jie palaikomi, bus pritaikyti taip, kad neprieštarautų daugiataškio pasirinkimo modifikatoriui.</target>
       <note>- `ctrlCmd` refers to a value the setting can take and should not be localized.
 - `Control` and `Command` refer to the modifier keys Ctrl or Cmd on the keyboard and can be localized.</note>
     </trans-unit>
     <trans-unit id="multiSelectModifier.alt">
       <source xml:lang="en">Maps to `Alt` on Windows and Linux and to `Option` on macOS.</source>
+      <target state="needs-l10n">"Windows" ir "Linux" sistemoje atitinka `Alt`, o "MacOS" sistemoje - `Option`.</target>
     </trans-unit>
     <trans-unit id="multiSelectModifier.ctrlCmd">
       <source xml:lang="en">Maps to `Control` on Windows and Linux and to `Command` on macOS.</source>
+      <target state="needs-l10n">"Windows" ir "Linux" sistemoje atitinka `Control`, o "MacOS" sistemoje - `Command`.</target>
     </trans-unit>
     <trans-unit id="openModeModifier">
       <source xml:lang="en">Controls how to open items in trees and lists using the mouse (if supported). Note that some trees and lists might choose to ignore this setting if it is not applicable.</source>
+      <target state="needs-l10n">Valdo, kaip atidaryti medžių ir sąrašų elementus naudojant pelę (jei palaikoma). Atkreipkite dėmesį, kad kai kuriuose medžiuose ir sąrašuose šis nustatymas gali būti ignoruojamas, jei jis netaikomas.</target>
       <note>`singleClick` and `doubleClick` refers to a value the setting can take and should not be localized.</note>
     </trans-unit>
     <trans-unit id="render tree indent guides">
       <source xml:lang="en">Controls whether the tree should render indent guides.</source>
+      <target state="needs-l10n">Nustato, ar medis turi atvaizduoti įtraukų kreipinius.</target>
     </trans-unit>
     <trans-unit id="tree indent setting">
       <source xml:lang="en">Controls tree indentation in pixels.</source>
+      <target state="needs-l10n">Valdo medžio įtrauką pikseliais.</target>
     </trans-unit>
     <trans-unit id="workbenchConfigurationTitle">
       <source xml:lang="en">Workbench</source>
+      <target state="needs-l10n">Darbo stalas</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/localizations/common/localizedStrings" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="close">
       <source xml:lang="en">close</source>
+      <target state="needs-l10n">užverti</target>
     </trans-unit>
     <trans-unit id="find">
       <source xml:lang="en">find</source>
+      <target state="needs-l10n">rasti</target>
     </trans-unit>
     <trans-unit id="open">
       <source xml:lang="en">open</source>
+      <target state="needs-l10n">atviras</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/markers/common/markers" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="sev.error">
       <source xml:lang="en">Error</source>
+      <target state="needs-l10n">Klaida</target>
     </trans-unit>
     <trans-unit id="sev.info">
       <source xml:lang="en">Info</source>
+      <target state="needs-l10n">Informacija</target>
     </trans-unit>
     <trans-unit id="sev.warning">
       <source xml:lang="en">Warning</source>
+      <target state="needs-l10n">Įspėjimas</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/menubar/electron-main/menubar" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="mAbout">
       <source xml:lang="en">About {0}</source>
+      <target state="needs-l10n">Apie {0}</target>
     </trans-unit>
     <trans-unit id="mBringToFront">
       <source xml:lang="en">Bring All to Front</source>
+      <target state="needs-l10n">Viską išryškinti</target>
     </trans-unit>
     <trans-unit id="mEdit">
       <source xml:lang="en">&amp;&amp;Edit</source>
+      <target state="needs-l10n">&amp;&amp;Edit</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mFile">
       <source xml:lang="en">&amp;&amp;File</source>
+      <target state="needs-l10n">Paleisti Python failą terminale</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mGoto">
       <source xml:lang="en">&amp;&amp;Go</source>
+      <target state="needs-l10n">&amp;&amp;Go</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mHelp">
       <source xml:lang="en">&amp;&amp;Help</source>
+      <target state="needs-l10n">&amp;&amp;Pagalba</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mHide">
       <source xml:lang="en">Hide {0}</source>
+      <target state="needs-l10n">Paslėpti {0}</target>
     </trans-unit>
     <trans-unit id="mHideOthers">
       <source xml:lang="en">Hide Others</source>
+      <target state="needs-l10n">Paslėpti kitus</target>
     </trans-unit>
     <trans-unit id="mMergeAllWindows">
       <source xml:lang="en">Merge All Windows</source>
+      <target state="needs-l10n">Sujungti visus langus</target>
     </trans-unit>
     <trans-unit id="mMinimize">
       <source xml:lang="en">Minimize</source>
+      <target state="needs-l10n">Sumažinti</target>
     </trans-unit>
     <trans-unit id="mMoveTabToNewWindow">
       <source xml:lang="en">Move Tab to New Window</source>
+      <target state="needs-l10n">Skirtuko perkėlimas į naują langą</target>
     </trans-unit>
     <trans-unit id="mNewTab">
       <source xml:lang="en">New Tab</source>
+      <target state="needs-l10n">Naujas skirtukas</target>
     </trans-unit>
     <trans-unit id="mRun">
       <source xml:lang="en">&amp;&amp;Run</source>
+      <target state="needs-l10n">Vykdyti visus testus</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mSelection">
       <source xml:lang="en">&amp;&amp;Selection</source>
+      <target state="needs-l10n">&amp;&amp;Selection</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mServices">
       <source xml:lang="en">Services</source>
+      <target state="needs-l10n">Paslaugos</target>
     </trans-unit>
     <trans-unit id="mShowAll">
       <source xml:lang="en">Show All</source>
+      <target state="needs-l10n">Rodyti viską</target>
     </trans-unit>
     <trans-unit id="mShowNextTab">
       <source xml:lang="en">Show Next Tab</source>
+      <target state="needs-l10n">Rodyti kitą skirtuką</target>
     </trans-unit>
     <trans-unit id="mShowPreviousTab">
       <source xml:lang="en">Show Previous Tab</source>
+      <target state="needs-l10n">Rodyti ankstesnį skirtuką</target>
     </trans-unit>
     <trans-unit id="mTerminal">
       <source xml:lang="en">&amp;&amp;Terminal</source>
+      <target state="needs-l10n">Paleisti terminalą</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mView">
       <source xml:lang="en">&amp;&amp;View</source>
+      <target state="needs-l10n">&amp;&amp;Peržiūrėti</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mWindow">
       <source xml:lang="en">Window</source>
+      <target state="needs-l10n">Langas</target>
     </trans-unit>
     <trans-unit id="mZoom">
       <source xml:lang="en">Zoom</source>
+      <target state="needs-l10n">Padidinti</target>
     </trans-unit>
     <trans-unit id="miCheckForUpdates">
       <source xml:lang="en">Check for &amp;&amp;Updates...</source>
+      <target state="needs-l10n">Patikrinkite, ar yra &amp;&amp;Atnaujinimai...</target>
     </trans-unit>
     <trans-unit id="miCheckingForUpdates">
       <source xml:lang="en">Checking for Updates...</source>
+      <target state="needs-l10n">Ieškoma atnaujinimų...</target>
     </trans-unit>
     <trans-unit id="miDownloadUpdate">
       <source xml:lang="en">D&amp;&amp;ownload Available Update</source>
+      <target state="needs-l10n">D&amp;&amp; atsisiuntimas Galimas atnaujinimas</target>
     </trans-unit>
     <trans-unit id="miDownloadingUpdate">
       <source xml:lang="en">Downloading Update...</source>
+      <target state="needs-l10n">Atsisiuntimas Atnaujinimas...</target>
     </trans-unit>
     <trans-unit id="miInstallUpdate">
       <source xml:lang="en">Install &amp;&amp;Update...</source>
+      <target state="needs-l10n">Įdiegti ir atnaujinti...</target>
     </trans-unit>
     <trans-unit id="miInstallingUpdate">
       <source xml:lang="en">Installing Update...</source>
+      <target state="needs-l10n">Atnaujinimo diegimas...</target>
     </trans-unit>
     <trans-unit id="miNewWindow">
       <source xml:lang="en">New &amp;&amp;Window</source>
+      <target state="needs-l10n">Naujas &amp;&amp;Window</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="miPreferences">
       <source xml:lang="en">&amp;&amp;Preferences</source>
+      <target state="needs-l10n">&amp;&amp;Preferencijos</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="miQuit">
       <source xml:lang="en">Quit {0}</source>
+      <target state="needs-l10n">Atsisakyti {0}</target>
     </trans-unit>
     <trans-unit id="miRestartToUpdate">
       <source xml:lang="en">Restart to &amp;&amp;Update</source>
+      <target state="needs-l10n">Paleisti iš naujo į &amp;&amp;Atnaujinti</target>
     </trans-unit>
     <trans-unit id="miSwitchWindow">
       <source xml:lang="en">Switch &amp;&amp;Window...</source>
+      <target state="needs-l10n">Perjungti &amp;&amp;Window...</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/native/electron-main/nativeHostMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">&amp;&amp;Cancel</source>
+      <target state="needs-l10n">Atšaukti</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="cantCreateBinFolder">
       <source xml:lang="en">Unable to install the shell command '{0}'.</source>
+      <target state="needs-l10n">Nepavyksta įdiegti apvalkalo komandos '{0}'.</target>
     </trans-unit>
     <trans-unit id="cantUninstall">
       <source xml:lang="en">Unable to uninstall the shell command '{0}'.</source>
+      <target state="needs-l10n">Nepavyksta pašalinti apvalkalo komandos '{0}'.</target>
     </trans-unit>
     <trans-unit id="ok">
       <source xml:lang="en">&amp;&amp;OK</source>
+      <target state="needs-l10n">&amp;&amp;OK</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="sourceMissing">
       <source xml:lang="en">Unable to find shell script in '{0}'</source>
+      <target state="needs-l10n">Nepavyksta rasti apvalkalo scenarijaus į '{0}'</target>
     </trans-unit>
     <trans-unit id="warnEscalation">
       <source xml:lang="en">{0} will now prompt with 'osascript' for Administrator privileges to install the shell command.</source>
+      <target state="needs-l10n">{0} dabar bus paprašyta 'osascript' administratoriaus teisių, kad būtų galima įdiegti apvalkalo komandą.</target>
     </trans-unit>
     <trans-unit id="warnEscalationUninstall">
       <source xml:lang="en">{0} will now prompt with 'osascript' for Administrator privileges to uninstall the shell command.</source>
+      <target state="needs-l10n">{0} dabar bus paprašyta 'osascript' administratoriaus privilegijų, kad būtų galima pašalinti apvalkalo komandą.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/quickinput/browser/commandsQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="canNotRun">
       <source xml:lang="en">Command '{0}' resulted in an error ({1})</source>
+      <target state="needs-l10n">Komanda "{0}" sukėlė klaidą ({1})</target>
     </trans-unit>
     <trans-unit id="commandPickAriaLabelWithKeybinding">
       <source xml:lang="en">{0}, {1}</source>
+      <target state="needs-l10n">{0}, {1}</target>
     </trans-unit>
     <trans-unit id="morecCommands">
       <source xml:lang="en">other commands</source>
+      <target state="needs-l10n">kitos komandos</target>
     </trans-unit>
     <trans-unit id="recentlyUsed">
       <source xml:lang="en">recently used</source>
+      <target state="needs-l10n">neseniai naudotas</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/quickinput/browser/helpQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="editorCommands">
       <source xml:lang="en">editor commands</source>
+      <target state="needs-l10n">redaktoriaus komandos</target>
     </trans-unit>
     <trans-unit id="globalCommands">
       <source xml:lang="en">global commands</source>
+      <target state="needs-l10n">visuotinės komandos</target>
     </trans-unit>
     <trans-unit id="helpPickAriaLabel">
       <source xml:lang="en">{0}, {1}</source>
+      <target state="needs-l10n">{0}, {1}</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/request/common/request" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="httpConfigurationTitle">
       <source xml:lang="en">HTTP</source>
+      <target state="needs-l10n">HTTP</target>
     </trans-unit>
     <trans-unit id="proxy">
       <source xml:lang="en">The proxy setting to use. If not set, will be inherited from the `http_proxy` and `https_proxy` environment variables.</source>
+      <target state="needs-l10n">Naudotinas tarpinio serverio nustatymas. Jei nenustatytas, bus paveldėtas iš `http_proxy` ir `https_proxy` aplinkos kintamųjų.</target>
     </trans-unit>
     <trans-unit id="proxyAuthorization">
       <source xml:lang="en">The value to send as the `Proxy-Authorization` header for every network request.</source>
+      <target state="needs-l10n">Reikšmė, kuri siunčiama kaip `Proxy-Authorization` antraštė kiekvienai tinklo užklausai.</target>
     </trans-unit>
     <trans-unit id="proxySupport">
       <source xml:lang="en">Use the proxy support for extensions.</source>
+      <target state="needs-l10n">Naudokite įgaliotojo atstovo palaikymą plėtiniams.</target>
     </trans-unit>
     <trans-unit id="proxySupportFallback">
       <source xml:lang="en">Enable proxy support for extensions, fall back to request options, when no proxy found.</source>
+      <target state="needs-l10n">Įjungti tarpinio serverio palaikymą plėtiniams, grįžti prie užklausos parinkčių, kai nerandama tarpinio serverio.</target>
     </trans-unit>
     <trans-unit id="proxySupportOff">
       <source xml:lang="en">Disable proxy support for extensions.</source>
+      <target state="needs-l10n">Išjungti plėtinių proxy palaikymą.</target>
     </trans-unit>
     <trans-unit id="proxySupportOn">
       <source xml:lang="en">Enable proxy support for extensions.</source>
+      <target state="needs-l10n">Įjungti įgaliotojo serverio palaikymą plėtiniams.</target>
     </trans-unit>
     <trans-unit id="proxySupportOverride">
       <source xml:lang="en">Enable proxy support for extensions, override request options.</source>
+      <target state="needs-l10n">Įjungti įgaliotojo serverio palaikymą plėtiniams, pakeisti užklausos parinktis.</target>
     </trans-unit>
     <trans-unit id="strictSSL">
       <source xml:lang="en">Controls whether the proxy server certificate should be verified against the list of supplied CAs.</source>
+      <target state="needs-l10n">Nustato, ar tarpinio serverio sertifikatas turi būti tikrinamas pagal pateiktų CA sąrašą.</target>
     </trans-unit>
     <trans-unit id="systemCertificates">
       <source xml:lang="en">Controls whether CA certificates should be loaded from the OS. (On Windows and macOS, a reload of the window is required after turning this off.)</source>
+      <target state="needs-l10n">Nustato, ar CA sertifikatai turi būti įkeliami iš OS. (Išjungus šią funkciją "Windows" ir "MacOS", reikia iš naujo įkelti langą.)</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/telemetry/common/telemetryService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="telemetry.enableTelemetry">
       <source xml:lang="en">Enable usage data and errors to be sent to a Microsoft online service.</source>
+      <target state="needs-l10n">Įgalinti naudojimo duomenis ir klaidas siųsti į "Microsoft" internetinę paslaugą.</target>
     </trans-unit>
     <trans-unit id="telemetry.enableTelemetryMd">
       <source xml:lang="en">Enable usage data and errors to be sent to a Microsoft online service. Read our privacy statement [here]({0}).</source>
+      <target state="needs-l10n">Įgalinti naudojimo duomenis ir klaidas siųsti į "Microsoft" internetinę paslaugą. Perskaitykite mūsų privatumo pareiškimą [čia]({0}).</target>
     </trans-unit>
     <trans-unit id="telemetryConfigurationTitle">
       <source xml:lang="en">Telemetry</source>
+      <target state="needs-l10n">Telemetrija</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/terminal/common/terminalPlatformConfiguration" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="terminal.integrated.automationShell.linux">
       <source xml:lang="en">A path that when set will override {0} and ignore {1} values for automation-related terminal usage like tasks and debug.</source>
+      <target state="needs-l10n">Kelias, kurį nustačius bus pakeičiamos {0} ir ignoruojamos {1} reikšmės su automatizavimu susijusiam terminalo naudojimui, pavyzdžiui, užduotims ir derinimui.</target>
       <note>{0} and {1} are the `shell` and `shellArgs` settings keys</note>
     </trans-unit>
     <trans-unit id="terminal.integrated.automationShell.osx">
       <source xml:lang="en">A path that when set will override {0} and ignore {1} values for automation-related terminal usage like tasks and debug.</source>
+      <target state="needs-l10n">Kelias, kurį nustačius bus pakeičiamos {0} ir ignoruojamos {1} reikšmės su automatizavimu susijusiam terminalo naudojimui, pavyzdžiui, užduotims ir derinimui.</target>
       <note>{0} and {1} are the `shell` and `shellArgs` settings keys</note>
     </trans-unit>
     <trans-unit id="terminal.integrated.automationShell.windows">
       <source xml:lang="en">A path that when set will override {0} and ignore {1} values for automation-related terminal usage like tasks and debug.</source>
+      <target state="needs-l10n">Kelias, kurį nustačius bus pakeičiamos {0} ir ignoruojamos {1} reikšmės su automatizavimu susijusiam terminalo naudojimui, pavyzdžiui, užduotims ir derinimui.</target>
       <note>{0} and {1} are the `shell` and `shellArgs` settings keys</note>
     </trans-unit>
     <trans-unit id="terminal.integrated.defaultProfile.linux">
       <source xml:lang="en">The default profile used on Linux. This setting will currently be ignored if either {0} or {1} are set.</source>
+      <target state="needs-l10n">Numatytasis profilis, naudojamas "Linux". Šis nustatymas šiuo metu ignoruojamas, jei nustatytas {0} arba {1}.</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.defaultProfile.osx">
       <source xml:lang="en">The default profile used on macOS. This setting will currently be ignored if either {0} or {1} are set.</source>
+      <target state="needs-l10n">Numatytasis profilis, naudojamas "macOS". Šis nustatymas šiuo metu ignoruojamas, jei nustatytas {0} arba {1}.</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.defaultProfile.windows">
       <source xml:lang="en">The default profile used on Windows. This setting will currently be ignored if either {0} or {1} are set.</source>
+      <target state="needs-l10n">Numatytasis profilis, naudojamas "Windows" sistemoje. Šis nustatymas šiuo metu ignoruojamas, jei nustatytas {0} arba {1}.</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.inheritEnv">
       <source xml:lang="en">Whether new shells should inherit their environment from VS Code which may source a login shell to ensure $PATH and other development variables are initialized. This has no effect on Windows.</source>
+      <target state="needs-l10n">Ar nauji apvalkalai turėtų paveldėti aplinką iš VS kodo, kuris gali būti prisijungimo apvalkalo šaltinis, siekiant užtikrinti, kad būtų inicializuoti $PATH ir kiti kūrimo kintamieji. Tai neturi įtakos "Windows" sistemai.</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.profile.linux">
       <source xml:lang="en">The Linux profiles to present when creating a new terminal via the terminal dropdown. When set, these will override the default detected profiles. They are comprised of a {0} and optional {1}</source>
+      <target state="needs-l10n">"Linux" profiliai, kuriuos reikia pateikti kuriant naują terminalą per terminalo išskleidžiamąjį sąrašą. Nustatę šiuos profilius, jie pakeis numatytuosius aptiktus profilius. Juos sudaro {0} ir neprivalomas {1}</target>
       <note>{0} and {1} are the `path` and optional `args` settings keys</note>
     </trans-unit>
     <trans-unit id="terminal.integrated.profile.osx">
       <source xml:lang="en">The macOS profiles to present when creating a new terminal via the terminal dropdown. When set, these will override the default detected profiles. They are comprised of a {0} and optional {1}</source>
+      <target state="needs-l10n">"MacOS" profiliai, kuriuos reikia pateikti kuriant naują terminalą per terminalo išskleidžiamąjį sąrašą. Juos nustačius, jie pakeičia numatytuosius aptiktus profilius. Juos sudaro {0} ir neprivalomas {1}</target>
       <note>{0} and {1} are the `path` and optional `args` settings keys</note>
     </trans-unit>
     <trans-unit id="terminal.integrated.profiles.windows">
       <source xml:lang="en">The Windows profiles to present when creating a new terminal via the terminal dropdown. Set to null to exclude them, use the {0} property to use the default detected configuration. Or, set the {1} and optional {2}</source>
+      <target state="needs-l10n">"Windows" profiliai, kuriuos reikia pateikti kuriant naują terminalą per terminalo išskleidžiamąjį sąrašą. Nustatykite null, kad jų neįtrauktumėte, naudokite {0} savybę, kad naudotumėte numatytąją aptiktą konfigūraciją. Arba nustatykite {1} ir neprivalomą {2}</target>
       <note>{0}, {1}, and {2} are the `source`, `path` and optional `args` settings keys</note>
     </trans-unit>
     <trans-unit id="terminal.integrated.shell.linux">
       <source xml:lang="en">The path of the shell that the terminal uses on Linux. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+      <target state="needs-l10n">Kelias į apvalkalą, kurį terminalas naudoja "Linux" sistemoje. [Plačiau apie apvalkalo konfigūravimą](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.shell.linux.deprecation">
       <source xml:lang="en">This is deprecated, the new recommended way to configure your default shell is by creating a terminal profile in {0} and setting its profile name as the default in {1}. This will currently take priority over the new profiles settings but that will change in the future.</source>
+      <target state="needs-l10n">Šis būdas nebetaikomas, naujasis rekomenduojamas būdas konfigūruoti numatytąjį apvalkalą yra sukurti terminalo profilį {0} ir nustatyti jo profilio pavadinimą kaip numatytąjį {1}. Šiuo metu tai turi pirmenybę prieš naujų profilių nustatymus, tačiau ateityje tai pasikeis.</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.shell.osx">
       <source xml:lang="en">The path of the shell that the terminal uses on macOS. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+      <target state="needs-l10n">Korpuso, kurį terminalas naudoja "macOS" sistemoje, kelias. [Skaitykite daugiau apie apvalkalo konfigūravimą](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.shell.osx.deprecation">
       <source xml:lang="en">This is deprecated, the new recommended way to configure your default shell is by creating a terminal profile in {0} and setting its profile name as the default in {1}. This will currently take priority over the new profiles settings but that will change in the future.</source>
+      <target state="needs-l10n">Šis būdas nebetaikomas, naujasis rekomenduojamas būdas konfigūruoti numatytąjį apvalkalą yra sukurti terminalo profilį {0} ir nustatyti jo profilio pavadinimą kaip numatytąjį {1}. Šiuo metu tai turi pirmenybę prieš naujų profilių nustatymus, tačiau ateityje tai pasikeis.</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.shell.windows">
       <source xml:lang="en">The path of the shell that the terminal uses on Windows. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+      <target state="needs-l10n">Kelias į apvalkalą, kurį terminalas naudoja "Windows" sistemoje. [Skaitykite daugiau apie apvalkalo konfigūravimą](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.shell.windows.deprecation">
       <source xml:lang="en">This is deprecated, the new recommended way to configure your default shell is by creating a terminal profile in {0} and setting its profile name as the default in {1}. This will currently take priority over the new profiles settings but that will change in the future.</source>
+      <target state="needs-l10n">Šis būdas nebetaikomas, naujasis rekomenduojamas būdas konfigūruoti numatytąjį apvalkalą yra sukurti terminalo profilį {0} ir nustatyti jo profilio pavadinimą kaip numatytąjį {1}. Šiuo metu tai turi pirmenybę prieš naujų profilių nustatymus, tačiau ateityje tai pasikeis.</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.shellArgs.linux">
       <source xml:lang="en">The command line arguments to use when on the Linux terminal. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+      <target state="needs-l10n">Komandinės eilutės argumentai, kuriuos reikia naudoti "Linux" terminale. [Skaitykite daugiau apie apvalkalo konfigūravimą](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.shellArgs.osx">
       <source xml:lang="en">The command line arguments to use when on the macOS terminal. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+      <target state="needs-l10n">Komandinės eilutės argumentai, kuriuos reikia naudoti "MacOS" terminale. [Skaitykite daugiau apie apvalkalo konfigūravimą](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.shellArgs.windows">
       <source xml:lang="en">The command line arguments to use when on the Windows terminal. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+      <target state="needs-l10n">Komandinės eilutės argumentai, kuriuos reikia naudoti "Windows" terminale. [Skaitykite daugiau apie apvalkalo konfigūravimą](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.shellArgs.windows.string">
       <source xml:lang="en">The command line arguments in [command-line format](https://msdn.microsoft.com/en-au/08dfcab2-eb6e-49a4-80eb-87d4076c98c6) to use when on the Windows terminal. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+      <target state="needs-l10n">Komandinės eilutės argumentai [komandinės eilutės formatas](https://msdn.microsoft.com/en-au/08dfcab2-eb6e-49a4-80eb-87d4076c98c6), kuriuos reikia naudoti "Windows" terminale. [Daugiau apie apvalkalo konfigūravimą](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.showLinkHover">
       <source xml:lang="en">Whether to show hovers for links in the terminal output.</source>
+      <target state="needs-l10n">Ar terminalo išvestyje rodyti nuorodų žymes.</target>
     </trans-unit>
     <trans-unit id="terminal.integrated.useWslProfiles">
       <source xml:lang="en">Controls whether or not WSL distros are shown in the terminal dropdown</source>
+      <target state="needs-l10n">Nustato, ar WSL distributyvai rodomi terminalo išskleidžiamajame lange</target>
     </trans-unit>
     <trans-unit id="terminalIntegratedConfigurationTitle">
       <source xml:lang="en">Integrated Terminal</source>
+      <target state="needs-l10n">Integruotas terminalas</target>
     </trans-unit>
     <trans-unit id="terminalProfile.args">
       <source xml:lang="en">An optional set of arguments to run the shell executable with.</source>
+      <target state="needs-l10n">Neprivalomas argumentų rinkinys, su kuriuo paleidžiama apvalkalo vykdomoji programa.</target>
     </trans-unit>
     <trans-unit id="terminalProfile.color">
       <source xml:lang="en">A theme color ID to associate with this terminal.</source>
+      <target state="needs-l10n">Temos spalvos ID, kuris susiejamas su šiuo terminalu.</target>
     </trans-unit>
     <trans-unit id="terminalProfile.env">
       <source xml:lang="en">An object with environment variables that will be added to the terminal profile process. Set to `null` to delete environment variables from the base environment.</source>
+      <target state="needs-l10n">Objektas su aplinkos kintamaisiais, kurie bus įtraukti į terminalo profilio procesą. Nustatykite į `null`, jei norite ištrinti aplinkos kintamuosius iš bazinės aplinkos.</target>
     </trans-unit>
     <trans-unit id="terminalProfile.icon">
       <source xml:lang="en">A codicon ID to associate with this terminal.</source>
+      <target state="needs-l10n">Kodikono ID, kuris susiejamas su šiuo terminalu.</target>
     </trans-unit>
     <trans-unit id="terminalProfile.overrideName">
       <source xml:lang="en">Controls whether or not the profile name overrides the auto detected one.</source>
+      <target state="needs-l10n">Nustato, ar profilio pavadinimas bus viršesnis už automatiškai aptiktą.</target>
     </trans-unit>
     <trans-unit id="terminalProfile.path">
       <source xml:lang="en">A single path to a shell executable or an array of paths that will be used as fallbacks when one fails.</source>
+      <target state="needs-l10n">Vienas kelias į apvalkalo vykdomąjį failą arba kelių, kurie bus naudojami kaip atsarginiai variantai, kai vienas nepavyksta, masyvas.</target>
     </trans-unit>
     <trans-unit id="terminalProfile.windowsSource">
       <source xml:lang="en">A profile source that will auto detect the paths to the shell.</source>
+      <target state="needs-l10n">Profilio šaltinis, kuris automatiškai nustato kelius į apvalkalą.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/terminal/node/terminalProcess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="launchFail.cwdDoesNotExist">
       <source xml:lang="en">Starting directory (cwd) "{0}" does not exist</source>
+      <target state="needs-l10n">Pradinis katalogas (cwd) "{0}" neegzistuoja</target>
     </trans-unit>
     <trans-unit id="launchFail.cwdNotDirectory">
       <source xml:lang="en">Starting directory (cwd) "{0}" is not a directory</source>
+      <target state="needs-l10n">Pradinis katalogas (cwd) "{0}" nėra katalogas</target>
     </trans-unit>
     <trans-unit id="launchFail.executableDoesNotExist">
       <source xml:lang="en">Path to shell executable "{0}" does not exist</source>
+      <target state="needs-l10n">Kelio į apvalkalo vykdomąją programą "{0}" nėra</target>
     </trans-unit>
     <trans-unit id="launchFail.executableIsNotFileOrSymlink">
       <source xml:lang="en">Path to shell executable "{0}" is not a file of a symlink</source>
+      <target state="needs-l10n">Kelias į apvalkalo vykdomąją programą "{0}" nėra simlinko failas</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/theme/common/colorRegistry" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="activeContrastBorder">
       <source xml:lang="en">An extra border around active elements to separate them from others for greater contrast.</source>
+      <target state="needs-l10n">Papildomas apvadas aplink aktyvius elementus, kad jie būtų atskirti nuo kitų ir būtų kontrastingesni.</target>
     </trans-unit>
     <trans-unit id="activeLinkForeground">
       <source xml:lang="en">Color of active links.</source>
+      <target state="needs-l10n">Aktyvių nuorodų spalva.</target>
     </trans-unit>
     <trans-unit id="badgeBackground">
       <source xml:lang="en">Badge background color. Badges are small information labels, e.g. for search results count.</source>
+      <target state="needs-l10n">Ženklelio fono spalva. Ženkliukai - tai nedidelės informacinės etiketės, pvz., skirtos paieškos rezultatams skaičiuoti.</target>
     </trans-unit>
     <trans-unit id="badgeForeground">
       <source xml:lang="en">Badge foreground color. Badges are small information labels, e.g. for search results count.</source>
+      <target state="needs-l10n">Ženklelio pirmojo plano spalva. Ženkliukai - tai nedidelės informacinės etiketės, pvz., skirtos paieškos rezultatams skaičiuoti.</target>
     </trans-unit>
     <trans-unit id="breadcrumbsBackground">
       <source xml:lang="en">Background color of breadcrumb items.</source>
+      <target state="needs-l10n">Drobės elementų fono spalva.</target>
     </trans-unit>
     <trans-unit id="breadcrumbsFocusForeground">
       <source xml:lang="en">Color of focused breadcrumb items.</source>
+      <target state="needs-l10n">Fokusuoto džiūvėsėlio elementų spalva.</target>
     </trans-unit>
     <trans-unit id="breadcrumbsSelectedBackground">
       <source xml:lang="en">Background color of breadcrumb item picker.</source>
+      <target state="needs-l10n">Drobės elementų rinkiklio fono spalva.</target>
     </trans-unit>
     <trans-unit id="breadcrumbsSelectedForegound">
       <source xml:lang="en">Color of selected breadcrumb items.</source>
+      <target state="needs-l10n">Pasirinktų trupinių elementų spalva.</target>
     </trans-unit>
     <trans-unit id="buttonBackground">
       <source xml:lang="en">Button background color.</source>
+      <target state="needs-l10n">Mygtuko fono spalva.</target>
     </trans-unit>
     <trans-unit id="buttonBorder">
       <source xml:lang="en">Button border color.</source>
+      <target state="needs-l10n">Mygtuko rėmelio spalva.</target>
     </trans-unit>
     <trans-unit id="buttonForeground">
       <source xml:lang="en">Button foreground color.</source>
+      <target state="needs-l10n">Mygtuko pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="buttonHoverBackground">
       <source xml:lang="en">Button background color when hovering.</source>
+      <target state="needs-l10n">Mygtuko fono spalva, kai jis pakyla.</target>
     </trans-unit>
     <trans-unit id="buttonSecondaryBackground">
       <source xml:lang="en">Secondary button background color.</source>
+      <target state="needs-l10n">Antrinio mygtuko fono spalva.</target>
     </trans-unit>
     <trans-unit id="buttonSecondaryForeground">
       <source xml:lang="en">Secondary button foreground color.</source>
+      <target state="needs-l10n">Antrinio mygtuko pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="buttonSecondaryHoverBackground">
       <source xml:lang="en">Secondary button background color when hovering.</source>
+      <target state="needs-l10n">Antrinio mygtuko fono spalva, kai jis užkliūva.</target>
     </trans-unit>
     <trans-unit id="chartsBlue">
       <source xml:lang="en">The blue color used in chart visualizations.</source>
+      <target state="needs-l10n">Mėlyna spalva, naudojama diagramų vizualizacijose.</target>
     </trans-unit>
     <trans-unit id="chartsForeground">
       <source xml:lang="en">The foreground color used in charts.</source>
+      <target state="needs-l10n">Diagramose naudojama pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="chartsGreen">
       <source xml:lang="en">The green color used in chart visualizations.</source>
+      <target state="needs-l10n">Žalia spalva, naudojama diagramų vizualizacijose.</target>
     </trans-unit>
     <trans-unit id="chartsLines">
       <source xml:lang="en">The color used for horizontal lines in charts.</source>
+      <target state="needs-l10n">Spalva, naudojama horizontalioms linijoms diagramose.</target>
     </trans-unit>
     <trans-unit id="chartsOrange">
       <source xml:lang="en">The orange color used in chart visualizations.</source>
+      <target state="needs-l10n">Oranžinė spalva, naudojama diagramų vizualizacijose.</target>
     </trans-unit>
     <trans-unit id="chartsPurple">
       <source xml:lang="en">The purple color used in chart visualizations.</source>
+      <target state="needs-l10n">Violetinė spalva, naudojama diagramų vizualizacijose.</target>
     </trans-unit>
     <trans-unit id="chartsRed">
       <source xml:lang="en">The red color used in chart visualizations.</source>
+      <target state="needs-l10n">Raudona spalva, naudojama diagramų vizualizacijose.</target>
     </trans-unit>
     <trans-unit id="chartsYellow">
       <source xml:lang="en">The yellow color used in chart visualizations.</source>
+      <target state="needs-l10n">Geltona spalva, naudojama diagramų vizualizacijose.</target>
     </trans-unit>
     <trans-unit id="checkbox.background">
       <source xml:lang="en">Background color of checkbox widget.</source>
+      <target state="needs-l10n">Žymimojo langelio valdiklio fono spalva.</target>
     </trans-unit>
     <trans-unit id="checkbox.border">
       <source xml:lang="en">Border color of checkbox widget.</source>
+      <target state="needs-l10n">Žymimojo langelio valdiklio ribos spalva.</target>
     </trans-unit>
     <trans-unit id="checkbox.foreground">
       <source xml:lang="en">Foreground color of checkbox widget.</source>
+      <target state="needs-l10n">Žymimojo langelio valdiklio pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="contrastBorder">
       <source xml:lang="en">An extra border around elements to separate them from others for greater contrast.</source>
+      <target state="needs-l10n">Papildomas apvadas aplink elementus, kad jie būtų atskirti nuo kitų ir būtų kontrastingesni.</target>
     </trans-unit>
     <trans-unit id="descriptionForeground">
       <source xml:lang="en">Foreground color for description text providing additional information, for example for a label.</source>
+      <target state="needs-l10n">Aprašymo teksto, kuriame pateikiama papildoma informacija, pvz., etiketės, pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="diffDiagonalFill">
       <source xml:lang="en">Color of the diff editor's diagonal fill. The diagonal fill is used in side-by-side diff views.</source>
+      <target state="needs-l10n">Skirtumo redaktoriaus įstrižainės užpildo spalva. Įstrižainės užpildas naudojamas šoniniuose skirtumų rodiniuose.</target>
     </trans-unit>
     <trans-unit id="diffEditorBorder">
       <source xml:lang="en">Border color between the two text editors.</source>
+      <target state="needs-l10n">Dviejų teksto redaktorių ribos spalva.</target>
     </trans-unit>
     <trans-unit id="diffEditorInserted">
       <source xml:lang="en">Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Įterpto teksto fono spalva. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="diffEditorInsertedOutline">
       <source xml:lang="en">Outline color for the text that got inserted.</source>
+      <target state="needs-l10n">Įterpto teksto kontūro spalva.</target>
     </trans-unit>
     <trans-unit id="diffEditorRemoved">
       <source xml:lang="en">Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Pašalinto teksto fono spalva. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="diffEditorRemovedOutline">
       <source xml:lang="en">Outline color for text that got removed.</source>
+      <target state="needs-l10n">Pašalinto teksto kontūro spalva.</target>
     </trans-unit>
     <trans-unit id="dropdownBackground">
       <source xml:lang="en">Dropdown background.</source>
+      <target state="needs-l10n">Iškritimo fonas.</target>
     </trans-unit>
     <trans-unit id="dropdownBorder">
       <source xml:lang="en">Dropdown border.</source>
+      <target state="needs-l10n">Išskleidžiamoji riba.</target>
     </trans-unit>
     <trans-unit id="dropdownForeground">
       <source xml:lang="en">Dropdown foreground.</source>
+      <target state="needs-l10n">Išskleidžiamojo sąrašo pirmame plane.</target>
     </trans-unit>
     <trans-unit id="dropdownListBackground">
       <source xml:lang="en">Dropdown list background.</source>
+      <target state="needs-l10n">Išskleidžiamojo sąrašo fonas.</target>
     </trans-unit>
     <trans-unit id="editorBackground">
       <source xml:lang="en">Editor background color.</source>
+      <target state="needs-l10n">Redaktoriaus fono spalva.</target>
     </trans-unit>
     <trans-unit id="editorError.background">
       <source xml:lang="en">Background color of error text in the editor. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Redaktoriaus klaidų teksto fono spalva. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="editorError.foreground">
       <source xml:lang="en">Foreground color of error squigglies in the editor.</source>
+      <target state="needs-l10n">Redaktoriaus klaidų skeveldrų pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="editorFindMatch">
       <source xml:lang="en">Color of the current search match.</source>
+      <target state="needs-l10n">Dabartinio paieškos atitikmens spalva.</target>
     </trans-unit>
     <trans-unit id="editorFindMatchBorder">
       <source xml:lang="en">Border color of the current search match.</source>
+      <target state="needs-l10n">Dabartinės paieškos atitikmens ribos spalva.</target>
     </trans-unit>
     <trans-unit id="editorForeground">
       <source xml:lang="en">Editor default foreground color.</source>
+      <target state="needs-l10n">Redaktoriaus numatytoji pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="editorHint.foreground">
       <source xml:lang="en">Foreground color of hint squigglies in the editor.</source>
+      <target state="needs-l10n">Redaktoriaus užuominų "Squigglies" pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="editorInactiveSelection">
       <source xml:lang="en">Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Neaktyvaus redaktoriaus pasirinkimo spalva. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="editorInfo.background">
       <source xml:lang="en">Background color of info text in the editor. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Redaktoriaus informacinio teksto fono spalva. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="editorInfo.foreground">
       <source xml:lang="en">Foreground color of info squigglies in the editor.</source>
+      <target state="needs-l10n">Redaktoriaus informacinių skeveldrų pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="editorInlayHintBackground">
       <source xml:lang="en">Background color of inline hints</source>
+      <target state="needs-l10n">Įterptinių užuominų fono spalva</target>
     </trans-unit>
     <trans-unit id="editorInlayHintForeground">
       <source xml:lang="en">Foreground color of inline hints</source>
+      <target state="needs-l10n">Įterptinių užuominų pirmojo plano spalva</target>
     </trans-unit>
     <trans-unit id="editorLightBulbAutoFixForeground">
       <source xml:lang="en">The color used for the lightbulb auto fix actions icon.</source>
+      <target state="needs-l10n">Žibalinės lemputės automatinio taisymo veiksmų piktogramos spalva.</target>
     </trans-unit>
     <trans-unit id="editorLightBulbForeground">
       <source xml:lang="en">The color used for the lightbulb actions icon.</source>
+      <target state="needs-l10n">Lemputės veiksmų piktogramos spalva.</target>
     </trans-unit>
     <trans-unit id="editorSelectionBackground">
       <source xml:lang="en">Color of the editor selection.</source>
+      <target state="needs-l10n">Redaktoriaus pasirinkimo spalva.</target>
     </trans-unit>
     <trans-unit id="editorSelectionForeground">
       <source xml:lang="en">Color of the selected text for high contrast.</source>
+      <target state="needs-l10n">Pasirinkto teksto spalva, skirta dideliam kontrastui.</target>
     </trans-unit>
     <trans-unit id="editorSelectionHighlight">
       <source xml:lang="en">Color for regions with the same content as the selection. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Regionų, kurių turinys yra toks pat kaip pasirinkimo, spalva. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="editorSelectionHighlightBorder">
       <source xml:lang="en">Border color for regions with the same content as the selection.</source>
+      <target state="needs-l10n">Regionų, kurių turinys yra toks pat kaip pasirinkimo, ribų spalva.</target>
     </trans-unit>
     <trans-unit id="editorWarning.background">
       <source xml:lang="en">Background color of warning text in the editor. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Redaktoriaus įspėjimo teksto fono spalva. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="editorWarning.foreground">
       <source xml:lang="en">Foreground color of warning squigglies in the editor.</source>
+      <target state="needs-l10n">Redaktoriaus įspėjamųjų skeveldrų pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="editorWidgetBackground">
       <source xml:lang="en">Background color of editor widgets, such as find/replace.</source>
+      <target state="needs-l10n">Redaktoriaus valdiklių, pvz., rasti / pakeisti, fono spalva.</target>
     </trans-unit>
     <trans-unit id="editorWidgetBorder">
       <source xml:lang="en">Border color of editor widgets. The color is only used if the widget chooses to have a border and if the color is not overridden by a widget.</source>
+      <target state="needs-l10n">Redaktoriaus valdiklių rėmelių spalva. Spalva naudojama tik tuo atveju, jei valdiklis pasirenka turėti apvadą ir jei spalva nėra pakeista valdikliu.</target>
     </trans-unit>
     <trans-unit id="editorWidgetForeground">
       <source xml:lang="en">Foreground color of editor widgets, such as find/replace.</source>
+      <target state="needs-l10n">Redaktoriaus valdiklių, pvz., rasti / pakeisti, pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="editorWidgetResizeBorder">
       <source xml:lang="en">Border color of the resize bar of editor widgets. The color is only used if the widget chooses to have a resize border and if the color is not overridden by a widget.</source>
+      <target state="needs-l10n">Redaktoriaus valdiklių dydžio keitimo juostos ribų spalva. Spalva naudojama tik tuo atveju, jei valdiklis pasirenka keisti dydžio ribas ir jei spalva nėra pakeista valdikliu.</target>
     </trans-unit>
     <trans-unit id="errorBorder">
       <source xml:lang="en">Border color of error boxes in the editor.</source>
+      <target state="needs-l10n">Redaktoriaus klaidų langelių ribų spalva.</target>
     </trans-unit>
     <trans-unit id="errorForeground">
       <source xml:lang="en">Overall foreground color for error messages. This color is only used if not overridden by a component.</source>
+      <target state="needs-l10n">Bendra klaidų pranešimų pirmojo plano spalva. Ši spalva naudojama tik tuo atveju, jei jos neperrašo komponentas.</target>
     </trans-unit>
     <trans-unit id="findMatchHighlight">
       <source xml:lang="en">Color of the other search matches. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Kitų paieškos atitikmenų spalva. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="findMatchHighlightBorder">
       <source xml:lang="en">Border color of the other search matches.</source>
+      <target state="needs-l10n">Kitų paieškos atitikmenų ribos spalva.</target>
     </trans-unit>
     <trans-unit id="findRangeHighlight">
       <source xml:lang="en">Color of the range limiting the search. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Paiešką ribojančio diapazono spalva. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="findRangeHighlightBorder">
       <source xml:lang="en">Border color of the range limiting the search. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Paiešką ribojančio diapazono ribos spalva. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="focusBorder">
       <source xml:lang="en">Overall border color for focused elements. This color is only used if not overridden by a component.</source>
+      <target state="needs-l10n">Bendra fokusuotų elementų apvado spalva. Ši spalva naudojama tik tuo atveju, jei jos nepakeičia komponentas.</target>
     </trans-unit>
     <trans-unit id="foreground">
       <source xml:lang="en">Overall foreground color. This color is only used if not overridden by a component.</source>
+      <target state="needs-l10n">Bendra pirmojo plano spalva. Ši spalva naudojama tik tuo atveju, jei jos nepakeičia komponentas.</target>
     </trans-unit>
     <trans-unit id="highlight">
       <source xml:lang="en">List/Tree foreground color of the match highlights when searching inside the list/tree.</source>
+      <target state="needs-l10n">Sąrašo / medžio pirmojo plano spalva, kuria paryškinami atitikmenys, kai ieškoma sąraše / medyje.</target>
     </trans-unit>
     <trans-unit id="hintBorder">
       <source xml:lang="en">Border color of hint boxes in the editor.</source>
+      <target state="needs-l10n">Redaktoriaus užuominų langelių ribų spalva.</target>
     </trans-unit>
     <trans-unit id="hoverBackground">
       <source xml:lang="en">Background color of the editor hover.</source>
+      <target state="needs-l10n">Redaktoriaus fono spalva, kai rodomas užsklanda.</target>
     </trans-unit>
     <trans-unit id="hoverBorder">
       <source xml:lang="en">Border color of the editor hover.</source>
+      <target state="needs-l10n">Redaktoriaus žymeklio ribos spalva.</target>
     </trans-unit>
     <trans-unit id="hoverForeground">
       <source xml:lang="en">Foreground color of the editor hover.</source>
+      <target state="needs-l10n">Redaktoriaus žymės pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="hoverHighlight">
       <source xml:lang="en">Highlight below the word for which a hover is shown. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Paryškinkite po žodžiu, kuriam rodoma užsklanda. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="iconForeground">
       <source xml:lang="en">The default color for icons in the workbench.</source>
+      <target state="needs-l10n">Numatytoji darbalaukio piktogramų spalva.</target>
     </trans-unit>
     <trans-unit id="infoBorder">
       <source xml:lang="en">Border color of info boxes in the editor.</source>
+      <target state="needs-l10n">Redaktoriaus informacijos langelių apvadų spalva.</target>
     </trans-unit>
     <trans-unit id="inputBoxActiveOptionBorder">
       <source xml:lang="en">Border color of activated options in input fields.</source>
+      <target state="needs-l10n">Įvesties laukų įjungtų parinkčių ribų spalva.</target>
     </trans-unit>
     <trans-unit id="inputBoxBackground">
       <source xml:lang="en">Input box background.</source>
+      <target state="needs-l10n">Įvesties langelio fonas.</target>
     </trans-unit>
     <trans-unit id="inputBoxBorder">
       <source xml:lang="en">Input box border.</source>
+      <target state="needs-l10n">Įvesties langelio apvadas.</target>
     </trans-unit>
     <trans-unit id="inputBoxForeground">
       <source xml:lang="en">Input box foreground.</source>
+      <target state="needs-l10n">Įvesties laukas pirmame plane.</target>
     </trans-unit>
     <trans-unit id="inputOption.activeBackground">
       <source xml:lang="en">Background color of activated options in input fields.</source>
+      <target state="needs-l10n">Įvesties laukų įjungtų parinkčių fono spalva.</target>
     </trans-unit>
     <trans-unit id="inputOption.activeForeground">
       <source xml:lang="en">Foreground color of activated options in input fields.</source>
+      <target state="needs-l10n">Įvesties laukų aktyvuotų parinkčių įvesties fono spalva.</target>
     </trans-unit>
     <trans-unit id="inputPlaceholderForeground">
       <source xml:lang="en">Input box foreground color for placeholder text.</source>
+      <target state="needs-l10n">Įvesties lauko įvesties teksto pirmojo fono spalva.</target>
     </trans-unit>
     <trans-unit id="inputValidationErrorBackground">
       <source xml:lang="en">Input validation background color for error severity.</source>
+      <target state="needs-l10n">Įvesties patvirtinimo fono spalva pagal klaidos rimtumą.</target>
     </trans-unit>
     <trans-unit id="inputValidationErrorBorder">
       <source xml:lang="en">Input validation border color for error severity.</source>
+      <target state="needs-l10n">Įvesties patvirtinimo rėmelio spalva pagal klaidos sunkumą.</target>
     </trans-unit>
     <trans-unit id="inputValidationErrorForeground">
       <source xml:lang="en">Input validation foreground color for error severity.</source>
+      <target state="needs-l10n">Įvesties patvirtinimo įvesties pirmojo fono spalva pagal klaidos rimtumą.</target>
     </trans-unit>
     <trans-unit id="inputValidationInfoBackground">
       <source xml:lang="en">Input validation background color for information severity.</source>
+      <target state="needs-l10n">Įvesties patvirtinimo fono spalva, skirta informacijos rimtumui.</target>
     </trans-unit>
     <trans-unit id="inputValidationInfoBorder">
       <source xml:lang="en">Input validation border color for information severity.</source>
+      <target state="needs-l10n">Įvesties patvirtinimo ribos spalva, skirta informacijos griežtumui.</target>
     </trans-unit>
     <trans-unit id="inputValidationInfoForeground">
       <source xml:lang="en">Input validation foreground color for information severity.</source>
+      <target state="needs-l10n">Įvesties patvirtinimo įvesties pirmojo fono spalva, skirta informacijos rimtumui.</target>
     </trans-unit>
     <trans-unit id="inputValidationWarningBackground">
       <source xml:lang="en">Input validation background color for warning severity.</source>
+      <target state="needs-l10n">Įvesties patvirtinimo fono spalva, skirta įspėjimo rimtumui.</target>
     </trans-unit>
     <trans-unit id="inputValidationWarningBorder">
       <source xml:lang="en">Input validation border color for warning severity.</source>
+      <target state="needs-l10n">Įvesties patvirtinimo rėmelio spalva, skirta įspėjimo griežtumui.</target>
     </trans-unit>
     <trans-unit id="inputValidationWarningForeground">
       <source xml:lang="en">Input validation foreground color for warning severity.</source>
+      <target state="needs-l10n">Įvesties patvirtinimo įvesties įspėjimo griežtumo pirmojo fono spalva.</target>
     </trans-unit>
     <trans-unit id="invalidItemForeground">
       <source xml:lang="en">List/Tree foreground color for invalid items, for example an unresolved root in explorer.</source>
+      <target state="needs-l10n">Sąrašo / medžio priekinio fono spalva negaliojantiems elementams, pvz., neišspręstai šakniai naršyklėje.</target>
     </trans-unit>
     <trans-unit id="keybindingLabelBackground">
       <source xml:lang="en">Keybinding label background color. The keybinding label is used to represent a keyboard shortcut.</source>
+      <target state="needs-l10n">Klavišų pririšimo etiketės fono spalva. Klavišų pririšimo etiketė naudojama klaviatūros spartaus klavišo kombinacijai atvaizduoti.</target>
     </trans-unit>
     <trans-unit id="keybindingLabelBorder">
       <source xml:lang="en">Keybinding label border color. The keybinding label is used to represent a keyboard shortcut.</source>
+      <target state="needs-l10n">Klavišų pririšimo etiketės apvado spalva. Klavišų pririšimo etiketė naudojama klaviatūros spartaus klavišo kombinacijai atvaizduoti.</target>
     </trans-unit>
     <trans-unit id="keybindingLabelBottomBorder">
       <source xml:lang="en">Keybinding label border bottom color. The keybinding label is used to represent a keyboard shortcut.</source>
+      <target state="needs-l10n">Klavišų pririšimo etiketės apvado apatinės dalies spalva. Klavišų pririšimo etiketė naudojama klaviatūros spartaus klavišo kombinacijai atvaizduoti.</target>
     </trans-unit>
     <trans-unit id="keybindingLabelForeground">
       <source xml:lang="en">Keybinding label foreground color. The keybinding label is used to represent a keyboard shortcut.</source>
+      <target state="needs-l10n">Klavišų pririšimo etiketės pirmojo plano spalva. Klavišų pririšimo etiketė naudojama klaviatūros spartaus klavišo kombinacijai atvaizduoti.</target>
     </trans-unit>
     <trans-unit id="listActiveSelectionBackground">
       <source xml:lang="en">List/Tree background color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.</source>
+      <target state="needs-l10n">Pasirinkto elemento fono spalva, kai sąrašas / medis yra aktyvus. Aktyvus sąrašas / medis turi klaviatūros fokusą, neaktyvus - ne.</target>
     </trans-unit>
     <trans-unit id="listActiveSelectionForeground">
       <source xml:lang="en">List/Tree foreground color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.</source>
+      <target state="needs-l10n">Sąrašo / medžio pirmojo plano spalva pasirinktam elementui, kai sąrašas / medis yra aktyvus. Aktyvus sąrašas / medis turi klaviatūros fokusą, neaktyvus - ne.</target>
     </trans-unit>
     <trans-unit id="listActiveSelectionIconForeground">
       <source xml:lang="en">List/Tree icon foreground color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.</source>
+      <target state="needs-l10n">Sąrašo / medžio piktogramos pirmojo plano spalva, skirta pasirinktam elementui, kai sąrašas / medis yra aktyvus. Aktyvus sąrašas / medis turi klaviatūros fokusą, neaktyvus - ne.</target>
     </trans-unit>
     <trans-unit id="listDeemphasizedForeground">
       <source xml:lang="en">List/Tree foreground color for items that are deemphasized. </source>
+      <target state="needs-l10n">Sąrašo / medžio pirmojo plano spalva elementams, kurie yra išskirtini</target>
     </trans-unit>
     <trans-unit id="listDropBackground">
       <source xml:lang="en">List/Tree drag and drop background when moving items around using the mouse.</source>
+      <target state="needs-l10n">Sąrašo / medžio vilkimo ir nuleidimo fonas, kai elementus perkeliate pele.</target>
     </trans-unit>
     <trans-unit id="listErrorForeground">
       <source xml:lang="en">Foreground color of list items containing errors.</source>
+      <target state="needs-l10n">Sąrašo elementų, kuriuose yra klaidų, pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="listFilterMatchHighlight">
       <source xml:lang="en">Background color of the filtered match.</source>
+      <target state="needs-l10n">Išfiltruoto atitikmens fono spalva.</target>
     </trans-unit>
     <trans-unit id="listFilterMatchHighlightBorder">
       <source xml:lang="en">Border color of the filtered match.</source>
+      <target state="needs-l10n">Filtruojamo atitikmens ribos spalva.</target>
     </trans-unit>
     <trans-unit id="listFilterWidgetBackground">
       <source xml:lang="en">Background color of the type filter widget in lists and trees.</source>
+      <target state="needs-l10n">Sąrašuose ir medžiuose esančio tipo filtro valdiklio fono spalva.</target>
     </trans-unit>
     <trans-unit id="listFilterWidgetNoMatchesOutline">
       <source xml:lang="en">Outline color of the type filter widget in lists and trees, when there are no matches.</source>
+      <target state="needs-l10n">Sąrašuose ir medžiuose esančio tipo filtro valdiklio kontūro spalva, kai nėra atitikmenų.</target>
     </trans-unit>
     <trans-unit id="listFilterWidgetOutline">
       <source xml:lang="en">Outline color of the type filter widget in lists and trees.</source>
+      <target state="needs-l10n">Sąrašuose ir medžiuose esančio tipo filtro valdiklio kontūro spalva.</target>
     </trans-unit>
     <trans-unit id="listFocusBackground">
       <source xml:lang="en">List/Tree background color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.</source>
+      <target state="needs-l10n">Sąrašo / medžio fono spalva, skirta fokusuotam elementui, kai sąrašas / medis yra aktyvus. Aktyvus sąrašas / medis turi klaviatūros fokusą, neaktyvus - ne.</target>
     </trans-unit>
     <trans-unit id="listFocusForeground">
       <source xml:lang="en">List/Tree foreground color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.</source>
+      <target state="needs-l10n">Sąrašo / medžio pirmojo plano spalva, skirta fokusuotam elementui, kai sąrašas / medis yra aktyvus. Aktyvus sąrašas / medis turi klaviatūros fokusą, neaktyvus - ne.</target>
     </trans-unit>
     <trans-unit id="listFocusHighlightForeground">
       <source xml:lang="en">List/Tree foreground color of the match highlights on actively focused items when searching inside the list/tree.</source>
+      <target state="needs-l10n">Sąrašo / medžio pirmojo plano spalva, kuria paryškinami aktyviai fokusuojamų elementų atitikmenys, kai ieškoma sąrašo / medžio viduje.</target>
     </trans-unit>
     <trans-unit id="listFocusOutline">
       <source xml:lang="en">List/Tree outline color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.</source>
+      <target state="needs-l10n">Sąrašo / medžio kontūro spalva, skirta sufokusuotam elementui, kai sąrašas / medis yra aktyvus. Aktyvus sąrašas / medis turi klaviatūros fokusą, neaktyvus - ne.</target>
     </trans-unit>
     <trans-unit id="listHoverBackground">
       <source xml:lang="en">List/Tree background when hovering over items using the mouse.</source>
+      <target state="needs-l10n">Sąrašo / medžio fonas, kai užvedus pelę ant elementų.</target>
     </trans-unit>
     <trans-unit id="listHoverForeground">
       <source xml:lang="en">List/Tree foreground when hovering over items using the mouse.</source>
+      <target state="needs-l10n">Sąrašo / medžio pirmas planas, kai pelės žymekliu užvedama ant elementų.</target>
     </trans-unit>
     <trans-unit id="listInactiveFocusBackground">
       <source xml:lang="en">List/Tree background color for the focused item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.</source>
+      <target state="needs-l10n">Sąrašo / medžio fono spalva, skirta fokusuotam elementui, kai sąrašas / medis yra neaktyvus. Aktyvus sąrašas / medis turi klaviatūros fokusą, neaktyvus - ne.</target>
     </trans-unit>
     <trans-unit id="listInactiveFocusOutline">
       <source xml:lang="en">List/Tree outline color for the focused item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.</source>
+      <target state="needs-l10n">Sąrašo / medžio kontūro spalva, skirta fokusuotam elementui, kai sąrašas / medis yra neaktyvus. Aktyvus sąrašas / medis turi klaviatūros fokusą, neaktyvus - ne.</target>
     </trans-unit>
     <trans-unit id="listInactiveSelectionBackground">
       <source xml:lang="en">List/Tree background color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.</source>
+      <target state="needs-l10n">Sąrašo / medžio fono spalva pasirinktam elementui, kai sąrašas / medis yra neaktyvus. Aktyvus sąrašas / medis turi klaviatūros fokusą, neaktyvus - ne.</target>
     </trans-unit>
     <trans-unit id="listInactiveSelectionForeground">
       <source xml:lang="en">List/Tree foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.</source>
+      <target state="needs-l10n">Sąrašo / medžio pirmojo plano spalva pasirinktam elementui, kai sąrašas / medis yra neaktyvus. Aktyvus sąrašas / medis turi klaviatūros fokusą, neaktyvus - ne.</target>
     </trans-unit>
     <trans-unit id="listInactiveSelectionIconForeground">
       <source xml:lang="en">List/Tree icon foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.</source>
+      <target state="needs-l10n">Pasirinkto elemento sąrašo / medžio piktogramos pirmojo plano spalva, kai sąrašas / medis yra neaktyvus. Aktyvus sąrašas / medis turi klaviatūros fokusą, neaktyvus - ne.</target>
     </trans-unit>
     <trans-unit id="listWarningForeground">
       <source xml:lang="en">Foreground color of list items containing warnings.</source>
+      <target state="needs-l10n">Sąrašo elementų, kuriuose yra įspėjimų, pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="menuBackground">
       <source xml:lang="en">Background color of menu items.</source>
+      <target state="needs-l10n">Meniu elementų fono spalva.</target>
     </trans-unit>
     <trans-unit id="menuBorder">
       <source xml:lang="en">Border color of menus.</source>
+      <target state="needs-l10n">Meniu ribų spalva.</target>
     </trans-unit>
     <trans-unit id="menuForeground">
       <source xml:lang="en">Foreground color of menu items.</source>
+      <target state="needs-l10n">Meniu elementų pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="menuSelectionBackground">
       <source xml:lang="en">Background color of the selected menu item in menus.</source>
+      <target state="needs-l10n">Pasirinkto meniu elemento fono spalva.</target>
     </trans-unit>
     <trans-unit id="menuSelectionBorder">
       <source xml:lang="en">Border color of the selected menu item in menus.</source>
+      <target state="needs-l10n">Meniu pasirinkto meniu elemento ribos spalva.</target>
     </trans-unit>
     <trans-unit id="menuSelectionForeground">
       <source xml:lang="en">Foreground color of the selected menu item in menus.</source>
+      <target state="needs-l10n">Pasirinkto meniu elemento pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="menuSeparatorBackground">
       <source xml:lang="en">Color of a separator menu item in menus.</source>
+      <target state="needs-l10n">Meniu atskiriamojo meniu elemento spalva.</target>
     </trans-unit>
     <trans-unit id="mergeBorder">
       <source xml:lang="en">Border color on headers and the splitter in inline merge-conflicts.</source>
+      <target state="needs-l10n">Apvado spalva antraštėse ir dalytuve, kai yra eilutės sujungimo konfliktų.</target>
     </trans-unit>
     <trans-unit id="mergeCommonContentBackground">
       <source xml:lang="en">Common ancestor content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Bendro protėvio turinio fonas eilutės sujungimo konfliktuose. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="mergeCommonHeaderBackground">
       <source xml:lang="en">Common ancestor header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Bendro protėvio antraštės fonas eilutės sujungimo konfliktuose. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="mergeCurrentContentBackground">
       <source xml:lang="en">Current content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Dabartinis turinio fonas eilutės sujungimo konfliktuose. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="mergeCurrentHeaderBackground">
       <source xml:lang="en">Current header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Dabartinis antraštės fonas eilutės sujungimo konfliktuose. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="mergeIncomingContentBackground">
       <source xml:lang="en">Incoming content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Įeinančio turinio fonas eilutės sujungimo konfliktuose. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="mergeIncomingHeaderBackground">
       <source xml:lang="en">Incoming header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Įeinančios antraštės fonas eilutės sujungimo konfliktuose. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="minimapBackground">
       <source xml:lang="en">Minimap background color.</source>
+      <target state="needs-l10n">Minimalaus žemėlapio fono spalva.</target>
     </trans-unit>
     <trans-unit id="minimapError">
       <source xml:lang="en">Minimap marker color for errors.</source>
+      <target state="needs-l10n">Minimalaus žemėlapio klaidų žymeklio spalva.</target>
     </trans-unit>
     <trans-unit id="minimapFindMatchHighlight">
       <source xml:lang="en">Minimap marker color for find matches.</source>
+      <target state="needs-l10n">Minimaliojo žemėlapio žymeklio spalva, kai ieškoma atitikmenų.</target>
     </trans-unit>
     <trans-unit id="minimapSelectionHighlight">
       <source xml:lang="en">Minimap marker color for the editor selection.</source>
+      <target state="needs-l10n">Minimap žymeklio spalva redaktoriaus pasirinkimui.</target>
     </trans-unit>
     <trans-unit id="minimapSliderActiveBackground">
       <source xml:lang="en">Minimap slider background color when clicked on.</source>
+      <target state="needs-l10n">Minimalaus žemėlapio slankiklio fono spalva, kai spustelėjama.</target>
     </trans-unit>
     <trans-unit id="minimapSliderBackground">
       <source xml:lang="en">Minimap slider background color.</source>
+      <target state="needs-l10n">Minimalaus žemėlapio slankiklio fono spalva.</target>
     </trans-unit>
     <trans-unit id="minimapSliderHoverBackground">
       <source xml:lang="en">Minimap slider background color when hovering.</source>
+      <target state="needs-l10n">Minimalaus žemėlapio slankiklio fono spalva, kai užvedamas.</target>
     </trans-unit>
     <trans-unit id="overviewRuleWarning">
       <source xml:lang="en">Minimap marker color for warnings.</source>
+      <target state="needs-l10n">Minimalaus žemėlapio įspėjimų žymeklio spalva.</target>
     </trans-unit>
     <trans-unit id="overviewRulerCommonContentForeground">
       <source xml:lang="en">Common ancestor overview ruler foreground for inline merge-conflicts.</source>
+      <target state="needs-l10n">Bendro protėvio apžvalgos liniuotė pirmame plane, skirta eilutės sujungimo konfliktams.</target>
     </trans-unit>
     <trans-unit id="overviewRulerCurrentContentForeground">
       <source xml:lang="en">Current overview ruler foreground for inline merge-conflicts.</source>
+      <target state="needs-l10n">Dabartinės apžvalgos liniuotės pirmas planas, skirtas eilutės sujungimo konfliktams.</target>
     </trans-unit>
     <trans-unit id="overviewRulerFindMatchForeground">
       <source xml:lang="en">Overview ruler marker color for find matches. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Apžvalga Liniuotės žymeklio spalva, skirta rasti atitikmenis. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="overviewRulerIncomingContentForeground">
       <source xml:lang="en">Incoming overview ruler foreground for inline merge-conflicts.</source>
+      <target state="needs-l10n">Įeinančios apžvalgos liniuotės pirmame plane, skirtame eilutės sujungimo konfliktams.</target>
     </trans-unit>
     <trans-unit id="overviewRulerSelectionHighlightForeground">
       <source xml:lang="en">Overview ruler marker color for selection highlights. The color must not be opaque so as not to hide underlying decorations.</source>
+      <target state="needs-l10n">Apžvalgos liniuotės žymeklio spalva, skirta pasirinkimo akcentams paryškinti. Spalva neturi būti nepermatoma, kad nepaslėptų po ja esančių dekoracijų.</target>
     </trans-unit>
     <trans-unit id="pickerBackground">
       <source xml:lang="en">Quick picker background color. The quick picker widget is the container for pickers like the command palette.</source>
+      <target state="needs-l10n">Greito pasirinkimo fono spalva. Greitojo pasirinkimo valdiklis yra rinkiklių, tokių kaip komandų paletė, talpykla.</target>
     </trans-unit>
     <trans-unit id="pickerForeground">
       <source xml:lang="en">Quick picker foreground color. The quick picker widget is the container for pickers like the command palette.</source>
+      <target state="needs-l10n">Greito rinkiklio pirmojo plano spalva. Greitojo pasirinkimo valdiklis yra rinkiklių, tokių kaip komandų paletė, talpykla.</target>
     </trans-unit>
     <trans-unit id="pickerGroupBorder">
       <source xml:lang="en">Quick picker color for grouping borders.</source>
+      <target state="needs-l10n">Greitai pasirenkama grupavimo ribų spalva.</target>
     </trans-unit>
     <trans-unit id="pickerGroupForeground">
       <source xml:lang="en">Quick picker color for grouping labels.</source>
+      <target state="needs-l10n">Greitai pasirenkama grupavimo etikečių spalva.</target>
     </trans-unit>
     <trans-unit id="pickerTitleBackground">
       <source xml:lang="en">Quick picker title background color. The quick picker widget is the container for pickers like the command palette.</source>
+      <target state="needs-l10n">Greito pasirinkimo pavadinimo fono spalva. Greitojo pasirinkimo valdiklis yra rinkiklių, tokių kaip komandų paletė, talpykla.</target>
     </trans-unit>
     <trans-unit id="problemsErrorIconForeground">
       <source xml:lang="en">The color used for the problems error icon.</source>
+      <target state="needs-l10n">Problemų klaidos piktogramos spalva.</target>
     </trans-unit>
     <trans-unit id="problemsInfoIconForeground">
       <source xml:lang="en">The color used for the problems info icon.</source>
+      <target state="needs-l10n">Problemų informacijos piktogramos spalva.</target>
     </trans-unit>
     <trans-unit id="problemsWarningIconForeground">
       <source xml:lang="en">The color used for the problems warning icon.</source>
+      <target state="needs-l10n">Problemų įspėjimo piktogramos spalva.</target>
     </trans-unit>
     <trans-unit id="progressBarBackground">
       <source xml:lang="en">Background color of the progress bar that can show for long running operations.</source>
+      <target state="needs-l10n">Pažangos juostos fono spalva, kuri gali būti rodoma ilgai vykdomoms operacijoms.</target>
     </trans-unit>
     <trans-unit id="quickInput.list.focusBackground deprecation">
       <source xml:lang="en">Please use quickInputList.focusBackground instead</source>
+      <target state="needs-l10n">Vietoj to naudokite quickInputList.focusBackground</target>
     </trans-unit>
     <trans-unit id="quickInput.listFocusBackground">
       <source xml:lang="en">Quick picker background color for the focused item.</source>
+      <target state="needs-l10n">Greitojo rinkiklio fono spalva fokusuotam elementui.</target>
     </trans-unit>
     <trans-unit id="quickInput.listFocusForeground">
       <source xml:lang="en">Quick picker foreground color for the focused item.</source>
+      <target state="needs-l10n">Greitojo rinkiklio fokusuojamo elemento pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="quickInput.listFocusIconForeground">
       <source xml:lang="en">Quick picker icon foreground color for the focused item.</source>
+      <target state="needs-l10n">Greitojo rinkiklio piktogramos fono spalva, skirta sufokusuotam elementui.</target>
     </trans-unit>
     <trans-unit id="sashActiveBorder">
       <source xml:lang="en">Border color of active sashes.</source>
+      <target state="needs-l10n">Aktyvių juostų apvado spalva.</target>
     </trans-unit>
     <trans-unit id="scrollbarShadow">
       <source xml:lang="en">Scrollbar shadow to indicate that the view is scrolled.</source>
+      <target state="needs-l10n">Slinkties juostos šešėlis, rodantis, kad vaizdas yra slenkamas.</target>
     </trans-unit>
     <trans-unit id="scrollbarSliderActiveBackground">
       <source xml:lang="en">Scrollbar slider background color when clicked on.</source>
+      <target state="needs-l10n">Slankiklio slankiklio fono spalva, kai ant jo paspaudžiama.</target>
     </trans-unit>
     <trans-unit id="scrollbarSliderBackground">
       <source xml:lang="en">Scrollbar slider background color.</source>
+      <target state="needs-l10n">Slinkties juostos slankiklio fono spalva.</target>
     </trans-unit>
     <trans-unit id="scrollbarSliderHoverBackground">
       <source xml:lang="en">Scrollbar slider background color when hovering.</source>
+      <target state="needs-l10n">Slankiklio slankiklio fono spalva, kai jis pakyla.</target>
     </trans-unit>
     <trans-unit id="searchEditor.editorFindMatchBorder">
       <source xml:lang="en">Border color of the Search Editor query matches.</source>
+      <target state="needs-l10n">Paieškos redaktoriaus užklausos atitikmenų apvado spalva.</target>
     </trans-unit>
     <trans-unit id="searchEditor.queryMatch">
       <source xml:lang="en">Color of the Search Editor query matches.</source>
+      <target state="needs-l10n">Paieškos redaktoriaus užklausos atitikmenų spalva.</target>
     </trans-unit>
     <trans-unit id="selectionBackground">
       <source xml:lang="en">The background color of text selections in the workbench (e.g. for input fields or text areas). Note that this does not apply to selections within the editor.</source>
+      <target state="needs-l10n">Darbo stalo teksto pasirinkimų fono spalva (pvz., įvesties laukų arba teksto sričių). Atkreipkite dėmesį, kad tai netaikoma redaktoriaus pasirinkimams.</target>
     </trans-unit>
     <trans-unit id="snippetFinalTabstopHighlightBackground">
       <source xml:lang="en">Highlight background color of the final tabstop of a snippet.</source>
+      <target state="needs-l10n">Išryškina paskutinės fragmento skirtuko stotelės fono spalvą.</target>
     </trans-unit>
     <trans-unit id="snippetFinalTabstopHighlightBorder">
       <source xml:lang="en">Highlight border color of the final tabstop of a snippet.</source>
+      <target state="needs-l10n">Išryškinkite paskutinės fragmento skirtuko stotelės apvado spalvą.</target>
     </trans-unit>
     <trans-unit id="snippetTabstopHighlightBackground">
       <source xml:lang="en">Highlight background color of a snippet tabstop.</source>
+      <target state="needs-l10n">Išryškinkite fragmentų skirtuko stotelės fono spalvą.</target>
     </trans-unit>
     <trans-unit id="snippetTabstopHighlightBorder">
       <source xml:lang="en">Highlight border color of a snippet tabstop.</source>
+      <target state="needs-l10n">Ištraukos skirtuko skirtuko krašto spalvos paryškinimas.</target>
     </trans-unit>
     <trans-unit id="statusBarBackground">
       <source xml:lang="en">Background color of the editor hover status bar.</source>
+      <target state="needs-l10n">Redaktoriaus žymės būsenos juostos fono spalva.</target>
     </trans-unit>
     <trans-unit id="textBlockQuoteBackground">
       <source xml:lang="en">Background color for block quotes in text.</source>
+      <target state="needs-l10n">Tekste esančių blokinių kabučių fono spalva.</target>
     </trans-unit>
     <trans-unit id="textBlockQuoteBorder">
       <source xml:lang="en">Border color for block quotes in text.</source>
+      <target state="needs-l10n">Tekste esančių blokinių kabučių apvado spalva.</target>
     </trans-unit>
     <trans-unit id="textCodeBlockBackground">
       <source xml:lang="en">Background color for code blocks in text.</source>
+      <target state="needs-l10n">Teksto kodų blokų fono spalva.</target>
     </trans-unit>
     <trans-unit id="textLinkActiveForeground">
       <source xml:lang="en">Foreground color for links in text when clicked on and on mouse hover.</source>
+      <target state="needs-l10n">Tekste esančių nuorodų pirmojo fono spalva, kai jos paspaudžiamos ir užvedamos pelės žymekliu.</target>
     </trans-unit>
     <trans-unit id="textLinkForeground">
       <source xml:lang="en">Foreground color for links in text.</source>
+      <target state="needs-l10n">Tekste esančių nuorodų pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="textPreformatForeground">
       <source xml:lang="en">Foreground color for preformatted text segments.</source>
+      <target state="needs-l10n">Iš anksto suformatuotų teksto segmentų pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="textSeparatorForeground">
       <source xml:lang="en">Color for text separators.</source>
+      <target state="needs-l10n">Teksto skirtukų spalva.</target>
     </trans-unit>
     <trans-unit id="toolbarActiveBackground">
       <source xml:lang="en">Toolbar background when holding the mouse over actions</source>
+      <target state="needs-l10n">Įrankių juostos fonas laikant pelę virš veiksmų</target>
     </trans-unit>
     <trans-unit id="toolbarHoverBackground">
       <source xml:lang="en">Toolbar background when hovering over actions using the mouse</source>
+      <target state="needs-l10n">Įrankių juostos fonas, kai pelės žymekliu užvedama ant veiksmų</target>
     </trans-unit>
     <trans-unit id="toolbarHoverOutline">
       <source xml:lang="en">Toolbar outline when hovering over actions using the mouse</source>
+      <target state="needs-l10n">Įrankių juostos kontūras, kai pelės žymekliu užvedama ant veiksmų</target>
     </trans-unit>
     <trans-unit id="treeIndentGuidesStroke">
       <source xml:lang="en">Tree stroke color for the indentation guides.</source>
+      <target state="needs-l10n">Medžio brūkšnio spalva, skirta įtraukos kreipiančiosioms.</target>
     </trans-unit>
     <trans-unit id="warningBorder">
       <source xml:lang="en">Border color of warning boxes in the editor.</source>
+      <target state="needs-l10n">Redaktoriaus įspėjamųjų langelių ribų spalva.</target>
     </trans-unit>
     <trans-unit id="widgetShadow">
       <source xml:lang="en">Shadow color of widgets such as find/replace inside the editor.</source>
+      <target state="needs-l10n">Rodyklių, pvz., redaktoriaus viduje esančios funkcijos "rasti / pakeisti", šešėlių spalva.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/theme/common/iconRegistry" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="iconDefintion.fontCharacter">
       <source xml:lang="en">The font character associated with the icon definition.</source>
+      <target state="needs-l10n">Šrifto simbolis, susijęs su piktogramos apibrėžtimi.</target>
     </trans-unit>
     <trans-unit id="iconDefintion.fontId">
       <source xml:lang="en">The id of the font to use. If not set, the font that is defined first is used.</source>
+      <target state="needs-l10n">Naudotino šrifto ID. Jei nenustatytas, naudojamas tas šriftas, kuris apibrėžtas pirmas.</target>
     </trans-unit>
     <trans-unit id="nextChangeIcon">
       <source xml:lang="en">Icon for goto next editor location.</source>
+      <target state="needs-l10n">Ikona, skirta pereiti į kitą redaktoriaus vietą.</target>
     </trans-unit>
     <trans-unit id="previousChangeIcon">
       <source xml:lang="en">Icon for goto previous editor location.</source>
+      <target state="needs-l10n">Ikona, skirta pereiti į ankstesnę redaktoriaus vietą.</target>
     </trans-unit>
     <trans-unit id="widgetClose">
       <source xml:lang="en">Icon for the close action in widgets.</source>
+      <target state="needs-l10n">Valdiklių uždarymo veiksmo piktograma.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/theme/common/tokenClassificationRegistry" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="abstract">
       <source xml:lang="en">Style to use for symbols that are abstract.</source>
+      <target state="needs-l10n">Stilius, naudojamas abstrakčių simbolių atveju.</target>
     </trans-unit>
     <trans-unit id="async">
       <source xml:lang="en">Style to use for symbols that are async.</source>
+      <target state="needs-l10n">Stilius, naudojamas asinchroniškiems simboliams.</target>
     </trans-unit>
     <trans-unit id="class">
       <source xml:lang="en">Style for classes.</source>
+      <target state="needs-l10n">Klasių stilius.</target>
     </trans-unit>
     <trans-unit id="comment">
       <source xml:lang="en">Style for comments.</source>
+      <target state="needs-l10n">Komentarų stilius.</target>
     </trans-unit>
     <trans-unit id="declaration">
       <source xml:lang="en">Style for all symbol declarations.</source>
+      <target state="needs-l10n">Visų simbolių deklaracijų stilius.</target>
     </trans-unit>
     <trans-unit id="deprecated">
       <source xml:lang="en">Style to use for symbols that are deprecated.</source>
+      <target state="needs-l10n">Stilius, kurį reikia naudoti simboliams, kurie yra atgyvenę.</target>
     </trans-unit>
     <trans-unit id="documentation">
       <source xml:lang="en">Style to use for references in documentation.</source>
+      <target state="needs-l10n">Stilius, naudojamas dokumentuose pateikiamoms nuorodoms.</target>
     </trans-unit>
     <trans-unit id="enum">
       <source xml:lang="en">Style for enums.</source>
+      <target state="needs-l10n">Sąrašų stilius.</target>
     </trans-unit>
     <trans-unit id="enumMember">
       <source xml:lang="en">Style for enum members.</source>
+      <target state="needs-l10n">Sąrašo narių stilius.</target>
     </trans-unit>
     <trans-unit id="event">
       <source xml:lang="en">Style for events.</source>
+      <target state="needs-l10n">Renginių stilius.</target>
     </trans-unit>
     <trans-unit id="function">
       <source xml:lang="en">Style for functions</source>
+      <target state="needs-l10n">Funkcijų stilius</target>
     </trans-unit>
     <trans-unit id="interface">
       <source xml:lang="en">Style for interfaces.</source>
+      <target state="needs-l10n">Sąsajų stilius.</target>
     </trans-unit>
     <trans-unit id="keyword">
       <source xml:lang="en">Style for keywords.</source>
+      <target state="needs-l10n">Raktinių žodžių stilius.</target>
     </trans-unit>
     <trans-unit id="labels">
       <source xml:lang="en">Style for labels. </source>
+      <target state="needs-l10n">Etikečių stilius</target>
     </trans-unit>
     <trans-unit id="macro">
       <source xml:lang="en">Style for macros.</source>
+      <target state="needs-l10n">Makrokomandų stilius.</target>
     </trans-unit>
     <trans-unit id="member">
       <source xml:lang="en">Style for member functions</source>
+      <target state="needs-l10n">Narių funkcijų stilius</target>
     </trans-unit>
     <trans-unit id="method">
       <source xml:lang="en">Style for method (member functions)</source>
+      <target state="needs-l10n">Metodo (nario funkcijos) stilius</target>
     </trans-unit>
     <trans-unit id="modification">
       <source xml:lang="en">Style to use for write accesses.</source>
+      <target state="needs-l10n">Stilius, naudojamas rašymo prieigoms.</target>
     </trans-unit>
     <trans-unit id="namespace">
       <source xml:lang="en">Style for namespaces.</source>
+      <target state="needs-l10n">Vardų erdvių stilius.</target>
     </trans-unit>
     <trans-unit id="number">
       <source xml:lang="en">Style for numbers.</source>
+      <target state="needs-l10n">Numerių stilius.</target>
     </trans-unit>
     <trans-unit id="operator">
       <source xml:lang="en">Style for operators.</source>
+      <target state="needs-l10n">Operatorių stilius.</target>
     </trans-unit>
     <trans-unit id="parameter">
       <source xml:lang="en">Style for parameters.</source>
+      <target state="needs-l10n">Parametrų stilius.</target>
     </trans-unit>
     <trans-unit id="property">
       <source xml:lang="en">Style for properties.</source>
+      <target state="needs-l10n">Savybių stilius.</target>
     </trans-unit>
     <trans-unit id="readonly">
       <source xml:lang="en">Style to use for symbols that are readonly.</source>
+      <target state="needs-l10n">Stilius, kurį reikia naudoti tik skaitymui skirtiems simboliams.</target>
     </trans-unit>
     <trans-unit id="regexp">
       <source xml:lang="en">Style for expressions.</source>
+      <target state="needs-l10n">Išraiškos stilius.</target>
     </trans-unit>
     <trans-unit id="schema.fontStyle.error">
       <source xml:lang="en">Font style must be 'italic', 'bold' or 'underline' or a combination. The empty string unsets all styles.</source>
+      <target state="needs-l10n">Šrifto stilius turi būti "kursyvas", "paryškintas", "pabraukta" arba jų derinys. Tuščia eilutė panaikina visus stilius.</target>
     </trans-unit>
     <trans-unit id="schema.token.background.warning">
       <source xml:lang="en">Token background colors are currently not supported.</source>
+      <target state="needs-l10n">Žetonų fono spalvos šiuo metu nepalaikomos.</target>
     </trans-unit>
     <trans-unit id="schema.token.bold">
       <source xml:lang="en">Sets or unsets the font style to bold. Note, the presence of 'fontStyle' overrides this setting.</source>
+      <target state="needs-l10n">Nustato arba panaikina šrifto stiliaus paryškinimą. Atkreipkite dėmesį, kad jei yra "fontStyle", šis nustatymas pakeičiamas.</target>
     </trans-unit>
     <trans-unit id="schema.token.fontStyle">
       <source xml:lang="en">Sets the all font styles of the rule: 'italic', 'bold' or 'underline' or a combination. All styles that are not listed are unset. The empty string unsets all styles.</source>
+      <target state="needs-l10n">Nustatomi visi taisyklės šrifto stiliai: "italic", "bold", "underline" arba jų derinys. Visi neišvardyti stiliai nenustatomi. Tuščia eilutė panaikina visų stilių nustatymą.</target>
     </trans-unit>
     <trans-unit id="schema.token.fontStyle.none">
       <source xml:lang="en">None (clear inherited style)</source>
+      <target state="needs-l10n">Nėra (aiškus paveldėtas stilius)</target>
     </trans-unit>
     <trans-unit id="schema.token.foreground">
       <source xml:lang="en">Foreground color for the token.</source>
+      <target state="needs-l10n">Ženklo pirmojo plano spalva.</target>
     </trans-unit>
     <trans-unit id="schema.token.italic">
       <source xml:lang="en">Sets or unsets the font style to italic. Note, the presence of 'fontStyle' overrides this setting.</source>
+      <target state="needs-l10n">Nustato arba panaikina šrifto stiliaus kursyvas nustatymą. Atkreipkite dėmesį, kad jei yra "fontStyle", šis nustatymas pakeičiamas.</target>
     </trans-unit>
     <trans-unit id="schema.token.settings">
       <source xml:lang="en">Colors and styles for the token.</source>
+      <target state="needs-l10n">Ženklo spalvos ir stiliai.</target>
     </trans-unit>
     <trans-unit id="schema.token.underline">
       <source xml:lang="en">Sets or unsets the font style to underline. Note, the presence of 'fontStyle' overrides this setting.</source>
+      <target state="needs-l10n">Nustato arba panaikina šrifto stiliaus pabraukimą. Atkreipkite dėmesį, kad jei yra "fontStyle", šis nustatymas yra viršesnis.</target>
     </trans-unit>
     <trans-unit id="static">
       <source xml:lang="en">Style to use for symbols that are static.</source>
+      <target state="needs-l10n">Stilius, naudojamas statiniams simboliams.</target>
     </trans-unit>
     <trans-unit id="string">
       <source xml:lang="en">Style for strings.</source>
+      <target state="needs-l10n">Styginių stilius.</target>
     </trans-unit>
     <trans-unit id="struct">
       <source xml:lang="en">Style for structs.</source>
+      <target state="needs-l10n">Struktūrų stilius.</target>
     </trans-unit>
     <trans-unit id="type">
       <source xml:lang="en">Style for types.</source>
+      <target state="needs-l10n">Tipų stilius.</target>
     </trans-unit>
     <trans-unit id="typeParameter">
       <source xml:lang="en">Style for type parameters.</source>
+      <target state="needs-l10n">Tipo parametrų stilius.</target>
     </trans-unit>
     <trans-unit id="variable">
       <source xml:lang="en">Style for variables.</source>
+      <target state="needs-l10n">Kintamųjų stilius.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/undoRedo/common/undoRedoService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">Cancel</source>
+      <target state="needs-l10n">Atšaukti</target>
     </trans-unit>
     <trans-unit id="cannotResourceRedoDueToInProgressUndoRedo">
       <source xml:lang="en">Could not redo '{0}' because there is already an undo or redo operation running.</source>
+      <target state="needs-l10n">Negalima iš naujo atlikti '{0}', nes jau vykdoma atšaukimo arba pakartotinio įrašymo operacija.</target>
       <note>{0} is a label for an operation.</note>
     </trans-unit>
     <trans-unit id="cannotResourceUndoDueToInProgressUndoRedo">
       <source xml:lang="en">Could not undo '{0}' because there is already an undo or redo operation running.</source>
+      <target state="needs-l10n">Nepavyko atšaukti '{0}', nes jau vykdoma atšaukimo arba pakartotinio atšaukimo operacija.</target>
       <note>{0} is a label for an operation.</note>
     </trans-unit>
     <trans-unit id="cannotWorkspaceRedo">
       <source xml:lang="en">Could not redo '{0}' across all files. {1}</source>
+      <target state="needs-l10n">Nepavyko pakartotinai įrašyti '{0}' visuose failuose. {1}</target>
       <note>{0} is a label for an operation. {1} is another message.</note>
     </trans-unit>
     <trans-unit id="cannotWorkspaceRedoDueToChanges">
       <source xml:lang="en">Could not redo '{0}' across all files because changes were made to {1}</source>
+      <target state="needs-l10n">Nepavyko iš naujo įrašyti '{0}' visuose failuose, nes buvo atlikti pakeitimai {1}</target>
       <note>{0} is a label for an operation. {1} is a list of filenames.</note>
     </trans-unit>
     <trans-unit id="cannotWorkspaceRedoDueToInMeantimeUndoRedo">
       <source xml:lang="en">Could not redo '{0}' across all files because an undo or redo operation occurred in the meantime</source>
+      <target state="needs-l10n">Nepavyko iš naujo atkurti '{0}' visuose failuose, nes per tą laiką buvo atlikta atšaukimo arba atkūrimo operacija</target>
       <note>{0} is a label for an operation. {1} is a list of filenames.</note>
     </trans-unit>
     <trans-unit id="cannotWorkspaceRedoDueToInProgressUndoRedo">
       <source xml:lang="en">Could not redo '{0}' across all files because there is already an undo or redo operation running on {1}</source>
+      <target state="needs-l10n">Nepavyko iš naujo padaryti '{0}' visuose failuose, nes jau vykdoma atšaukimo arba pakartotinio padarymo operacija {1}</target>
       <note>{0} is a label for an operation. {1} is a list of filenames.</note>
     </trans-unit>
     <trans-unit id="cannotWorkspaceUndo">
       <source xml:lang="en">Could not undo '{0}' across all files. {1}</source>
+      <target state="needs-l10n">Nepavyko atšaukti '{0}' visuose failuose. {1}</target>
       <note>{0} is a label for an operation. {1} is another message.</note>
     </trans-unit>
     <trans-unit id="cannotWorkspaceUndoDueToChanges">
       <source xml:lang="en">Could not undo '{0}' across all files because changes were made to {1}</source>
+      <target state="needs-l10n">Nepavyko atšaukti '{0}' visuose failuose, nes pakeitimai buvo padaryti {1}</target>
       <note>{0} is a label for an operation. {1} is a list of filenames.</note>
     </trans-unit>
     <trans-unit id="cannotWorkspaceUndoDueToInMeantimeUndoRedo">
       <source xml:lang="en">Could not undo '{0}' across all files because an undo or redo operation occurred in the meantime</source>
+      <target state="needs-l10n">Nepavyko atšaukti '{0}' visuose failuose, nes per tą laiką buvo atlikta atšaukimo arba pakartotinio atšaukimo operacija</target>
       <note>{0} is a label for an operation. {1} is a list of filenames.</note>
     </trans-unit>
     <trans-unit id="cannotWorkspaceUndoDueToInProgressUndoRedo">
       <source xml:lang="en">Could not undo '{0}' across all files because there is already an undo or redo operation running on {1}</source>
+      <target state="needs-l10n">Nepavyko atšaukti '{0}' visuose failuose, nes jau vykdoma atšaukimo arba pakartotinio atšaukimo operacija {1}</target>
       <note>{0} is a label for an operation. {1} is a list of filenames.</note>
     </trans-unit>
     <trans-unit id="confirmDifferentSource">
       <source xml:lang="en">Would you like to undo '{0}'?</source>
+      <target state="needs-l10n">Ar norite atšaukti '{0}'?</target>
     </trans-unit>
     <trans-unit id="confirmDifferentSource.yes">
       <source xml:lang="en">Yes</source>
+      <target state="needs-l10n">Taip</target>
     </trans-unit>
     <trans-unit id="confirmWorkspace">
       <source xml:lang="en">Would you like to undo '{0}' across all files?</source>
+      <target state="needs-l10n">Ar norite atšaukti '{0}' visuose failuose?</target>
     </trans-unit>
     <trans-unit id="externalRemoval">
       <source xml:lang="en">The following files have been closed and modified on disk: {0}.</source>
+      <target state="needs-l10n">Šie failai buvo uždaryti ir modifikuoti diske: {0}.</target>
       <note>{0} is a list of filenames</note>
     </trans-unit>
     <trans-unit id="noParallelUniverses">
       <source xml:lang="en">The following files have been modified in an incompatible way: {0}.</source>
+      <target state="needs-l10n">Šie failai buvo pakeisti nesuderinamai: {0}.</target>
       <note>{0} is a list of filenames</note>
     </trans-unit>
     <trans-unit id="nok">
       <source xml:lang="en">Undo this File</source>
+      <target state="needs-l10n">Atšaukti šį failą</target>
     </trans-unit>
     <trans-unit id="ok">
       <source xml:lang="en">Undo in {0} Files</source>
+      <target state="needs-l10n">Atšaukti į {0} Failai</target>
       <note>{0} denotes a number that is &gt; 1</note>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/update/common/update.config.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="default">
       <source xml:lang="en">Enable automatic update checks. Code will check for updates automatically and periodically.</source>
+      <target state="needs-l10n">Įjungti automatines atnaujinimų patikras. Kodas automatiškai ir periodiškai tikrins, ar yra atnaujinimų.</target>
     </trans-unit>
     <trans-unit id="deprecated">
       <source xml:lang="en">This setting is deprecated, please use '{0}' instead.</source>
+      <target state="needs-l10n">Šis nustatymas nebenaudojamas, vietoj jo naudokite '{0}'.</target>
     </trans-unit>
     <trans-unit id="enableWindowsBackgroundUpdates">
       <source xml:lang="en">Enable to download and install new VS Code versions in the background on Windows.</source>
+      <target state="needs-l10n">Įgalinti atsisiųsti ir įdiegti naujas "VS Code" versijas "Windows" fone.</target>
     </trans-unit>
     <trans-unit id="enableWindowsBackgroundUpdatesTitle">
       <source xml:lang="en">Enable Background Updates on Windows</source>
+      <target state="needs-l10n">Fono atnaujinimų įjungimas sistemoje "Windows</target>
     </trans-unit>
     <trans-unit id="manual">
       <source xml:lang="en">Disable automatic background update checks. Updates will be available if you manually check for updates.</source>
+      <target state="needs-l10n">Išjungti automatines fono atnaujinimų patikras. Atnaujinimai bus prieinami, jei juos tikrinsite rankiniu būdu.</target>
     </trans-unit>
     <trans-unit id="none">
       <source xml:lang="en">Disable updates.</source>
+      <target state="needs-l10n">Išjungti atnaujinimus.</target>
     </trans-unit>
     <trans-unit id="showReleaseNotes">
       <source xml:lang="en">Show Release Notes after an update. The Release Notes are fetched from a Microsoft online service.</source>
+      <target state="needs-l10n">Po atnaujinimo rodyti išleidimo pastabas. Išleidimo pastabos gaunamos iš "Microsoft" internetinės paslaugos.</target>
     </trans-unit>
     <trans-unit id="start">
       <source xml:lang="en">Check for updates only on startup. Disable automatic background update checks.</source>
+      <target state="needs-l10n">Tikrinti naujinius tik paleidimo metu. Išjunkite automatinį fono atnaujinimų tikrinimą.</target>
     </trans-unit>
     <trans-unit id="updateConfigurationTitle">
       <source xml:lang="en">Update</source>
+      <target state="needs-l10n">Atnaujinti</target>
     </trans-unit>
     <trans-unit id="updateMode">
       <source xml:lang="en">Configure whether you receive automatic updates. Requires a restart after change. The updates are fetched from a Microsoft online service.</source>
+      <target state="needs-l10n">Konfigūruokite, ar gausite automatinius atnaujinimus. Po pakeitimo reikia paleisti iš naujo. Atnaujinimai gaunami iš "Microsoft" internetinės paslaugos.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/userDataSync/common/abstractSynchronizer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="incompatible">
       <source xml:lang="en">Cannot sync {0} as its local version {1} is not compatible with its remote version {2}</source>
+      <target state="needs-l10n">Negalima sinchronizuoti {0}, nes jo vietinė versija {1} nesuderinama su nuotoline versija {2}</target>
       <note>This is an error while syncing a resource that its local version is not compatible with its remote version.</note>
     </trans-unit>
     <trans-unit id="incompatible sync data">
       <source xml:lang="en">Cannot parse sync data as it is not compatible with the current version.</source>
+      <target state="needs-l10n">Negalima analizuoti sinchronizavimo duomenų, nes jie nesuderinami su dabartine versija.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/userDataSync/common/keybindingsSync" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="errorInvalidSettings">
       <source xml:lang="en">Unable to sync keybindings because the content in the file is not valid. Please open the file and correct it.</source>
+      <target state="needs-l10n">Nepavyksta sinchronizuoti klavišų sąsajų, nes failo turinys negalioja. Atidarykite failą ir jį pataisykite.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/userDataSync/common/settingsSync" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="errorInvalidSettings">
       <source xml:lang="en">Unable to sync settings as there are errors/warning in settings file.</source>
+      <target state="needs-l10n">Nepavyksta sinchronizuoti nustatymų, nes nustatymų faile yra klaidų / įspėjimų.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/userDataSync/common/userDataAutoSyncService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="default service changed">
       <source xml:lang="en">Cannot sync because default service has changed</source>
+      <target state="needs-l10n">Negalima sinchronizuoti, nes pasikeitė numatytoji paslauga</target>
     </trans-unit>
     <trans-unit id="service changed">
       <source xml:lang="en">Cannot sync because sync service has changed</source>
+      <target state="needs-l10n">Negalima sinchronizuoti, nes pasikeitė sinchronizavimo paslauga</target>
     </trans-unit>
     <trans-unit id="session expired">
       <source xml:lang="en">Cannot sync because current session is expired</source>
+      <target state="needs-l10n">Negalima sinchronizuoti, nes baigėsi dabartinės sesijos galiojimo laikas</target>
     </trans-unit>
     <trans-unit id="turned off">
       <source xml:lang="en">Cannot sync because syncing is turned off in the cloud</source>
+      <target state="needs-l10n">Negalima sinchronizuoti, nes sinchronizavimas debesyje išjungtas</target>
     </trans-unit>
     <trans-unit id="turned off machine">
       <source xml:lang="en">Cannot sync because syncing is turned off on this machine from another machine.</source>
+      <target state="needs-l10n">Negalima sinchronizuoti, nes šiame kompiuteryje išjungtas sinchronizavimas iš kito kompiuterio.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/userDataSync/common/userDataSync" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="app.extension.identifier.errorMessage">
       <source xml:lang="en">Expected format '${publisher}.${name}'. Example: 'vscode.csharp'.</source>
+      <target state="needs-l10n">Laukiamas formatas '${publisher}.${name}'. Pavyzdys: 'vscode.csharp'.</target>
     </trans-unit>
     <trans-unit id="settings sync">
       <source xml:lang="en">Settings Sync</source>
+      <target state="needs-l10n">Nustatymų sinchronizavimas</target>
     </trans-unit>
     <trans-unit id="settingsSync.ignoredExtensions">
       <source xml:lang="en">List of extensions to be ignored while synchronizing. The identifier of an extension is always `${publisher}.${name}`. For example: `vscode.csharp`.</source>
+      <target state="needs-l10n">Sinchronizuojant ignoruojamų plėtinių sąrašas. Išplėtimo identifikatorius visada yra `${publisher}.${name}`. Pavyzdžiui: `vscode.csharp`.</target>
     </trans-unit>
     <trans-unit id="settingsSync.ignoredSettings">
       <source xml:lang="en">Configure settings to be ignored while synchronizing.</source>
+      <target state="needs-l10n">Konfigūruokite nustatymus, į kuriuos sinchronizuojant bus neatsižvelgiama.</target>
     </trans-unit>
     <trans-unit id="settingsSync.keybindingsPerPlatform">
       <source xml:lang="en">Synchronize keybindings for each platform.</source>
+      <target state="needs-l10n">Sinchronizuokite kiekvienos platformos klavišų sąsajas.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/userDataSync/common/userDataSyncMachines" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="error incompatible">
       <source xml:lang="en">Cannot read machines data as the current version is incompatible. Please update {0} and try again.</source>
+      <target state="needs-l10n">Negalima nuskaityti mašinų duomenų, nes dabartinė versija yra nesuderinama. Atnaujinkite {0} ir bandykite dar kartą.</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/windows/electron-main/window" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="appCrashed">
       <source xml:lang="en">The window has crashed</source>
+      <target state="needs-l10n">Langas sudužo</target>
     </trans-unit>
     <trans-unit id="appCrashedDetail">
       <source xml:lang="en">We are sorry for the inconvenience. You can reopen the window to continue where you left off.</source>
+      <target state="needs-l10n">Atsiprašome už nepatogumus. Galite iš naujo atidaryti langą ir tęsti pradėtą darbą.</target>
     </trans-unit>
     <trans-unit id="appCrashedDetails">
       <source xml:lang="en">The window has crashed (reason: '{0}', code: '{1}')</source>
+      <target state="needs-l10n">Langas sugedo (priežastis: '{0}', kodas: '{1}')</target>
     </trans-unit>
     <trans-unit id="appStalled">
       <source xml:lang="en">The window is not responding</source>
+      <target state="needs-l10n">Langas nereaguoja</target>
     </trans-unit>
     <trans-unit id="appStalledDetail">
       <source xml:lang="en">You can reopen or close the window or keep waiting.</source>
+      <target state="needs-l10n">Galite dar kartą atidaryti arba uždaryti langą arba toliau laukti.</target>
     </trans-unit>
     <trans-unit id="close">
       <source xml:lang="en">&amp;&amp;Close</source>
+      <target state="needs-l10n">&amp;&amp;Close</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="hiddenMenuBar">
       <source xml:lang="en">You can still access the menu bar by pressing the Alt-key.</source>
+      <target state="needs-l10n">Meniu juostą vis dar galite pasiekti paspaudę klavišą Alt.</target>
     </trans-unit>
     <trans-unit id="reopen">
       <source xml:lang="en">&amp;&amp;Reopen</source>
+      <target state="needs-l10n">&amp;&amp;Atnaujinti</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="wait">
       <source xml:lang="en">&amp;&amp;Keep Waiting</source>
+      <target state="needs-l10n">&amp;&amp;Keep Waiting</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/windows/electron-main/windowsMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ok">
       <source xml:lang="en">&amp;&amp;OK</source>
+      <target state="needs-l10n">&amp;&amp;OK</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="pathNotExistDetail">
       <source xml:lang="en">The path '{0}' does not exist on this computer.</source>
+      <target state="needs-l10n">Kelias '{0}' šiame kompiuteryje neegzistuoja.</target>
     </trans-unit>
     <trans-unit id="pathNotExistTitle">
       <source xml:lang="en">Path does not exist</source>
+      <target state="needs-l10n">Kelio nėra</target>
     </trans-unit>
     <trans-unit id="uriInvalidDetail">
       <source xml:lang="en">The URI '{0}' is not valid and can not be opened.</source>
+      <target state="needs-l10n">URI '{0}' yra negaliojantis ir negali būti atidarytas.</target>
     </trans-unit>
     <trans-unit id="uriInvalidTitle">
       <source xml:lang="en">URI can not be opened</source>
+      <target state="needs-l10n">URI negalima atidaryti</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/workspace/common/workspaceTrust" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="trusted">
       <source xml:lang="en">Trusted</source>
+      <target state="needs-l10n">Patikimas</target>
     </trans-unit>
     <trans-unit id="untrusted">
       <source xml:lang="en">Restricted Mode</source>
+      <target state="needs-l10n">Ribotas režimas</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/workspaces/common/workspaces" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="codeWorkspace">
       <source xml:lang="en">Code Workspace</source>
+      <target state="needs-l10n">Kodo darbo erdvė</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/workspaces/electron-main/workspacesHistoryMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="newWindow">
       <source xml:lang="en">New Window</source>
+      <target state="needs-l10n">Naujas langas</target>
     </trans-unit>
     <trans-unit id="newWindowDesc">
       <source xml:lang="en">Opens a new window</source>
+      <target state="needs-l10n">Atidaromas naujas langas</target>
     </trans-unit>
     <trans-unit id="recentFolders">
       <source xml:lang="en">Recent Folders</source>
+      <target state="needs-l10n">Naujausi aplankai</target>
     </trans-unit>
     <trans-unit id="recentFoldersAndWorkspaces">
       <source xml:lang="en">Recent Folders &amp; Workspaces</source>
+      <target state="needs-l10n">Naujausi aplankai ir darbo vietos</target>
     </trans-unit>
     <trans-unit id="untitledWorkspace">
       <source xml:lang="en">Untitled (Workspace)</source>
+      <target state="needs-l10n">Be pavadinimo (darbo erdvė)</target>
     </trans-unit>
     <trans-unit id="workspaceName">
       <source xml:lang="en">{0} (Workspace)</source>
+      <target state="needs-l10n">{0} (Darbo erdvė)</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/platform/workspaces/electron-main/workspacesManagementMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ok">
       <source xml:lang="en">&amp;&amp;OK</source>
+      <target state="needs-l10n">&amp;&amp;OK</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="workspaceOpenedDetail">
       <source xml:lang="en">The workspace is already opened in another window. Please close that window first and then try again.</source>
+      <target state="needs-l10n">Darbo sritis jau atidaryta kitame lange. Pirmiausia uždarykite tą langą ir bandykite dar kartą.</target>
     </trans-unit>
     <trans-unit id="workspaceOpenedMessage">
       <source xml:lang="en">Unable to save workspace '{0}'</source>
+      <target state="needs-l10n">Nepavyksta išsaugoti darbo vietos '{0}'</target>
     </trans-unit>
 </body></file>
 </xliff>
