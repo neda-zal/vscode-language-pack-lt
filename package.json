@@ -2,7 +2,7 @@
 	"name": "vscode-language-pack-lt",
 	"displayName": "Lithuanian Language Pack for Visual Studio Code",
 	"description": "Language pack extension for Lithuanian",
-	"publisher": "vastrauskas",
+	"publisher": "vakaras",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/vakaras/vscode-language-pack-lt"
