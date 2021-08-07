@@ -92,9 +92,9 @@ def main():
 
     with open('package.json') as fp:
         package_info = json.load(fp)
-    package_info['version'] = '1.59.{}'.format(
-        datetime.datetime.now().strftime('%Y%m%d%H%M')
-    )
+#   package_info['version'] = '1.59.{}'.format(
+#       datetime.datetime.now().strftime('%Y%m%d%H%M')
+#   )
     with open(os.path.join(PACKAGE_DIR, 'package.json'), 'w') as fp:
         json.dump(package_info, fp, indent='\t')
 
