@@ -1,0 +1,48 @@
+name: Release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python 3
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Generate extension code
+        run: |
+          python3 ./scripts/generate.py
+
+      - name: Install
+        run: cd ./package/ && npm i
+
+      - name: Build Extension
+        run: cd ./package/ && npx vsce package -o vscode-language-pack-lt.vsix
+
+      - name: Create release tag
+        shell: bash
+        run: echo "TAG_NAME=$(date +v-%Y-%m-%d-%H%M)" >> $GITHUB_ENV
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ env.TAG_NAME }}
+          files: |
+            ./package/vscode-language-pack-lt.vsix
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+#     - name: Publish the extension to Visual Studio Marketplace
+#       uses: HaaLeo/publish-vscode-extension@v0
+#       with:
+#         pat: ${{ secrets.VSCE_TOKEN }}
+#         registryUrl: https://marketplace.visualstudio.com
+#         extensionFile: ./package/vscode-language-pack-lt.vsix
+#         packagePath: ''
