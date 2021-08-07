@@ -41,10 +41,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-#     - name: Publish the extension to Visual Studio Marketplace
-#       uses: HaaLeo/publish-vscode-extension@v0
-#       with:
-#         pat: ${{ secrets.VSCE_TOKEN }}
-#         registryUrl: https://marketplace.visualstudio.com
-#         extensionFile: ./package/vscode-language-pack-lt.vsix
-#         packagePath: ''
+      - name: Publish the extension to Visual Studio Marketplace
+        if: github.event_name == 'workflow_dispatch'
+        uses: HaaLeo/publish-vscode-extension@v0
+        with:
+          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          registryUrl: https://marketplace.visualstudio.com
+          extensionFile: ./package/vscode-language-pack-lt.vsix
+          packagePath: ''
