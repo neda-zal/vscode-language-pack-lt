@@ -23,7 +23,7 @@ def validate(translation, source):
         chars = [
             char
             for char in text
-            if not char.isalpha() and char not in ' ,.\'\"-`/<>'
+            if not char.isalpha() and char not in ' ,.\'\"-`/<>„“()–'
         ]
         chars.sort()
         return chars

@@ -532,7 +532,7 @@
     </trans-unit>
     <trans-unit id="miAutoSave">
       <source xml:lang="en">A&amp;&amp;uto Save</source>
-      <target state="translated">A&amp;&amp;&amp;utomatinis išsaugojimas</target>
+      <target state="translated">A&amp;&amp;utomatinis išsaugojimas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="miCloseEditor">
@@ -567,12 +567,12 @@
     </trans-unit>
     <trans-unit id="miOpenWorkspace">
       <source xml:lang="en">Open Wor&amp;&amp;kspace...</source>
-      <target state="translated">Atverti &amp;darbo erdvę...</target>
+      <target state="translated">Atverti &amp;&amp;darbo erdvę...</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="miRevert">
       <source xml:lang="en">Re&amp;&amp;vert File</source>
-      <target state="translated">At&amp;&amp;&amp;statyti failą</target>
+      <target state="translated">At&amp;&amp;statyti failą</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="miSave">
