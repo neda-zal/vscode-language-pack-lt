@@ -16,6 +16,24 @@ def collect_sources(dir_name):
     pattern = os.path.join(SOURCE_DIR, dir_name, '*.xlf')
     return glob(pattern)
 
+def validate(translation, source):
+    """Check that all special characters are preserved."""
+    def extract_special_chars(text: str):
+        text = text.replace(' & ', ' ')
+        chars = [
+            char
+            for char in text
+            if not char.isalpha() and char not in ' ,.\'\"-`/<>'
+        ]
+        chars.sort()
+        return chars
+    translation_chars = extract_special_chars(translation)
+    source_chars = extract_special_chars(source)
+    assert translation_chars == source_chars, (
+        (translation, source),
+        (translation_chars, source_chars),
+    )
+
 def generate(target_path, input_files, prefix):
     assert len(input_files) > 0
     input_files.sort()
@@ -40,10 +58,11 @@ def generate(target_path, input_files, prefix):
                     if location not in contents:
                         contents[location] = {}
                     file_contents = contents[location]
+                    source = trans_unit.find('{urn:oasis:names:tc:xliff:document:1.2}source')
                     if translation is not None:
+                        validate(translation.text, source.text)
                         file_contents[id] = translation.text
                     else:
-                        source = trans_unit.find('{urn:oasis:names:tc:xliff:document:1.2}source')
                         file_contents[id] = source.text
             else:
                 file_contents = {}
@@ -55,10 +74,11 @@ def generate(target_path, input_files, prefix):
                     translation = trans_unit.find('{urn:oasis:names:tc:xliff:document:1.2}target')
                     id = trans_unit.get('id')
                     assert id not in file_contents
+                    source = trans_unit.find('{urn:oasis:names:tc:xliff:document:1.2}source')
                     if translation is not None:
+                        validate(translation.text, source.text)
                         file_contents[id] = translation.text
                     else:
-                        source = trans_unit.find('{urn:oasis:names:tc:xliff:document:1.2}source')
                         file_contents[id] = source.text
                 assert location not in contents
                 contents[location] = file_contents

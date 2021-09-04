@@ -353,7 +353,6 @@ wordBasedSuggestionsMode.matchingDocuments</note>
       </trans-unit>
       <trans-unit id="113" resname="wordWrap.inherit">
         <source>Lines will wrap according to the `#editor.wordWrap#` setting.</source>
-        <target state="needs-l10n">Eilutės bus apvyniojamos pagal `##editor.wordWrap#` nustatymą.</target>
         <note from="Crowdin" priority="2">src/vs/editor/common/config/commonEditorConfig
 wordWrap.inherit</note>
       </trans-unit>
@@ -371,13 +370,11 @@ wordWrap.on</note>
       </trans-unit>
       <trans-unit id="119" resname="acceptSuggestionOnCommitCharacter">
         <source>Controls whether suggestions should be accepted on commit characters. For example, in JavaScript, the semi-colon (`;`) can be a commit character that accepts a suggestion and types that character.</source>
-        <target state="needs-l10n">Kontroliuoja, ar turėtų būti priimami pasiūlymai dėl įsipareigojimo simbolių. Pavyzdžiui, &quot;JavaScript&quot; programoje dvitaškis (`;`) gali būti įsipareigojimo ženklas, kuris priima pasiūlymą ir įveda šį ženklą.</target>
         <note from="Crowdin" priority="2">src/vs/editor/common/config/editorOptions
 acceptSuggestionOnCommitCharacter</note>
       </trans-unit>
       <trans-unit id="121" resname="acceptSuggestionOnEnter">
         <source>Controls whether suggestions should be accepted on `Enter`, in addition to `Tab`. Helps to avoid ambiguity between inserting new lines or accepting suggestions.</source>
-        <target state="needs-l10n">Nustato, ar siūlymai turėtų būti priimami ne tik `Tab`, bet ir `Enter`. Padeda išvengti dviprasmybių tarp naujų eilučių įterpimo ir pasiūlymų priėmimo.</target>
         <note from="Crowdin" priority="2">src/vs/editor/common/config/editorOptions
 acceptSuggestionOnEnter</note>
       </trans-unit>
@@ -1893,7 +1890,6 @@ wordWrap&#13;
       </trans-unit>
       <trans-unit id="623" resname="wordWrap.bounded">
         <source>Lines will wrap at the minimum of viewport and `#editor.wordWrapColumn#`.</source>
-        <target state="needs-l10n">Eilutės bus apvyniojamos pagal mažiausią viewport ir `##editor.wordWrapColumn#` reikšmę.</target>
         <note from="Crowdin" priority="2">src/vs/editor/common/config/editorOptions
 wordWrap.bounded&#13;
 - viewport means the edge of the visible window size.
@@ -1913,7 +1909,6 @@ wordWrap.on</note>
       </trans-unit>
       <trans-unit id="629" resname="wordWrap.wordWrapColumn">
         <source>Lines will wrap at `#editor.wordWrapColumn#`.</source>
-        <target state="needs-l10n">Eilutės bus užlenktos ties `##editor.wordWrapColumn#`.</target>
         <note from="Crowdin" priority="2">src/vs/editor/common/config/editorOptions
 wordWrap.wordWrapColumn&#13;
 - `editor.wordWrapColumn` refers to a different setting and should not be localized.</note>
@@ -2294,7 +2289,6 @@ quickCommandActionHelp</note>
       </trans-unit>
       <trans-unit id="755" resname="quickCommandActionLabel">
         <source>Command Palette</source>
-        <target state="needs-l10n">- Vykdykite „&amp;lt;div class=&quot;link italics&quot; role=&quot;button&quot; onclick={0}&amp;gt;Sukurti naują tuščią sąsiuvinį&amp;lt;/div&amp;gt;“ komandų paletėje (&amp;lt;div class=&quot;italics&quot;&amp;gt;Shift + Command + P&amp;lt;/div&amp;gt;)&amp;lt;br /&amp;gt;- Išbandykite mūsų &amp;lt;div class=&quot;link&quot; role=&quot;button&quot; onclick={1}&amp;gt;pavyzdinį sąsiuvinį&amp;lt;/div&amp;gt; ir sužinokite apie užrašų knygučių savybes</target>
         <note from="Crowdin" priority="2">src/vs/editor/common/standaloneStrings
 quickCommandActionLabel</note>
       </trans-unit>

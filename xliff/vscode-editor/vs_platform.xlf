@@ -695,7 +695,7 @@
   <file original="src/vs/platform/issue/electron-main/issueMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">&amp;&amp;Cancel</source>
-      <target state="needs-l10n">Atšaukti</target>
+      <target state="needs-l10n">&amp;&amp;Atšaukti</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="confirmCloseIssueReporter">
@@ -848,7 +848,7 @@
     </trans-unit>
     <trans-unit id="mFile">
       <source xml:lang="en">&amp;&amp;File</source>
-      <target state="needs-l10n">Failas</target>
+      <target state="needs-l10n">&amp;&amp;Failas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mGoto">
@@ -887,7 +887,7 @@
     </trans-unit>
     <trans-unit id="mRun">
       <source xml:lang="en">&amp;&amp;Run</source>
-      <target state="needs-l10n">Vykdyti</target>
+      <target state="needs-l10n">&amp;&amp;Vykdyti</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mSelection">
@@ -913,7 +913,7 @@
     </trans-unit>
     <trans-unit id="mTerminal">
       <source xml:lang="en">&amp;&amp;Terminal</source>
-      <target state="needs-l10n">Terminalas</target>
+      <target state="needs-l10n">&amp;&amp;Terminalas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mView">
@@ -947,7 +947,7 @@
     </trans-unit>
     <trans-unit id="miInstallUpdate">
       <source xml:lang="en">Install &amp;&amp;Update...</source>
-      <target state="needs-l10n">Įdiegti atnaujinimą...</target>
+      <target state="needs-l10n">Įdiegti &amp;&amp;atnaujinimą...</target>
     </trans-unit>
     <trans-unit id="miInstallingUpdate">
       <source xml:lang="en">Installing Update...</source>
@@ -980,7 +980,7 @@
   <file original="src/vs/platform/native/electron-main/nativeHostMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">&amp;&amp;Cancel</source>
-      <target state="needs-l10n">Atšaukti</target>
+      <target state="needs-l10n">&amp;&amp;Atšaukti</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="cantCreateBinFolder">
