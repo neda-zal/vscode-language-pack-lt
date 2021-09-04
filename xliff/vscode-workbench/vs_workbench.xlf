@@ -2691,18 +2691,22 @@ Browser: {3}</source>
     </trans-unit>
     <trans-unit id="mEdit">
       <source xml:lang="en">&amp;&amp;Edit</source>
+      <target state="needs-l10n">&amp;&amp;Taisa</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mFile">
       <source xml:lang="en">&amp;&amp;File</source>
+      <target state="needs-l10n">Failas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mGoto">
       <source xml:lang="en">&amp;&amp;Go</source>
+      <target state="needs-l10n">&amp;&amp;Eiti</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mHelp">
       <source xml:lang="en">&amp;&amp;Help</source>
+      <target state="needs-l10n">&amp;&amp;Žinynas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mPreferences">
@@ -2710,14 +2714,17 @@ Browser: {3}</source>
     </trans-unit>
     <trans-unit id="mSelection">
       <source xml:lang="en">&amp;&amp;Selection</source>
+      <target state="needs-l10n">&amp;&amp;Žymėjimas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mTerminal">
       <source xml:lang="en">&amp;&amp;Terminal</source>
+      <target state="needs-l10n">Terminalas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mView">
       <source xml:lang="en">&amp;&amp;View</source>
+      <target state="needs-l10n">&amp;&amp;Rodymas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="menubar.customTitlebarAccessibilityNotification">
@@ -3091,6 +3098,7 @@ Note that there can still be cases where this setting is ignored (e.g. when usin
     </trans-unit>
     <trans-unit id="windowConfigurationTitle">
       <source xml:lang="en">Window</source>
+      <target state="needs-l10n">Langas</target>
     </trans-unit>
     <trans-unit id="windowTitle">
       <source xml:lang="en">Controls the window title based on the active editor. Variables are substituted based on the context:</source>
