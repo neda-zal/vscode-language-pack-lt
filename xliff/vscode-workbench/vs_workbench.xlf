@@ -2696,7 +2696,7 @@ Browser: {3}</source>
     </trans-unit>
     <trans-unit id="mFile">
       <source xml:lang="en">&amp;&amp;File</source>
-      <target state="needs-l10n">Failas</target>
+      <target state="needs-l10n">&amp;&amp;Failas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mGoto">
@@ -2719,7 +2719,7 @@ Browser: {3}</source>
     </trans-unit>
     <trans-unit id="mTerminal">
       <source xml:lang="en">&amp;&amp;Terminal</source>
-      <target state="needs-l10n">Terminalas</target>
+      <target state="needs-l10n">&amp;&amp;Terminalas</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="mView">
