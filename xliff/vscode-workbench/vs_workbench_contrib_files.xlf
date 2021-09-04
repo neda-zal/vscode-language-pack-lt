@@ -106,7 +106,7 @@
   <file original="src/vs/workbench/contrib/files/browser/explorerViewlet" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="explore">
       <source xml:lang="en">Explorer</source>
-      <target state="translated">Tyriklis</target>
+      <target state="translated">Naršyklė</target>
     </trans-unit>
     <trans-unit id="explorerViewIcon">
       <source xml:lang="en">View icon of the explorer view.</source>
@@ -118,7 +118,7 @@
     </trans-unit>
     <trans-unit id="miViewExplorer">
       <source xml:lang="en">&amp;&amp;Explorer</source>
-      <target state="translated">&amp;&amp;Tyriklis</target>
+      <target state="translated">&amp;&amp;Naršyklė</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="noFolderHelp">

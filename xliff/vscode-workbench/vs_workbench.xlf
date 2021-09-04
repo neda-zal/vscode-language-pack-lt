@@ -1833,6 +1833,7 @@ Browser: {3}</source>
     </trans-unit>
     <trans-unit id="run">
       <source xml:lang="en">Run</source>
+      <target state="translated">Vykdyti</target>
     </trans-unit>
     <trans-unit id="showOpenedEditors">
       <source xml:lang="en">Show Opened Editors</source>

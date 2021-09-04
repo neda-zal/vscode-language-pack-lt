@@ -458,6 +458,7 @@
     </trans-unit>
     <trans-unit id="mRun">
       <source xml:lang="en">&amp;&amp;Run</source>
+      <target state="translated">&amp;&amp;Vykdyti</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="miAddConfiguration">
@@ -514,6 +515,7 @@
     </trans-unit>
     <trans-unit id="miViewRun">
       <source xml:lang="en">&amp;&amp;Run</source>
+      <target state="translated">&amp;&amp;Vykdyti</target>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
     <trans-unit id="never">
@@ -1379,6 +1381,7 @@
     </trans-unit>
     <trans-unit id="run">
       <source xml:lang="en">Run</source>
+      <target state="translated">Vykdyti</target>
     </trans-unit>
     <trans-unit id="runAndDebugAction">
       <source xml:lang="en">[Run and Debug{0}](command:{1})</source>
