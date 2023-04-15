@@ -270,7 +270,7 @@ msgstr ""
 
 #: Pylance.pylanceRevertToJediPrompt
 msgctxt "Pylance.pylanceRevertToJediPrompt"
-msgid "The Pylance extension is not installed but the python.languageServer value is set to "Pylance". Would you like to install the Pylance extension to use Pylance, or revert back to Jedi?"
+msgid "The Pylance extension is not installed but the python.languageServer value is set to \"Pylance\". Would you like to install the Pylance extension to use Pylance, or revert back to Jedi?"
 msgstr ""
 
 #: Pylance.pylanceInstallPylance
@@ -315,7 +315,7 @@ msgstr ""
 
 #: Interpreters.condaInheritEnvMessage
 msgctxt "Interpreters.condaInheritEnvMessage"
-msgid "We noticed you're using a conda environment. If you are experiencing issues with this environment in the integrated terminal, we recommend that you let the Python extension change "terminal.integrated.inheritEnv" to false in your user settings."
+msgid "We noticed you're using a conda environment. If you are experiencing issues with this environment in the integrated terminal, we recommend that you let the Python extension change \"terminal.integrated.inheritEnv\" to false in your user settings."
 msgstr ""
 
 #: Logging.CurrentWorkingDirectory
@@ -605,7 +605,7 @@ msgstr ""
 
 #: diagnostics.removedPythonPathFromSettings
 msgctxt "diagnostics.removedPythonPathFromSettings"
-msgid "The "python.pythonPath" setting in your settings.json is no longer used by the Python extension. If you want, you can use a new setting called "python.defaultInterpreterPath" instead. Keep in mind that you need to change the value of this setting manually as the Python extension doesn’t modify it when you change interpreters. [Learn more](https://aka.ms/AA7jfor)."
+msgid "The \"python.pythonPath\" setting in your settings.json is no longer used by the Python extension. If you want, you can use a new setting called \"python.defaultInterpreterPath\" instead. Keep in mind that you need to change the value of this setting manually as the Python extension doesn’t modify it when you change interpreters. [Learn more](https://aka.ms/AA7jfor)."
 msgstr ""
 
 #: diagnostics.warnSourceMaps
@@ -635,9 +635,7 @@ msgstr ""
 
 #: diagnostics.invalidPythonPathInDebuggerSettings
 msgctxt "diagnostics.invalidPythonPathInDebuggerSettings"
-msgid "You need to select a Python interpreter before you start debugging.
-
-Tip: click on "Select Python Interpreter" in the status bar."
+msgid "You need to select a Python interpreter before you start debugging."
 msgstr ""
 
 #: diagnostics.invalidPythonPathInDebuggerLaunch
@@ -647,17 +645,17 @@ msgstr ""
 
 #: diagnostics.invalidDebuggerTypeDiagnostic
 msgctxt "diagnostics.invalidDebuggerTypeDiagnostic"
-msgid "Your launch.json file needs to be updated to change the "pythonExperimental" debug configurations to use the "python" debugger type, otherwise Python debugging may not work. Would you like to automatically update your launch.json file now?"
+msgid "Your launch.json file needs to be updated to change the \"pythonExperimental\" debug configurations to use the \"python\" debugger type, otherwise Python debugging may not work. Would you like to automatically update your launch.json file now?"
 msgstr ""
 
 #: diagnostics.consoleTypeDiagnostic
 msgctxt "diagnostics.consoleTypeDiagnostic"
-msgid "Your launch.json file needs to be updated to change the console type string from "none" to "internalConsole", otherwise Python debugging may not work. Would you like to automatically update your launch.json file now?"
+msgid "Your launch.json file needs to be updated to change the console type string from \"none\" to \"internalConsole\", otherwise Python debugging may not work. Would you like to automatically update your launch.json file now?"
 msgstr ""
 
 #: diagnostics.justMyCodeDiagnostic
 msgctxt "diagnostics.justMyCodeDiagnostic"
-msgid "Configuration "debugStdLib" in launch.json is no longer supported. It's recommended to replace it with "justMyCode", which is the exact opposite of using "debugStdLib". Would you like to automatically update your launch.json file to do that?"
+msgid "Configuration \"debugStdLib\" in launch.json is no longer supported. It's recommended to replace it with \"justMyCode\", which is the exact opposite of using \"debugStdLib\". Would you like to automatically update your launch.json file to do that?"
 msgstr ""
 
 #: diagnostics.checkIsort5UpgradeGuide
@@ -672,14 +670,12 @@ msgstr ""
 
 #: diagnostics.invalidTestSettings
 msgctxt "diagnostics.invalidTestSettings"
-msgid "Your settings needs to be updated to change the setting "python.unitTest." to "python.testing.", otherwise testing Python code using the extension may not work. Would you like to automatically update your settings now?"
+msgid "Your settings needs to be updated to change the setting \"python.unitTest.\" to \"python.testing.\", otherwise testing Python code using the extension may not work. Would you like to automatically update your settings now?"
 msgstr ""
 
 #: diagnostics.pylanceDefaultMessage
 msgctxt "diagnostics.pylanceDefaultMessage"
-msgid "The Python extension now includes Pylance to improve completions, code navigation, overall performance and much more! You can learn more about the update and learn how to change your language server [here](https://aka.ms/new-python-bundle).
-
-Read Pylance’s license [here](https://marketplace.visualstudio.com/items/ms-python.vscode-pylance/license)."
+msgid "The Python extension now includes Pylance to improve completions, code navigation, overall performance and much more! You can learn more about the update and learn how to change your language server [here](https://aka.ms/new-python-bundle)."
 msgstr ""
 
 #: Common.canceled
@@ -1099,7 +1095,7 @@ msgstr ""
 
 #: StartPage.notebookDescription
 msgctxt "StartPage.notebookDescription"
-msgid "- Run "<div class="link italics" role="button" onclick={0}>Create New Blank Notebook</div>" in the Command Palette (<div class="italics">Shift + Command + P</div>)<br />- Explore our <div class="link" role="button" onclick={1}>sample notebook</div> to learn about notebook features"
+msgid "- Run \"<div class=\"link italics\" role=\"button\" onclick={0}>Create New Blank Notebook</div>\" in the Command Palette (<div class=\"italics\">Shift + Command + P</div>)<br />- Explore our <div class=\"link\" role=\"button\" onclick={1}>sample notebook</div> to learn about notebook features"
 msgstr ""
 
 #: StartPage.createAPythonFile
@@ -1109,7 +1105,7 @@ msgstr ""
 
 #: StartPage.pythonFileDescription
 msgctxt "StartPage.pythonFileDescription"
-msgid "- Create a <div class="link" role="button" onclick={0}>new file</div> with a .py extension"
+msgid "- Create a <div class=\"link\" role=\"button\" onclick={0}>new file</div> with a .py extension"
 msgstr ""
 
 #: StartPage.openInteractiveWindow
@@ -1119,22 +1115,22 @@ msgstr ""
 
 #: StartPage.interactiveWindowDesc
 msgctxt "StartPage.interactiveWindowDesc"
-msgid "- You can create cells on a Python file by typing "#%%". Make sure you have the Jupyter extension installed. <br /> - Use "<div class="italics">Shift + Enter</div> " to run a cell, the output will be shown in the interactive window"
+msgid "- You can create cells on a Python file by typing \"#%%\". Make sure you have the Jupyter extension installed. <br /> - Use \"<div class=\"italics\">Shift + Enter</div> \" to run a cell, the output will be shown in the interactive window"
 msgstr ""
 
 #: StartPage.releaseNotes
 msgctxt "StartPage.releaseNotes"
-msgid "Take a look at our <a class="link" href={0}>Release Notes</a> to learn more about the latest features."
+msgid "Take a look at our <a class=\"link\" href={0}>Release Notes</a> to learn more about the latest features."
 msgstr ""
 
 #: StartPage.mailingList
 msgctxt "StartPage.mailingList"
-msgid "<a class="link" href={0}>Sign up</a> for tips and tutorials through our mailing list."
+msgid "<a class=\"link\" href={0}>Sign up</a> for tips and tutorials through our mailing list."
 msgstr ""
 
 #: StartPage.tutorialAndDoc
 msgctxt "StartPage.tutorialAndDoc"
-msgid "Explore more features in our <a class="link" href={0}>Tutorials</a> or check <a class="link" href={1}>Documentation</a> for tips and troubleshooting."
+msgid "Explore more features in our <a class=\"link\" href={0}>Tutorials</a> or check <a class=\"link\" href={1}>Documentation</a> for tips and troubleshooting."
 msgstr ""
 
 #: StartPage.dontShowAgain
@@ -1159,7 +1155,7 @@ msgstr ""
 
 #: StartPage.folderDesc
 msgctxt "StartPage.folderDesc"
-msgid "- Open a <div class="link" role="button" onclick={0}>Folder</div><br /> - Open a <div class="link" role="button" onclick={1}>Workspace</div>"
+msgid "- Open a <div class=\"link\" role=\"button\" onclick={0}>Folder</div><br /> - Open a <div class=\"link\" role=\"button\" onclick={1}>Workspace</div>"
 msgstr ""
 
 #: StartPage.badWebPanelFormatString
@@ -1219,7 +1215,7 @@ msgstr ""
 
 #: TensorBoard.nativeTensorBoardPrompt
 msgctxt "TensorBoard.nativeTensorBoardPrompt"
-msgid "VS Code now has integrated TensorBoard support. Would you like to launch TensorBoard? (Tip: Launch TensorBoard anytime by opening the command palette and searching for "Launch TensorBoard".)"
+msgid "VS Code now has integrated TensorBoard support. Would you like to launch TensorBoard? (Tip: Launch TensorBoard anytime by opening the command palette and searching for \"Launch TensorBoard\".)"
 msgstr ""
 
 #: TensorBoard.selectAFolder
