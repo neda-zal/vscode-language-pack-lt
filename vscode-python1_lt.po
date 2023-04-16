@@ -1216,7 +1216,7 @@ msgstr "Mums nepavyko pradėti TensorBoard seanso dėl šios klaidos: {0}"
 #: TensorBoard.nativeTensorBoardPrompt
 msgctxt "TensorBoard.nativeTensorBoardPrompt"
 msgid "VS Code now has integrated TensorBoard support. Would you like to launch TensorBoard? (Tip: Launch TensorBoard anytime by opening the command palette and searching for \"Launch TensorBoard\".)"
-msgstr "VS Code dabar turi integruotą TensorBoard palaikymą. Ar norėtumėte paleisti „TensorBoard“? (Patarimas: bet kuriuo metu paleiskite „TensorBoard“ atidarydami komandų paletę ir ieškodami \Launch TensorBoard\.)"
+msgstr "VS Code dabar turi integruotą TensorBoard palaikymą. Ar norėtumėte paleisti „TensorBoard“? (Patarimas: bet kuriuo metu paleiskite „TensorBoard“ atidarydami komandų paletę ir ieškodami Launch TensorBoard.)"
 
 #: TensorBoard.selectAFolder
 msgctxt "TensorBoard.selectAFolder"
