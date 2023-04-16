@@ -270,8 +270,7 @@ msgstr "Pylance plėtinys dabar įdiegtas. Iš naujo įkelti langą, kad suaktyv
 
 #: Pylance.pylanceRevertToJediPrompt
 msgctxt "Pylance.pylanceRevertToJediPrompt"
-msgid "The Pylance extension is not installed but the python.languageServer value is set to 
-\"Pylance\". Would you like to install the Pylance extension to use Pylance, or revert back to Jedi?"
+msgid "The Pylance extension is not installed but the python.languageServer value is set to \"Pylance\". Would you like to install the Pylance extension to use Pylance, or revert back to Jedi?"
 msgstr "Pylance plėtinys neįdiegtas, bet python.languageServer reikšmė nustatyta į Pylance. Ar norėtumėte įdiegti „Pylance“ plėtinį, kad galėtumėte naudoti „Pylance“, ar grįžti prie „Jedi“?"
 
 #: Pylance.pylanceInstallPylance
